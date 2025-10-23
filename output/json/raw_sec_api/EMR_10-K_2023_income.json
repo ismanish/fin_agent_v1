@@ -1,0 +1,2667 @@
+{
+  "RevenueFromContractWithCustomerExcludingAssessedTax": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "12932000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "13804000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "15165000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:BusinessAcquisitionAxis",
+        "value": "emr:AspenTechMember"
+      },
+      "value": "752000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:BusinessAcquisitionAxis",
+        "value": "emr:AspenTechMember"
+      },
+      "value": "356000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:FinalControlMember"
+        }
+      ],
+      "value": "3488000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:FinalControlMember"
+        }
+      ],
+      "value": "3607000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:FinalControlMember"
+        }
+      ],
+      "value": "3970000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:MeasurementAndAnalyticalMember"
+        }
+      ],
+      "value": "3078000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:MeasurementAndAnalyticalMember"
+        }
+      ],
+      "value": "3215000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:MeasurementAndAnalyticalMember"
+        }
+      ],
+      "value": "3595000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:DiscreteAutomationMember"
+        }
+      ],
+      "value": "2474000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:DiscreteAutomationMember"
+        }
+      ],
+      "value": "2612000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:DiscreteAutomationMember"
+        }
+      ],
+      "value": "2635000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:SafetyAndProductivityMember"
+        }
+      ],
+      "value": "1340000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:SafetyAndProductivityMember"
+        }
+      ],
+      "value": "1402000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:SafetyAndProductivityMember"
+        }
+      ],
+      "value": "1388000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:IntelligentDevicesMember"
+      },
+      "value": "10380000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:IntelligentDevicesMember"
+      },
+      "value": "10836000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:IntelligentDevicesMember"
+      },
+      "value": "11588000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:ControlSystemsAndSoftwareMember"
+        }
+      ],
+      "value": "2321000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:ControlSystemsAndSoftwareMember"
+        }
+      ],
+      "value": "2398000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:ControlSystemsAndSoftwareMember"
+        }
+      ],
+      "value": "2606000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:AspenTechMember"
+        }
+      ],
+      "value": "319000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:AspenTechMember"
+        }
+      ],
+      "value": "656000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:AspenTechMember"
+        }
+      ],
+      "value": "1042000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:SoftwareAndControlMember"
+      },
+      "value": "2640000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:SoftwareAndControlMember"
+      },
+      "value": "3054000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:SoftwareAndControlMember"
+      },
+      "value": "3648000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:IntersegmentEliminationMember"
+      },
+      "value": "-88000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:IntersegmentEliminationMember"
+      },
+      "value": "-86000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:IntersegmentEliminationMember"
+      },
+      "value": "-71000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "6327000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "5671000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "4982000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:CN"
+      },
+      "value": "1804000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:CN"
+      },
+      "value": "1824000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:CN"
+      },
+      "value": "1662000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "3156000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "3373000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "3291000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "3756000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "3465000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "3946000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "3892000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "4090000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:BusinessAcquisitionAxis",
+        "value": "emr:NationalInstrumentsMember"
+      },
+      "value": "170000000"
+    }
+  ],
+  "CostOfGoodsAndServicesSold": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "7202000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "7498000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "7738000000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "3494000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "3614000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "4186000000"
+    }
+  ],
+  "GainFromPeriodicDistributionFromRetainedSubordinatedInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "453000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "161000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "453000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:MaterialReconcilingItemsMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:MaterialReconcilingItemsMember"
+      },
+      "value": "-453000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:MaterialReconcilingItemsMember"
+      },
+      "value": "-161000000"
+    }
+  ],
+  "OtherDeductionsNet": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "319000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "519000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "683000000"
+    }
+  ],
+  "InterestIncomeExpenseNonoperatingNet": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "-155000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "-194000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "-34000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:IntersegmentEliminationMember"
+      },
+      "value": "-155000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:IntersegmentEliminationMember"
+      },
+      "value": "-194000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:IntersegmentEliminationMember"
+      },
+      "value": "-34000000"
+    }
+  ],
+  "InterestIncomeOperating": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+        "value": "us-gaap:RelatedPartyMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+        "value": "us-gaap:RelatedPartyMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+        "value": "us-gaap:RelatedPartyMember"
+      },
+      "value": "41000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "1762000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "2432000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "2726000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:FinalControlMember"
+        }
+      ],
+      "value": "432000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:FinalControlMember"
+        }
+      ],
+      "value": "592000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:FinalControlMember"
+        }
+      ],
+      "value": "865000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:MeasurementAndAnalyticalMember"
+        }
+      ],
+      "value": "684000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:MeasurementAndAnalyticalMember"
+        }
+      ],
+      "value": "785000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:MeasurementAndAnalyticalMember"
+        }
+      ],
+      "value": "936000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:DiscreteAutomationMember"
+        }
+      ],
+      "value": "457000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:DiscreteAutomationMember"
+        }
+      ],
+      "value": "542000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:DiscreteAutomationMember"
+        }
+      ],
+      "value": "509000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:SafetyAndProductivityMember"
+        }
+      ],
+      "value": "256000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:SafetyAndProductivityMember"
+        }
+      ],
+      "value": "250000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:IntelligentDevicesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:SafetyAndProductivityMember"
+        }
+      ],
+      "value": "306000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:IntelligentDevicesMember"
+      },
+      "value": "1829000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:IntelligentDevicesMember"
+      },
+      "value": "2169000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:IntelligentDevicesMember"
+      },
+      "value": "2616000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:ControlSystemsAndSoftwareMember"
+        }
+      ],
+      "value": "382000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:ControlSystemsAndSoftwareMember"
+        }
+      ],
+      "value": "437000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:ControlSystemsAndSoftwareMember"
+        }
+      ],
+      "value": "529000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:AspenTechMember"
+        }
+      ],
+      "value": "-7000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:AspenTechMember"
+        }
+      ],
+      "value": "12000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "emr:SoftwareAndControlMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "emr:AspenTechMember"
+        }
+      ],
+      "value": "-107000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:SoftwareAndControlMember"
+      },
+      "value": "375000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:SoftwareAndControlMember"
+      },
+      "value": "449000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "emr:SoftwareAndControlMember"
+      },
+      "value": "422000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-184000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-419000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-224000000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "346000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "549000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "599000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+        "value": "emr:CopelandMember"
+      },
+      "value": "-43000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "1416000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "1883000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "2127000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+          "value": "emr:CopelandMember"
+        }
+      ],
+      "value": "-442000000"
+    }
+  ],
+  "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "911000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "1347000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "11073000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+        "value": "emr:ClimateTechnologiesExcludingThermODiscMember"
+      },
+      "value": "756000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+        "value": "emr:ClimateTechnologiesExcludingThermODiscMember"
+      },
+      "value": "793000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+        "value": "emr:ClimateTechnologiesExcludingThermODiscMember"
+      },
+      "value": "8943000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+        "value": "emr:ThermODiscOrInSinkEratorMember"
+      },
+      "value": "155000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+        "value": "emr:ThermODiscOrInSinkEratorMember"
+      },
+      "value": "554000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+        "value": "emr:ThermODiscOrInSinkEratorMember"
+      },
+      "value": "2130000000"
+    }
+  ],
+  "ProfitLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "2327000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "3230000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "13200000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+          "value": "emr:CopelandMember"
+        }
+      ],
+      "value": "-442000000"
+    }
+  ],
+  "NetIncomeLossAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "24000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "-1000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "-19000000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "2303000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "3231000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "13219000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "2303000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "3231000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "13219000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+          "value": "emr:CopelandMember"
+        }
+      ],
+      "value": "-442000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "896000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "2331000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "674000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "792000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "921000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "9352000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "740000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "744000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperations": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "1414000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "1886000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "2152000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "746000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "329000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "428000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "530000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "226000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "592000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "486000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "701000000"
+    }
+  ],
+  "IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "889000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "1345000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "11067000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsPerBasicShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "2.36"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "3.17"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "3.74"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "1.25"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "0.56"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "0.72"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "0.93"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "0.38"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "1.04"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "0.82"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "1.23"
+    }
+  ],
+  "IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "1.49"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "2.27"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "19.26"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "3.85"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "5.44"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "23.00"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "1.51"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "3.99"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "1.13"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1.39"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "1.55"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "16.36"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "1.25"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "1.30"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsPerDilutedShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "2.35"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "3.16"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "3.72"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "1.25"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "0.56"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "0.72"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "0.92"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "0.38"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "1.03"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "0.82"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "1.22"
+    }
+  ],
+  "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "1.47"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "2.25"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "19.16"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "3.82"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "5.41"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "22.88"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "1.50"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "3.97"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-03-31"
+      },
+      "value": "1.13"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1.38"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-04-01",
+        "endDate": "2022-06-30"
+      },
+      "value": "1.54"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-04-01",
+        "endDate": "2023-06-30"
+      },
+      "value": "16.28"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-07-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "1.24"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-07-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "1.29"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "598100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "592900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "574200000"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2021-09-30"
+      },
+      "value": "601800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2021-10-01",
+        "endDate": "2022-09-30"
+      },
+      "value": "596300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2022-10-01",
+        "endDate": "2023-09-30"
+      },
+      "value": "577300000"
+    }
+  ]
+}

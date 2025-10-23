@@ -1,0 +1,1226 @@
+{
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "257266000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "131634000"
+    }
+  ],
+  "OtherDepreciationAndAmortization": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "485869000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "365863000"
+    }
+  ],
+  "AdjustmentForAmortization": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "14154000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "13105000"
+    }
+  ],
+  "ProvisionForLoanLossesExpensed": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-2007000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1014000"
+    }
+  ],
+  "AssetImpairmentCharges": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "52402000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "43331000"
+    }
+  ],
+  "ShareBasedCompensation": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "17505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "12048000"
+    }
+  ],
+  "DerivativeGainLossOnDerivativeNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "3210000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "3054000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:HedgingDesignationAxis",
+          "$t": "us-gaap:DesignatedAsHedgingInstrumentMember"
+        }
+      },
+      "value": "10891000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:HedgingDesignationAxis",
+          "$t": "us-gaap:DesignatedAsHedgingInstrumentMember"
+        }
+      },
+      "value": "4818000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:HedgingDesignationAxis",
+          "$t": "us-gaap:NondesignatedMember"
+        }
+      },
+      "value": "-525000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:HedgingDesignationAxis",
+          "$t": "us-gaap:NondesignatedMember"
+        }
+      },
+      "value": "1301000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DerivativeInstrumentRiskAxis",
+          "$t": "us-gaap:WarrantMember"
+        }
+      },
+      "value": "3210000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DerivativeInstrumentRiskAxis",
+          "$t": "us-gaap:WarrantMember"
+        }
+      },
+      "value": "3054000"
+    }
+  ],
+  "GainsLossesOnExtinguishmentOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-6156000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-6000"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1263000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-7783000"
+    }
+  ],
+  "StraightLineRent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "43893000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "30503000"
+    }
+  ],
+  "AmortizationOfAboveAndBelowMarketLeases": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-385000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-5000"
+    }
+  ],
+  "GainLossOnDispositionOfRealEstateAndAssetAcquisitionsNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "51777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "4707000"
+    }
+  ],
+  "ProceedsFromPaymentsOnDerivativeInstrumentSettlements": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-59555000"
+    }
+  ],
+  "EquityMethodInvestmentDividendsOrDistributions": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "4160000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1609000"
+    }
+  ],
+  "IncreaseDecreaseInOtherOperatingLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-105111000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-29420000"
+    }
+  ],
+  "IncreaseDecreaseInOtherOperatingAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "30908000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "42343000"
+    }
+  ],
+  "NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "598958000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "406806000"
+    }
+  ],
+  "PaymentsToAcquireOtherRealEstate": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1988958000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "62771000"
+    }
+  ],
+  "PaymentsForCapitalImprovements": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "240350000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "132509000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:SeniorHousingOperatingMember"
+        }
+      },
+      "value": "219244000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:TripleNetMember"
+        }
+      },
+      "value": "5639000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:OutpatientMedicalMember"
+        }
+      },
+      "value": "15467000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:SeniorHousingOperatingMember"
+        }
+      },
+      "value": "104812000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:TripleNetMember"
+        }
+      },
+      "value": "6064000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:OutpatientMedicalMember"
+        }
+      },
+      "value": "21633000"
+    }
+  ],
+  "PaymentsForConstructionInProcess": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "126187000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "231763000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:SeniorHousingOperatingMember"
+        }
+      },
+      "value": "91792000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:TripleNetMember"
+        }
+      },
+      "value": "80000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:OutpatientMedicalMember"
+        }
+      },
+      "value": "34315000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:SeniorHousingOperatingMember"
+        }
+      },
+      "value": "155728000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:TripleNetMember"
+        }
+      },
+      "value": "100000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "well:OutpatientMedicalMember"
+        }
+      },
+      "value": "75935000"
+    }
+  ],
+  "InterestPaidCapitalized": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "11520000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "13809000"
+    }
+  ],
+  "PaymentsToAcquireLoansReceivable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "19672000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "116789000"
+    }
+  ],
+  "ProceedsFromCollectionOfLoansReceivable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "100372000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "36472000"
+    }
+  ],
+  "PaymentsForProceedsFromOtherInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "59200000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "11723000"
+    }
+  ],
+  "PaymentsToAcquireInterestInJointVenture": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "50513000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "103825000"
+    }
+  ],
+  "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "12395000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "10039000"
+    }
+  ],
+  "PaymentsForProceedsFromHedgeInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-37831000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-913000"
+    }
+  ],
+  "ProceedsFromSaleOfPropertyPlantAndEquipment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "317663000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "44834000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+          "$t": "well:A4PropertiesDisposedMember"
+        }
+      },
+      "value": "174824000"
+    }
+  ],
+  "NetCashProvidedByUsedInInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-2028139000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-580931000"
+    }
+  ],
+  "RepaymentsOfUnsecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1350000000"
+    }
+  ],
+  "ProceedsFromIssuanceOfSecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1379000"
+    }
+  ],
+  "RepaymentsOfSecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "134277000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "132833000"
+    }
+  ],
+  "ProceedsFromIssuanceOfCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1992403000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "2416484000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:SubsidiarySaleOfStockAxis",
+          "$t": "well:AtTheMarketProgramMember"
+        }
+      },
+      "value": "2416475000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:SubsidiarySaleOfStockAxis",
+          "$t": "well:AtTheMarketProgramMember"
+        }
+      },
+      "value": "1991220000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:SubsidiarySaleOfStockAxis",
+          "$t": "us-gaap:OverAllotmentOptionMember"
+        }
+      },
+      "value": "240075000"
+    }
+  ],
+  "PaymentsOfFinancingCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "471000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "6000"
+    }
+  ],
+  "ProceedsFromMinorityShareholders": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "3586000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "23797000"
+    }
+  ],
+  "PaymentsToMinorityShareholders": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "113928000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "22591000"
+    }
+  ],
+  "PaymentsOfDividends": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "432366000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "352184000"
+    }
+  ],
+  "ProceedsFromPaymentsForOtherFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-6782000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-5479000"
+    }
+  ],
+  "NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1308165000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "578567000"
+    }
+  ],
+  "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "19844000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-2190000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-101172000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "402252000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "3711457000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "2076083000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "3610285000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "2478335000"
+    }
+  ],
+  "InterestPaidNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "129033000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "149007000"
+    }
+  ],
+  "IncomeTaxesPaidNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "11300000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "3259000"
+    }
+  ]
+}

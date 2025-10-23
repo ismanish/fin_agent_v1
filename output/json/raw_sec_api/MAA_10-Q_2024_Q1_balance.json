@@ -1,0 +1,1462 @@
+{
+  "Land": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "2031406000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "2031403000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "2031406000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "2031403000"
+    }
+  ],
+  "BuildingsImprovementsAndOther": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "13623207000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "13515949000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "13623207000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "13515949000"
+    }
+  ],
+  "ConstructionInProgressGross": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "380087000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "385405000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "380087000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "385405000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementScenarioAxis",
+          "value": "maa:CostsIncurredToDateMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "maa:DevelopmentPropertiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "445600000"
+    }
+  ],
+  "RealEstateInvestmentPropertyAtCost": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "16034700000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "15932757000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "16034700000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "15932757000"
+    }
+  ],
+  "RealEstateInvestmentPropertyAccumulatedDepreciation": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "5006226000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "4864690000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "5006226000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "4864690000"
+    }
+  ],
+  "RealEstateInvestmentPropertyNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "11028474000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "11068067000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11028474000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11068067000"
+    }
+  ],
+  "LandAvailableForDevelopment": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "73861000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "73861000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "73861000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "73861000"
+    }
+  ],
+  "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "41877000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "41977000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "41877000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "41977000"
+    }
+  ],
+  "RealEstateAssetsNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "11144212000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "11183905000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11144212000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11183905000"
+    }
+  ],
+  "CashAndCashEquivalentsAtCarryingValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "54601000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "41314000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "value": "142411000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "54601000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "41314000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "142411000"
+    }
+  ],
+  "RestrictedCash": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "13475000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "13777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "value": "13606000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "13475000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "13777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "13606000"
+    }
+  ],
+  "OtherAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "258444000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "245507000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "258444000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "245507000"
+    }
+  ],
+  "Assets": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "11470732000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "11484503000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11470732000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11484503000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "303100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "265100000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "maa:SameStoreMember"
+      },
+      "value": "9812519000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "maa:SameStoreMember"
+      },
+      "value": "9893858000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "maa:NonSameStoreAndOtherMember"
+      },
+      "value": "1434438000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "maa:NonSameStoreAndOtherMember"
+      },
+      "value": "1391777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "us-gaap:CorporateMember"
+      },
+      "value": "223775000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "us-gaap:CorporateMember"
+      },
+      "value": "198868000"
+    }
+  ],
+  "UnsecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "4264290000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "4180084000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "4264290000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "4180084000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:DebtInstrumentAxis",
+        "value": "maa:UnsecuredSeniorNotesDueJuneTwoThousandTwentyFourMember"
+      },
+      "value": "400000000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:CreditFacilityAxis",
+        "value": "us-gaap:CommercialPaperMember"
+      },
+      "value": "235000000"
+    }
+  ],
+  "SecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "360173000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "360141000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "360173000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "360141000"
+    }
+  ],
+  "AccruedLiabilitiesCurrentAndNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "569790000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "645156000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "569790000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "645156000"
+    }
+  ],
+  "OtherLiabilitiesCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+          "value": "us-gaap:RelatedPartyMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "19000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+          "value": "us-gaap:RelatedPartyMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "19000"
+    }
+  ],
+  "Liabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "5194253000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "5185381000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "5194272000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "5185400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "9600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "maa:LimitedPartnershipMember"
+        }
+      ],
+      "value": "12900000"
+    }
+  ],
+  "TemporaryEquityCarryingAmountIncludingPortionAttributableToNoncontrollingInterests": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "19089000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "19167000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "19089000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "19167000"
+    }
+  ],
+  "PreferredStockValueOutstanding": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "9000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "9000"
+    }
+  ],
+  "CommonStockValueOutstanding": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "1168000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1168000"
+    }
+  ],
+  "AdditionalPaidInCapital": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "7406189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "7399921000"
+    }
+  ],
+  "AccumulatedDistributionsInExcessOfNetIncome": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "1326654000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1298263000"
+    }
+  ],
+  "StockholdersEquity": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "6072449000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "6094071000"
+    }
+  ],
+  "MinorityInterestInOperatingPartnerships": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "161909000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "163128000"
+    }
+  ],
+  "ParentLPStockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "6234358000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "6257199000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "6234339000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "6257180000"
+    }
+  ],
+  "PreferredUnitsPreferredPartnersCapitalAccounts": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "66840000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "66840000"
+    }
+  ],
+  "GeneralPartnersCapitalAccount": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "6014015000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "6036154000"
+    }
+  ],
+  "LimitedPartnersCapitalAccount": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "161909000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "163128000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "412200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "476600000"
+    }
+  ],
+  "AccumulatedOtherComprehensiveIncomeLossNetOfTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "-8263000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "-8764000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "-8425000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "-8942000"
+    }
+  ],
+  "MinorityInterestInJointVentures": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "23032000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "22756000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "23032000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "22756000"
+    }
+  ],
+  "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "6257390000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "6279955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "6257371000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "6279936000"
+    }
+  ],
+  "LiabilitiesAndStockholdersEquity": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "11470732000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "11484503000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11470732000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "maa:LimitedPartnershipMember"
+      },
+      "value": "11484503000"
+    }
+  ]
+}

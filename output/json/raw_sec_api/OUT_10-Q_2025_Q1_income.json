@@ -1,0 +1,1289 @@
+{
+  "Revenues": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "390700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "408500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:StatementGeographicalAxis",
+          "$t": "country:US"
+        }
+      },
+      "value": "390700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:StatementGeographicalAxis",
+          "$t": "country:US"
+        }
+      },
+      "value": "389900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:StatementGeographicalAxis",
+          "$t": "country:CA"
+        }
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:StatementGeographicalAxis",
+          "$t": "country:CA"
+        }
+      },
+      "value": "18600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "$t": "us-gaap:OperatingSegmentsMember"
+        }
+      },
+      "value": "388400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "$t": "us-gaap:OperatingSegmentsMember"
+        }
+      },
+      "value": "389600000"
+    }
+  ],
+  "DirectOperatingCosts": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "221300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "238700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:BillboardPropertyLeaseMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "109200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:BillboardPropertyLeaseMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "115500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:PostingMaintenanceAndOtherMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "35700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:PostingMaintenanceAndOtherMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "36600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "144900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "152100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:TransitFranchiseMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "58000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:TransitFranchiseMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "58000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:PostingMaintenanceAndOtherMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "16600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:PostingMaintenanceAndOtherMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "16100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "74600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "74100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:BillboardPropertyLeaseMember"
+          }
+        ]
+      },
+      "value": "109200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:BillboardPropertyLeaseMember"
+          }
+        ]
+      },
+      "value": "115500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:TransitFranchiseMember"
+          }
+        ]
+      },
+      "value": "58000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:TransitFranchiseMember"
+          }
+        ]
+      },
+      "value": "58000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:PostingMaintenanceAndOtherMember"
+          }
+        ]
+      },
+      "value": "52300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:NatureOfExpenseAxis",
+            "$t": "out:PostingMaintenanceAndOtherMember"
+          }
+        ]
+      },
+      "value": "52700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "$t": "us-gaap:OperatingSegmentsMember"
+        }
+      },
+      "value": "219500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "$t": "us-gaap:OperatingSegmentsMember"
+        }
+      },
+      "value": "226200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:NatureOfExpenseAxis",
+          "$t": "out:BillboardPropertyLeaseMember"
+        }
+      },
+      "value": "109200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:NatureOfExpenseAxis",
+          "$t": "out:BillboardPropertyLeaseMember"
+        }
+      },
+      "value": "121700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:NatureOfExpenseAxis",
+          "$t": "out:TransitFranchiseMember"
+        }
+      },
+      "value": "58000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:NatureOfExpenseAxis",
+          "$t": "out:TransitFranchiseMember"
+        }
+      },
+      "value": "59000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:NatureOfExpenseAxis",
+          "$t": "out:PostingMaintenanceAndOtherMember"
+        }
+      },
+      "value": "54100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:NatureOfExpenseAxis",
+          "$t": "out:PostingMaintenanceAndOtherMember"
+        }
+      },
+      "value": "58000000.0"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "114700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "110500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "66800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:BillboardOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "64700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "17300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidationItemsAxis",
+            "$t": "us-gaap:OperatingSegmentsMember"
+          },
+          {
+            "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+            "$t": "out:TransitOperatingSegmentMember"
+          }
+        ]
+      },
+      "value": "16900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "$t": "us-gaap:OperatingSegmentsMember"
+        }
+      },
+      "value": "84100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "$t": "us-gaap:OperatingSegmentsMember"
+        }
+      },
+      "value": "81600000"
+    }
+  ],
+  "GainLossOnDispositionOfAssets1": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-100000"
+    }
+  ],
+  "AssetImpairmentCharges": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "9100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "out:MTAAgreementAxis",
+          "$t": "out:MetropolitanTransportationAuthorityMTAMember"
+        }
+      },
+      "value": "9100000"
+    }
+  ],
+  "Depreciation": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "23600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "18500000"
+    }
+  ],
+  "AmortizationOfIntangibleAssets": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "17100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "17600000"
+    }
+  ],
+  "CostsAndExpenses": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "376800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "394500000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "13900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "14000000.0"
+    }
+  ],
+  "InterestIncomeExpenseNonoperatingNet": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-36000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-41400000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-22100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-27400000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-500000"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-200000"
+    }
+  ],
+  "ProfitLoss": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-20700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-27100000"
+    }
+  ],
+  "NetIncomeLossAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "100000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-20600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-27200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:RetainedEarningsMember"
+        }
+      },
+      "value": "-27200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:RetainedEarningsMember"
+        }
+      },
+      "value": "-20600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:RestatementAxis",
+            "$t": "srt:ScenarioPreviouslyReportedMember"
+          },
+          {
+            "dimension": "us-gaap:ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis",
+            "$t": "out:ImmaterialErrorCorrectionMember"
+          }
+        ]
+      },
+      "value": "-27200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis",
+          "$t": "out:ImmaterialErrorCorrectionMember"
+        }
+      },
+      "value": "-27200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-04-01",
+        "endDate": "2024-06-30"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:RestatementAxis",
+            "$t": "srt:ScenarioPreviouslyReportedMember"
+          },
+          {
+            "dimension": "us-gaap:ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis",
+            "$t": "out:ImmaterialErrorCorrectionMember"
+          }
+        ]
+      },
+      "value": "176800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-04-01",
+        "endDate": "2024-06-30"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis",
+          "$t": "out:ImmaterialErrorCorrectionMember"
+        }
+      },
+      "value": "176800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-06-30"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:RestatementAxis",
+            "$t": "srt:ScenarioPreviouslyReportedMember"
+          },
+          {
+            "dimension": "us-gaap:ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis",
+            "$t": "out:ImmaterialErrorCorrectionMember"
+          }
+        ]
+      },
+      "value": "149600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-06-30"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:ErrorCorrectionsAndPriorPeriodAdjustmentsRestatementByRestatementPeriodAndAmountAxis",
+          "$t": "out:ImmaterialErrorCorrectionMember"
+        }
+      },
+      "value": "149600000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-0.14"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-0.18"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "-0.14"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-0.18"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "166400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "161400000"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "166400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "161400000"
+    }
+  ]
+}

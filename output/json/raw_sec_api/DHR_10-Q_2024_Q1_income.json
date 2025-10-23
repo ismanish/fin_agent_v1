@@ -1,0 +1,1784 @@
+{
+  "RevenueFromContractWithCustomerExcludingAssessedTax": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "5796000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "5949000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:NorthAmericaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "514000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:NorthAmericaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "781000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:NorthAmericaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "1337000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:NorthAmericaMember"
+      },
+      "value": "2632000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:WesternEuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "546000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:WesternEuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "372000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:WesternEuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "406000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "dhr:WesternEuropeMember"
+      },
+      "value": "1324000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:OtherdevelopedmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "79000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:OtherdevelopedmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "125000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:OtherdevelopedmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "99000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "dhr:OtherdevelopedmarketsMember"
+      },
+      "value": "303000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:HighgrowthmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "385000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:HighgrowthmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "467000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:HighgrowthmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "685000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "dhr:HighgrowthmarketsMember"
+      },
+      "value": "1537000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "1524000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "1745000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "2527000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "1309000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "1192000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "2294000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+      },
+      "value": "4795000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "215000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "553000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "233000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+      },
+      "value": "1001000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:NorthAmericaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "618000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:NorthAmericaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "708000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:NorthAmericaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "1124000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:NorthAmericaMember"
+      },
+      "value": "2450000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:WesternEuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "647000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:WesternEuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "364000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:WesternEuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "420000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "dhr:WesternEuropeMember"
+      },
+      "value": "1431000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:OtherdevelopedmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "79000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:OtherdevelopedmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "128000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:OtherdevelopedmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "117000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "dhr:OtherdevelopedmarketsMember"
+      },
+      "value": "324000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:HighgrowthmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "520000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:HighgrowthmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "509000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "dhr:HighgrowthmarketsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "715000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "dhr:HighgrowthmarketsMember"
+      },
+      "value": "1744000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "1864000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "1709000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "2376000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "1511000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "1039000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "2112000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "dhr:RevenuefromContractwithCustomerMeasurementRecurringMember"
+      },
+      "value": "4662000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "353000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "670000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "264000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "dhr:RevenuefromContractwithCustomerMeasurementNonrecurringMember"
+      },
+      "value": "1287000000"
+    }
+  ],
+  "CostOfGoodsAndServicesSold": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "2309000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "2287000000"
+    }
+  ],
+  "GrossProfit": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "3487000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "3662000000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1807000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1772000000"
+    }
+  ],
+  "ResearchAndDevelopmentExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "368000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "373000000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1312000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1517000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "325000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:BiotechnologySegmentMember"
+        }
+      ],
+      "value": "596000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "235000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:LifeSciencesMember"
+        }
+      ],
+      "value": "321000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "830000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "dhr:DiagnosticsMember"
+        }
+      ],
+      "value": "677000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-78000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-77000000"
+    }
+  ],
+  "OtherNonoperatingIncomeExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "-36000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "24000000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "65000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "66000000"
+    }
+  ],
+  "InvestmentIncomeInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "60000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "48000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1271000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1523000000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "183000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "283000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperations": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1088000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1240000000"
+    }
+  ],
+  "IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "210000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:DisposalGroupClassificationAxis",
+          "value": "us-gaap:SegmentDiscontinuedOperationsMember"
+        },
+        {
+          "dimension": "us-gaap:IncomeStatementBalanceSheetAndAdditionalDisclosuresByDisposalGroupsIncludingDiscontinuedOperationsAxis",
+          "value": "dhr:VeraltoMember"
+        }
+      ],
+      "value": "210000000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1088000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1450000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "1088000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "1450000000"
+    }
+  ],
+  "PreferredStockDividendsIncomeStatementImpact": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "21000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:SeriesBPreferredStockMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:PreferredStockMember"
+        }
+      ],
+      "value": "21000000"
+    }
+  ],
+  "NetIncomeLossAvailableToCommonStockholdersBasic": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1088000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1429000000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsPerBasicShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1.47"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1.67"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsPerDilutedShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1.45"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1.65"
+    }
+  ],
+  "IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "0.29"
+    }
+  ],
+  "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "0.28"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1.47"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1.96"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "1.45"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1.94"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "740600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "729400000"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-29"
+      },
+      "value": "748600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "737200000"
+    }
+  ]
+}

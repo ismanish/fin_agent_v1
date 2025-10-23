@@ -1,0 +1,420 @@
+{
+  "RevenueFromContractWithCustomerExcludingAssessedTax": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "payx:ManagementSolutionsMember"
+      },
+      "value": "961700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "payx:ManagementSolutionsMember"
+      },
+      "value": "955500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "payx:PeoAndInsuranceSolutionsMember"
+      },
+      "value": "319300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "payx:PeoAndInsuranceSolutionsMember"
+      },
+      "value": "297800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "1281000000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "1253300000"
+    }
+  ],
+  "InterestIncomeOperating": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "37500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "32700000"
+    }
+  ],
+  "Revenues": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "1318500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "1286000000"
+    }
+  ],
+  "CostOfRevenue": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "380000000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "360200000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "391800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "389500000"
+    }
+  ],
+  "CostsAndExpenses": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "771800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "749700000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "546700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "536300000"
+    }
+  ],
+  "InterestIncomeExpenseNonoperatingNet": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "10400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "12800000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "557100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "549100000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "129700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "129900000"
+    }
+  ],
+  "NetIncomeLossAvailableToCommonStockholdersBasic": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "427400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "419200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "427400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "419200000"
+    }
+  ],
+  "OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "64800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "-23200000"
+    }
+  ],
+  "ComprehensiveIncomeNetOfTax": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "492200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "396000000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "1.19"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "1.16"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "1.18"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "1.16"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_shares",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "360100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_shares",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "360800000"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-5",
+      "unitRef": "U_shares",
+      "period": {
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      },
+      "value": "361900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_shares",
+      "period": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-08-31"
+      },
+      "value": "362800000"
+    }
+  ]
+}

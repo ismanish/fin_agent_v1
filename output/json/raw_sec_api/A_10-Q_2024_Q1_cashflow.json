@@ -1,0 +1,814 @@
+{
+  "NetIncomeLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "348000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "352000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "348000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ParentMember"
+      },
+      "value": "348000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "352000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ParentMember"
+      },
+      "value": "352000000"
+    }
+  ],
+  "DepreciationDepletionAndAmortization": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "62000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "67000000"
+    }
+  ],
+  "ShareBasedCompensation": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "44000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "44000000"
+    }
+  ],
+  "DeferredIncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "4000000"
+    }
+  ],
+  "InventoryWriteDown": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "11000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "7000000"
+    }
+  ],
+  "EquitySecuritiesFvNiGainLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "3000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-10000000"
+    }
+  ],
+  "AssetImpairmentCharges": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "8000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:MaterialReconcilingItemsMember"
+      },
+      "value": "8000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:MaterialReconcilingItemsMember"
+      },
+      "value": "0"
+    }
+  ],
+  "BusinessCombinationContingentConsiderationArrangementsChangeInAmountOfContingentConsiderationLiability1": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "1000000"
+    }
+  ],
+  "OtherNoncashIncomeExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "6000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-1000000"
+    }
+  ],
+  "IncreaseDecreaseInAccountsReceivable": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "-10000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "5000000"
+    }
+  ],
+  "IncreaseDecreaseInInventories": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "9000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "69000000"
+    }
+  ],
+  "IncreaseDecreaseInAccountsPayable": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "84000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-27000000"
+    }
+  ],
+  "IncreaseDecreaseInEmployeeRelatedLiabilities": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "-104000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-174000000"
+    }
+  ],
+  "IncreaseDecreaseInOtherOperatingCapitalNet": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "-40000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-85000000"
+    }
+  ],
+  "NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "485000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "296000000"
+    }
+  ],
+  "PaymentsToAcquirePropertyPlantAndEquipment": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "90000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "76000000"
+    }
+  ],
+  "PaymentsToAcquireEquitySecuritiesFvNi": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "1000000"
+    }
+  ],
+  "ProceedsFromSaleOfEquitySecuritiesFvNi": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "4000000"
+    }
+  ],
+  "PaymentsToAcquireNotesReceivable": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "5000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "3000000"
+    }
+  ],
+  "ProceedsFromCollectionOfNotesReceivable": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "2000000"
+    }
+  ],
+  "PaymentsToAcquireBusinessesNetOfCashAcquired": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "30000000"
+    }
+  ],
+  "NetCashProvidedByUsedInInvestingActivities": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "-95000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-104000000"
+    }
+  ],
+  "ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "34000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "35000000"
+    }
+  ],
+  "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "25000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "51000000"
+    }
+  ],
+  "PaymentsOfOrdinaryDividends": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "69000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "67000000"
+    }
+  ],
+  "RepaymentsOfLongTermDebt": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "180000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "0"
+    }
+  ],
+  "ProceedsFromRepaymentsOfShortTermDebt": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "203000000"
+    }
+  ],
+  "PaymentForContingentConsiderationLiabilityFinancingActivities": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "62000000"
+    }
+  ],
+  "PaymentsForRepurchaseOfCommonStock": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "75000000"
+    }
+  ],
+  "NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "-240000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-17000000"
+    }
+  ],
+  "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "7000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "22000000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "157000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "197000000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-10-31"
+      },
+      "value": "1593000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-10-31"
+      },
+      "value": "1056000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2024-01-31"
+      },
+      "value": "1750000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-01-31"
+      },
+      "value": "1253000000"
+    }
+  ],
+  "IncomeTaxesPaidNet": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "24000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "17000000"
+    }
+  ],
+  "InterestPaidNet": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "14000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "15000000"
+    }
+  ],
+  "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "-16000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "-20000000"
+    }
+  ]
+}

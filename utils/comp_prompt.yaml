@@ -1,0 +1,29 @@
+calculate_comp_metrics: |
+  You are generating calculation mappings for comparable-analysis metrics from a processed JSON of financial statements (income, balance, cashflow).
+
+  STRICT INSTRUCTIONS (must follow exactly):
+  - Output only a JSON array; no prose outside the JSON.
+  - For each item, fields must be: metric, financial_statement_keys, calculation, notes.
+  - Use exact XBRL keys from the input JSON in financial_statement_keys. Do NOT prefix with "income." or "balance."; provide the bare key names only (e.g., "RevenueFromContractWithCustomerExcludingAssessedTax").
+  - The calculation MUST be a single arithmetic expression that is executable as-is. Allowed: + - * / ( ) spaces. Variables must be either:
+    - Exact keys from financial_statement_keys, OR
+    - Approved alias tokens: Revenue, EBITDA, EBITDAR, Interest, Rent, TotalDebt, NetDebt, COL, TotalCap, FCF.
+  - DO NOT include words like "LTM", "FY_2024", "Q1_2025", "Q1_2024", "sum results", "for each" in the calculation. The engine applies LTM and per-period logic; you only provide the base expression.
+  - If Revenue is composed of multiple keys, write the explicit sum: e.g., "RevenueFromContractWithCustomerExcludingAssessedTax + OperatingLeaseLeaseIncome". Do not use placeholders.
+  - If EBITDA is not directly available, use: "NetIncomeLoss + InterestExpenseNonoperating + IncomeTaxExpenseBenefit + DepreciationAndAmortization" (adjust keys to match input names).
+  - For COL (capitalized operating leases), prefer: "OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent" (or "OperatingLeaseLiability" if combined).
+  - Ensure calculation references only variables (keys or approved aliases) and math symbols; no text.
+
+  Examples (illustrative only; adjust keys to actual JSON):
+  - LTM Revenue: financial_statement_keys: ["RevenueFromContractWithCustomerExcludingAssessedTax"], calculation: "RevenueFromContractWithCustomerExcludingAssessedTax"
+  - LTM EBITDA: financial_statement_keys: ["AdjustedEBITDA"], calculation: "AdjustedEBITDA"
+  - EBITDA Margin %: financial_statement_keys: ["AdjustedEBITDA", "RevenueFromContractWithCustomerExcludingAssessedTax"], calculation: "AdjustedEBITDA / Revenue * 100"
+  - EBITDAR / (Int + Rents): financial_statement_keys: ["AdjustedEBITDA", "OperatingLeaseCost", "InterestExpenseNonoperating"], calculation: "(EBITDA + Rent) / (Interest + Rent)"
+  - (Total Debt + COL) / EBITDAR: financial_statement_keys: ["LongTermDebt", "DebtCurrent", "OperatingLeaseLiabilityCurrent", "OperatingLeaseLiabilityNoncurrent"], calculation: "(TotalDebt + COL) / EBITDAR"
+  - (FCF + Rents) / (Total Debt + COL): financial_statement_keys: ["NetCashProvidedByUsedInOperatingActivities", "PaymentsToAcquirePropertyPlantAndEquipment", "OperatingLeaseCost"], calculation: "(FCF + Rent) / (TotalDebt + COL)"
+
+  Now produce mappings for the following metrics (JSON array):
+  {aqrr_keys}
+
+  Use this processed statements JSON for reference:
+  {combined_json}

@@ -1,0 +1,2539 @@
+{
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "630807000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "498629000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:AccumulatedDistributionsInExcessOfNetIncomeMember"
+      },
+      "value": "585715000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "45092000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:AccumulatedDistributionsInExcessOfNetIncomeMember"
+      },
+      "value": "464623000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "34006000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "630807000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "498629000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerCapitalComponentsAxis",
+          "value": "pld:CommonCapitalMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "value": "us-gaap:GeneralPartnerMember"
+        }
+      ],
+      "value": "585715000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerCapitalComponentsAxis",
+          "value": "pld:CommonCapitalMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "value": "us-gaap:LimitedPartnerMember"
+        }
+      ],
+      "value": "9652000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerCapitalComponentsAxis",
+          "value": "pld:ClassACapitalMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "value": "us-gaap:LimitedPartnerMember"
+        }
+      ],
+      "value": "5132000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "30308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerCapitalComponentsAxis",
+          "value": "pld:CommonCapitalMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "value": "us-gaap:GeneralPartnerMember"
+        }
+      ],
+      "value": "464623000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerCapitalComponentsAxis",
+          "value": "pld:CommonCapitalMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "value": "us-gaap:LimitedPartnerMember"
+        }
+      ],
+      "value": "7604000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerCapitalComponentsAxis",
+          "value": "pld:ClassACapitalMember"
+        },
+        {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "value": "us-gaap:LimitedPartnerMember"
+        }
+      ],
+      "value": "4045000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:PartnershipInterestMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "22357000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "88000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "101000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "pld:OtherAmericasMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "53000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "pld:OtherAmericasMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "43000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "72000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "69000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "28000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "27000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+        "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+      },
+      "value": "241000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+        "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+      },
+      "value": "240000000"
+    }
+  ],
+  "StraightLineRentsAndAmortizationOfAboveAndBelowMarketLeases": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "158960000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "143686000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "158960000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "143686000"
+    }
+  ],
+  "ShareBasedCompensation": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "67237000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "62906000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "67237000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "62906000"
+    }
+  ],
+  "DepreciationAndAmortization": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "637505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "602367000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "637505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "602367000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "637505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "602367000"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "72472000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "75779000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "72472000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "75779000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "26000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "27000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "pld:OtherAmericasMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "18000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "pld:OtherAmericasMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "16000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "24000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "21000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "5000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+          "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+        }
+      ],
+      "value": "4000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+        "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+      },
+      "value": "73000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:InvestmentIssuerAffiliationAxis",
+        "value": "pld:UnconsolidatedCoInvestmentVenturesMember"
+      },
+      "value": "68000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "72472000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "75779000"
+    }
+  ],
+  "EquityMethodInvestmentDividendsOrDistributions": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "126653000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "135081000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "126653000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "135081000"
+    }
+  ],
+  "IncreaseDecreaseInOperatingReceivablesFromUnconsolidatedEntities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-44841000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "-51164000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-44841000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-51164000"
+    }
+  ],
+  "AmortizationOfFinancingCostsAndDiscounts": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "18044000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "17623000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "18044000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "17623000"
+    }
+  ],
+  "GainsOnDispositionsOfDevelopmentPropertiesAndLandNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "40308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "40308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "40308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "GainsOnOtherDispositionsOfInvestmentsInRealEstateNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "17534000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "4047000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "17534000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "4047000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "17534000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "4047000"
+    }
+  ],
+  "ForeignCurrencyTransactionGainLossUnrealized": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "35046000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "-10113000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "35046000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-10113000"
+    }
+  ],
+  "GainsLossesOnExtinguishmentOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "536000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "3275000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "536000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "3275000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "536000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "3275000"
+    }
+  ],
+  "DeferredIncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "334000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "3577000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "334000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "3577000"
+    }
+  ],
+  "IncreaseDecreaseInOtherOperatingAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "11782000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "-21742000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "11782000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-21742000"
+    }
+  ],
+  "IncreaseDecreaseInOperatingLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-133323000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "-62118000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-133323000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-62118000"
+    }
+  ],
+  "NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1055460000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "1114297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "1055460000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "1114297000"
+    }
+  ],
+  "PaymentsToDevelopRealEstateAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "719795000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "936921000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "719795000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "936921000"
+    }
+  ],
+  "PaymentsToAcquireRealEstate": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "126177000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "51866000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "126177000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "51866000"
+    }
+  ],
+  "PaymentsToAcquireBusinessesNetOfCashAcquired": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "3828000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "3828000"
+    }
+  ],
+  "PaymentsForLeasingCostsCommissionsAndTenantImprovements": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "104306000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "78955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "104306000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "78955000"
+    }
+  ],
+  "PaymentForPropertyImprovements": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "30200000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "19302000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "30200000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "19302000"
+    }
+  ],
+  "ProceedsFromRealEstateAndRealEstateJointVentures": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "199538000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "54903000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "199538000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "54903000"
+    }
+  ],
+  "PaymentsToInvestmentsInAndAdvancesToUnconsolidatedEntities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "314842000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "39677000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "314842000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "39677000"
+    }
+  ],
+  "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1360000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "21169000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "1360000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "21169000"
+    }
+  ],
+  "ProceedsFromHedgeInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "10357000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "5323000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "10357000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "5323000"
+    }
+  ],
+  "NetCashProvidedByUsedInInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-1084065000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "-1049154000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-1084065000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-1049154000"
+    }
+  ],
+  "PaymentsOfDividends": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "891806000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "806505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "917670000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "829490000"
+    }
+  ],
+  "ProceedsFromMinorityShareholders": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "1270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "0"
+    }
+  ],
+  "PaymentsToMinorityShareholdersExcludingParentCompanyDistributions": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "70363000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "58653000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "44499000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "35668000"
+    }
+  ],
+  "PaymentsForRepurchaseOfCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "246000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "42269000"
+    }
+  ],
+  "PaymentsForRepurchaseOfRedeemableNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "246000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "42269000"
+    }
+  ],
+  "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "21720000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "18690000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "21720000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "18690000"
+    }
+  ],
+  "PaymentOfFinancingAndStockIssuanceCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "13073000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "17868000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "13073000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "17868000"
+    }
+  ],
+  "ProceedsFromRepaymentsOfLinesOfCredit": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "53964000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "-1337857000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "53964000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-1337857000"
+    }
+  ],
+  "RepurchaseOfAndRepaymentsOnDebtExcludingLineOfCredit": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "913935000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "90793000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "913935000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "90793000"
+    }
+  ],
+  "ProceedsFromIssuanceOfDebtExcludingLineOfCredit": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1858297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "2545042000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "1858297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "2545042000"
+    }
+  ],
+  "NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "2388000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "172407000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "2388000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "172407000"
+    }
+  ],
+  "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-3582000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "6468000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-3582000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "6468000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-29799000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "value": "244018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "-29799000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "244018000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "530388000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "278483000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "500589000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "value": "522501000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "530388000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "278483000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "500589000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-03-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "srt:PartnershipInterestMember"
+      },
+      "value": "522501000"
+    }
+  ]
+}

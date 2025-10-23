@@ -1,0 +1,2254 @@
+{
+  "Land": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "2096912000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "2096912000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "2096912000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "2096912000"
+    }
+  ],
+  "BuildingsImprovementsAndOther": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "14286757000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "14160799000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "14286757000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "14160799000"
+    }
+  ],
+  "ConstructionInProgressGross": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "485254000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "470282000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "485254000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "470282000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:StatementScenarioAxis",
+            "$t": "maa:CostsIncurredToDateMember"
+          },
+          {
+            "dimension": "us-gaap:InvestmentTypeAxis",
+            "$t": "maa:DevelopmentPropertiesMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "546500000"
+    }
+  ],
+  "RealEstateInvestmentPropertyAtCost": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "16868923000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "16727993000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "16868923000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "16727993000"
+    }
+  ],
+  "RealEstateInvestmentPropertyAccumulatedDepreciation": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "5478208000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "5327584000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "5478208000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "5327584000"
+    }
+  ],
+  "RealEstateInvestmentPropertyNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "11390715000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "11400409000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11390715000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11400409000"
+    }
+  ],
+  "LandAvailableForDevelopment": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "73359000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "73359000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "73359000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "73359000"
+    }
+  ],
+  "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "41790000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "41650000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "41790000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "41650000"
+    }
+  ],
+  "RealEstateAssetsNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "11505864000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "11515418000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11505864000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11515418000"
+    }
+  ],
+  "CashAndCashEquivalentsAtCarryingValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "55776000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "43018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "54601000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "55776000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "43018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "54601000"
+    }
+  ],
+  "RestrictedCash": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "13678000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "13743000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "13475000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "13678000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "13743000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "13475000"
+    }
+  ],
+  "OtherAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "236639000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "232426000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "236639000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "232426000"
+    }
+  ],
+  "AssetsHeldForSaleNotPartOfDisposalGroup": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "7764000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "7764000"
+    }
+  ],
+  "Assets": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "11811957000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "11812369000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11811957000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11812369000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidatedEntitiesAxis",
+            "$t": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+          },
+          {
+            "dimension": "srt:ProductOrServiceAxis",
+            "$t": "us-gaap:RealEstateMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "463800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidatedEntitiesAxis",
+            "$t": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+          },
+          {
+            "dimension": "srt:ProductOrServiceAxis",
+            "$t": "us-gaap:RealEstateMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "432200000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:SameStoreMember"
+        }
+      },
+      "value": "9770291000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:SameStoreMember"
+        }
+      },
+      "value": "9840140000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:NonSameStoreAndOtherMember"
+        }
+      },
+      "value": "1870560000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:NonSameStoreAndOtherMember"
+        }
+      },
+      "value": "1814597000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "us-gaap:CorporateMember"
+        }
+      },
+      "value": "171106000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "us-gaap:CorporateMember"
+        }
+      },
+      "value": "157632000"
+    }
+  ],
+  "UnsecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "4681868000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "4620690000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "4681868000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "4620690000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:CreditFacilityAxis",
+          "$t": "us-gaap:CommercialPaperMember"
+        }
+      },
+      "value": "310000000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DebtInstrumentAxis",
+          "$t": "maa:UnsecuredSeniorNotesDueNovemberTwoThousandTwentyFiveMember"
+        }
+      },
+      "value": "400000000"
+    }
+  ],
+  "SecuredDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "360298000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "360267000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "360298000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "360267000"
+    }
+  ],
+  "AccruedLiabilitiesCurrentAndNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "611896000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "683748000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "611896000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "683748000"
+    }
+  ],
+  "OtherLiabilitiesCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+            "$t": "us-gaap:RelatedPartyMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "19000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:RelatedPartyTransactionsByRelatedPartyAxis",
+            "$t": "us-gaap:RelatedPartyMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "19000"
+    }
+  ],
+  "Liabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "5654062000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "5664705000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "5654081000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "5664724000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidatedEntitiesAxis",
+            "$t": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+          },
+          {
+            "dimension": "srt:ProductOrServiceAxis",
+            "$t": "us-gaap:RealEstateMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "20800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:ConsolidatedEntitiesAxis",
+            "$t": "us-gaap:VariableInterestEntityPrimaryBeneficiaryMember"
+          },
+          {
+            "dimension": "srt:ProductOrServiceAxis",
+            "$t": "us-gaap:RealEstateMember"
+          },
+          {
+            "dimension": "dei:LegalEntityAxis",
+            "$t": "maa:LimitedPartnershipMember"
+          }
+        ]
+      },
+      "value": "27100000"
+    }
+  ],
+  "TemporaryEquityCarryingAmountIncludingPortionAttributableToNoncontrollingInterests": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "24425000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "22230000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "24425000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "22230000"
+    }
+  ],
+  "PreferredStockValueOutstanding": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "9000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "9000"
+    }
+  ],
+  "CommonStockValueOutstanding": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "1166000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "1166000"
+    }
+  ],
+  "AdditionalPaidInCapital": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "7422913000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "7417453000"
+    }
+  ],
+  "AccumulatedDistributionsInExcessOfNetIncome": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "1467858000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "1469557000"
+    }
+  ],
+  "StockholdersEquity": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "5949708000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "5942131000"
+    }
+  ],
+  "MinorityInterestInOperatingPartnerships": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "154810000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "155409000"
+    }
+  ],
+  "ParentLPStockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "6104518000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "6097540000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "6104499000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "6097521000"
+    }
+  ],
+  "PreferredUnitsPreferredPartnersCapitalAccounts": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "66840000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "66840000"
+    }
+  ],
+  "GeneralPartnersCapitalAccount": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "5889484000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "5882336000"
+    }
+  ],
+  "LimitedPartnersCapitalAccount": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "154810000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "155409000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "512900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "412200000"
+    }
+  ],
+  "AccumulatedOtherComprehensiveIncomeLossNetOfTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "-6522000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "-6940000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "-6635000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "-7064000"
+    }
+  ],
+  "MinorityInterestInJointVentures": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "28952000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "27894000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "28952000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "27894000"
+    }
+  ],
+  "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "6133470000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "6125434000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "6133451000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "6125415000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:PreferredStockMember"
+          }
+        ]
+      },
+      "value": "9000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:CommonStockMember"
+          }
+        ]
+      },
+      "value": "1166000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AdditionalPaidInCapitalMember"
+          }
+        ]
+      },
+      "value": "7417453000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedDistributionsInExcessOfNetIncomeMember"
+          }
+        ]
+      },
+      "value": "-1469557000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+          }
+        ]
+      },
+      "value": "-6940000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestOperatingPartnershipMember"
+          }
+        ]
+      },
+      "value": "155409000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestsConsolidatedRealEstateEntitiesMember"
+          }
+        ]
+      },
+      "value": "27894000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+        }
+      },
+      "value": "6125434000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:PreferredStockMember"
+          }
+        ]
+      },
+      "value": "9000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:CommonStockMember"
+          }
+        ]
+      },
+      "value": "1166000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AdditionalPaidInCapitalMember"
+          }
+        ]
+      },
+      "value": "7422913000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedDistributionsInExcessOfNetIncomeMember"
+          }
+        ]
+      },
+      "value": "-1467858000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+          }
+        ]
+      },
+      "value": "-6522000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestOperatingPartnershipMember"
+          }
+        ]
+      },
+      "value": "154810000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestsConsolidatedRealEstateEntitiesMember"
+          }
+        ]
+      },
+      "value": "28952000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+        }
+      },
+      "value": "6133470000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:PreferredStockMember"
+          }
+        ]
+      },
+      "value": "9000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:CommonStockMember"
+          }
+        ]
+      },
+      "value": "1168000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AdditionalPaidInCapitalMember"
+          }
+        ]
+      },
+      "value": "7399921000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedDistributionsInExcessOfNetIncomeMember"
+          }
+        ]
+      },
+      "value": "-1298263000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+          }
+        ]
+      },
+      "value": "-8764000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestOperatingPartnershipMember"
+          }
+        ]
+      },
+      "value": "163128000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestsConsolidatedRealEstateEntitiesMember"
+          }
+        ]
+      },
+      "value": "22756000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+        }
+      },
+      "value": "6279955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:PreferredStockMember"
+          }
+        ]
+      },
+      "value": "9000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:CommonStockMember"
+          }
+        ]
+      },
+      "value": "1168000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AdditionalPaidInCapitalMember"
+          }
+        ]
+      },
+      "value": "7406189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedDistributionsInExcessOfNetIncomeMember"
+          }
+        ]
+      },
+      "value": "-1326654000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+          }
+        ]
+      },
+      "value": "-8263000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestOperatingPartnershipMember"
+          }
+        ]
+      },
+      "value": "161909000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+            "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+          },
+          {
+            "dimension": "us-gaap:StatementEquityComponentsAxis",
+            "$t": "maa:NoncontrollingInterestsConsolidatedRealEstateEntitiesMember"
+          }
+        ]
+      },
+      "value": "23032000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:PartnerTypeOfPartnersCapitalAccountAxis",
+          "$t": "maa:MidAmericaApartmentCommunitiesIncShareholdersEquityMember"
+        }
+      },
+      "value": "6257390000"
+    }
+  ],
+  "LiabilitiesAndStockholdersEquity": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "11811957000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "11812369000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11811957000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "11812369000"
+    }
+  ]
+}

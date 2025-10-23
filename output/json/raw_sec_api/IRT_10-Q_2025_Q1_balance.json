@@ -1,0 +1,1166 @@
+{
+  "Assets": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "5983494000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "6057919000"
+    }
+  ],
+  "Liabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "2396315000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "2482845000"
+    }
+  ],
+  "LiabilitiesAndStockholdersEquity": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "5983494000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "6057919000"
+    }
+  ],
+  "RealEstateInvestmentPropertyAccumulatedDepreciation": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "789619000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "740957000"
+    }
+  ],
+  "RealEstateInvestmentPropertyNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "5652684000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "5622979000"
+    }
+  ],
+  "StockholdersEquity": [
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "3455390000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "3442275000"
+    }
+  ],
+  "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "3587179000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "3575074000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:CommonStockMember"
+        }
+      },
+      "value": "2308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      },
+      "value": "3868006000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+        }
+      },
+      "value": "26065000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:RetainedEarningsMember"
+        }
+      },
+      "value": "-454104000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:ParentMember"
+        }
+      },
+      "value": "3442275000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:NoncontrollingInterestMember"
+        }
+      },
+      "value": "132799000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:CommonStockMember"
+        }
+      },
+      "value": "2337000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      },
+      "value": "3918718000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+        }
+      },
+      "value": "17308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:RetainedEarningsMember"
+        }
+      },
+      "value": "-482973000"
+    },
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:ParentMember"
+        }
+      },
+      "value": "3455390000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:NoncontrollingInterestMember"
+        }
+      },
+      "value": "131789000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:CommonStockMember"
+        }
+      },
+      "value": "2247000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      },
+      "value": "3751942000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+        }
+      },
+      "value": "25513000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:RetainedEarningsMember"
+        }
+      },
+      "value": "-348405000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:ParentMember"
+        }
+      },
+      "value": "3431297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:NoncontrollingInterestMember"
+        }
+      },
+      "value": "135897000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "3567194000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:CommonStockMember"
+        }
+      },
+      "value": "2251000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      },
+      "value": "3753833000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:AccumulatedOtherComprehensiveIncomeMember"
+        }
+      },
+      "value": "34501000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:RetainedEarningsMember"
+        }
+      },
+      "value": "-367015000"
+    },
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:ParentMember"
+        }
+      },
+      "value": "3423570000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "$t": "us-gaap:NoncontrollingInterestMember"
+        }
+      },
+      "value": "135533000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "3559103000"
+    }
+  ],
+  "RealEstateInvestmentPropertyAtCost": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "6442303000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "6363936000"
+    }
+  ],
+  "RealEstateHeldforsale": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "110112000"
+    }
+  ],
+  "RealEstateInvestmentDevelopmentInProcessNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "117802000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "116861000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:StatementGeographicalAxis",
+          "$t": "stpr:CO"
+        }
+      },
+      "value": "117802000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "srt:StatementGeographicalAxis",
+          "$t": "stpr:CO"
+        }
+      },
+      "value": "116861000"
+    }
+  ],
+  "CashAndCashEquivalentsAtCarryingValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "29055000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "21228000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "21275000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "29055000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "29055000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "21228000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "21228000"
+    }
+  ],
+  "RestrictedCash": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "19279000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "22224000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-03-31"
+      },
+      "value": "20625000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "19279000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "19279000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "22224000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "22224000"
+    }
+  ],
+  "RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures": [
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "101640000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "91975000"
+    }
+  ],
+  "OtherAssets": [
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "39330000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "39596000"
+    }
+  ],
+  "DerivativeAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "20084000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "29300000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "20084000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "20084000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "29300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "29300000"
+    }
+  ],
+  "IntangibleAssetsNetExcludingGoodwill": [
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "3620000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "3644000"
+    }
+  ],
+  "DebtLongtermAndShorttermCombinedAmount": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DebtInstrumentAxis",
+          "$t": "irt:DebtNotAssociatedWithRealEstateHeldForSaleMember"
+        }
+      },
+      "value": "2253957000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DebtInstrumentAxis",
+          "$t": "irt:DebtNotAssociatedWithRealEstateHeldForSaleMember"
+        }
+      },
+      "value": "2274651000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DebtInstrumentAxis",
+          "$t": "irt:DebtAssociatedWithRealEstateHeldForSaleMember"
+        }
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:DebtInstrumentAxis",
+          "$t": "irt:DebtAssociatedWithRealEstateHeldForSaleMember"
+        }
+      },
+      "value": "59032000"
+    }
+  ],
+  "AccountsPayableAndAccruedExpensesExcludingInterestAndDividendsPayable": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "86399000"
+    },
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "94670000"
+    }
+  ],
+  "InterestPayableCurrentAndNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "10136000"
+    },
+    {
+      "decimals": "-4",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "8630000"
+    }
+  ],
+  "DividendsPayableCurrentAndNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "37865000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "37827000"
+    }
+  ],
+  "DerivativeLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "29000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "29000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "29000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:CarryingReportedAmountFairValueDisclosureMember"
+        }
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:FairValueByMeasurementBasisAxis",
+          "$t": "us-gaap:EstimateOfFairValueFairValueDisclosureMember"
+        }
+      },
+      "value": "0"
+    }
+  ],
+  "OtherLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "7929000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "8035000"
+    }
+  ],
+  "PreferredStockValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "CommonStockValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "2337000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "2308000"
+    }
+  ],
+  "AdditionalPaidInCapital": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "3918718000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "3868006000"
+    }
+  ],
+  "AccumulatedOtherComprehensiveIncomeLossNetOfTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "17308000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "26065000"
+    }
+  ],
+  "RetainedEarningsAccumulatedDeficit": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "-482973000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "-454104000"
+    }
+  ],
+  "MinorityInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "131789000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "132799000"
+    }
+  ]
+}

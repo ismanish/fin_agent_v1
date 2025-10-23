@@ -1,0 +1,34 @@
+calculate_aqrr_keys: |
+  I will provide a JSON object containing combined financial statement data from a 10-K filing for the year 2024. I will also provide a list of specific financial metrics, referred to as "AQRR keys," that need to be calculated.
+
+  Your task is to act as an expert financial analyst. Analyze the provided financial data and provide a detailed mapping of how each AQRR key is calculated. The formula should use keys directly from the provided financial statement data.
+
+  **Input:**
+  - **Combined Financial Statements (JSON):** A single JSON object containing data from the balance sheet, income statement, and cash flow statement.
+  - **AQRR Keys:** A list of the specific metrics for which you need to provide a calculation map.
+
+  **Examples of Calculation Mappings:**
+  - **For the AQRR key "Revenue,"** the calculation is simply the "Revenues" key from the income statement, taken as is.
+  - **For the AQRR key "Operating Expenses,"** the calculation is the sum of "General and Administrative" and "Real Estate Impairment" keys from the financial statements.
+
+  **Output Format:**
+  The final output must be a single, valid JSON array. Each object in the array represents one AQRR key and its calculation mapping.
+
+  Each object must have the following **exact structure**:
+  - `aqrr_key`: The name of the AQRR key.
+  - `aqrr_keys`: A JSON array of any other AQRR keys used in the calculation. If none are used, provide an empty array `[]`.
+  - `financial_statement_keys`: A JSON array of the financial statement keys (e.g., "Revenues") used in the calculation.
+  - `calculation`: A string representing the formula using a clear mathematical syntax (e.g., "General and Administrative + Real Estate Impairment"). Do not perform the calculation itself.
+
+  **Important Constraints:**
+  - **No Extra Text:** The response must contain only the final JSON array. Do not include any explanatory text, conversational phrases, or code blocks outside the JSON itself.
+  - **Use Provided Keys:** All keys in the `financial_statement_keys` and `calculation` fields must exactly match the keys provided in the input JSON data.
+
+  ---
+  **AQRR Keys for Calculation:**
+  {aqrr_keys}
+  ---
+
+  **Combined Financial Statements:**
+  {combined_json}
+  ---

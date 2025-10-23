@@ -1,0 +1,762 @@
+{
+  "cap_table": {
+    "company": "STAG Industrial, Inc.",
+    "cash_and_equivalents": 15879,
+    "debt": [
+      {
+        "type": "Revolving Credit Facility",
+        "amount": 51000,
+        "ppc_holdings": "-",
+        "coupon": "S + 87.5",
+        "secured": "N",
+        "maturity": "2029"
+      },
+      {
+        "type": "Unsecured Term Loan G",
+        "amount": 300000,
+        "ppc_holdings": "-",
+        "coupon": "1.80%",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Unsecured Term Loan A",
+        "amount": 150000,
+        "ppc_holdings": "-",
+        "coupon": "2.16%",
+        "secured": "N",
+        "maturity": "2027"
+      },
+      {
+        "type": "Unsecured Term Loan H",
+        "amount": 187500,
+        "ppc_holdings": "-",
+        "coupon": "3.35%",
+        "secured": "N",
+        "maturity": "2028"
+      },
+      {
+        "type": "Unsecured Term Loan I",
+        "amount": 187500,
+        "ppc_holdings": "-",
+        "coupon": "3.51%",
+        "secured": "N",
+        "maturity": "2028"
+      },
+      {
+        "type": "Unsecured Term Loan F",
+        "amount": 200000,
+        "ppc_holdings": "-",
+        "coupon": "4.83%",
+        "secured": "N",
+        "maturity": "2029"
+      },
+      {
+        "type": "Series B Unsecured Notes",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "4.98%",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Series C Unsecured Notes",
+        "amount": 80000,
+        "ppc_holdings": "-",
+        "coupon": "4.42%",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Series E Unsecured Notes",
+        "amount": 20000,
+        "ppc_holdings": "-",
+        "coupon": "4.42%",
+        "secured": "N",
+        "maturity": "2027"
+      },
+      {
+        "type": "Series H Unsecured Notes",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "4.27%",
+        "secured": "N",
+        "maturity": "2028"
+      },
+      {
+        "type": "Series L Unsecured Notes",
+        "amount": 175000,
+        "ppc_holdings": "-",
+        "coupon": "6.05%",
+        "secured": "N",
+        "maturity": "2029"
+      },
+      {
+        "type": "Series O Unsecured Notes",
+        "amount": 350000,
+        "ppc_holdings": "-",
+        "coupon": "5.50%",
+        "secured": "N",
+        "maturity": "2030"
+      },
+      {
+        "type": "Series M Unsecured Notes",
+        "amount": 125000,
+        "ppc_holdings": "-",
+        "coupon": "6.17%",
+        "secured": "N",
+        "maturity": "2031"
+      },
+      {
+        "type": "Series I Unsecured Notes",
+        "amount": 275000,
+        "ppc_holdings": "-",
+        "coupon": "2.80%",
+        "secured": "N",
+        "maturity": "2031"
+      },
+      {
+        "type": "Series K Unsecured Notes",
+        "amount": 400000,
+        "ppc_holdings": "-",
+        "coupon": "4.12%",
+        "secured": "N",
+        "maturity": "2032"
+      },
+      {
+        "type": "Series P Unsecured Notes",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "5.82%",
+        "secured": "N",
+        "maturity": "2033"
+      },
+      {
+        "type": "Series J Unsecured Notes",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "2.95%",
+        "secured": "N",
+        "maturity": "2033"
+      },
+      {
+        "type": "Series N Unsecured Notes",
+        "amount": 150000,
+        "ppc_holdings": "-",
+        "coupon": "6.30%",
+        "secured": "N",
+        "maturity": "2034"
+      },
+      {
+        "type": "Series Q Unsecured Notes",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "5.99%",
+        "secured": "N",
+        "maturity": "2035"
+      },
+      {
+        "type": "United of Omaha Life Insurance Company",
+        "amount": 4212,
+        "ppc_holdings": "-",
+        "coupon": "3.71%",
+        "secured": "Y",
+        "maturity": "2039"
+      },
+      {
+        "type": "(Less: Debt Issuance Costs)",
+        "amount": -11187,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "-",
+        "maturity": "-"
+      }
+    ],
+    "total_debt": 3055212,
+    "book_value_of_equity": 3444877,
+    "book_capitalization": 6500089,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "key_financial_ratios": {
+      "total_debt_to_adj_ebitda": "-",
+      "total_debt_to_market_capitalization": "-"
+    }
+  },
+  "source_lineage": {
+    "ticker": "STAG",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 15879,
+        "unit": "USD_thousands",
+        "calculation": "cash_and_cash_equivalents",
+        "components": {
+          "cash_and_cash_equivalents": 15379
+        },
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 15379,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Cash and cash equivalents",
+              "column": "June 30, 2025",
+              "section": "Assets"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_amount": {
+        "final_value": 51000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "type": "table",
+            "value": 51000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Unsecured credit facility",
+              "column": "June 30, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "unsecured_term_loan_g_amount": {
+        "final_value": 300000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "unsecured_term_loan_g_amount": {
+            "type": "text",
+            "value": 300000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Unsecured Term Loan G 300,000 1.80% February 5, 2026"
+          }
+        }
+      },
+      "unsecured_term_loan_a_amount": {
+        "final_value": 150000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "unsecured_term_loan_a_amount": {
+            "type": "text",
+            "value": 150000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Unsecured Term Loan A 150,000 2.16% March 15, 2027"
+          }
+        }
+      },
+      "unsecured_term_loan_h_amount": {
+        "final_value": 187500,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "unsecured_term_loan_h_amount": {
+            "type": "text",
+            "value": 187500,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Unsecured Term Loan H 187,500 3.35% January 25, 2028"
+          }
+        }
+      },
+      "unsecured_term_loan_i_amount": {
+        "final_value": 187500,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "unsecured_term_loan_i_amount": {
+            "type": "text",
+            "value": 187500,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Unsecured Term Loan I 187,500 3.51% January 25, 2028"
+          }
+        }
+      },
+      "unsecured_term_loan_f_amount": {
+        "final_value": 200000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "unsecured_term_loan_f_amount": {
+            "type": "text",
+            "value": 200000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Unsecured Term Loan F 200,000 4.83% March 23, 2029"
+          }
+        }
+      },
+      "series_b_unsecured_notes_amount": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_b_unsecured_notes_amount": {
+            "type": "text",
+            "value": 50000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series B Unsecured Notes 50,000 4.98% July 1, 2026"
+          }
+        }
+      },
+      "series_c_unsecured_notes_amount": {
+        "final_value": 80000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_c_unsecured_notes_amount": {
+            "type": "text",
+            "value": 80000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series C Unsecured Notes 80,000 4.42% December 30, 2026"
+          }
+        }
+      },
+      "series_e_unsecured_notes_amount": {
+        "final_value": 20000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_e_unsecured_notes_amount": {
+            "type": "text",
+            "value": 20000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series E Unsecured Notes 20,000 4.42% February 20, 2027"
+          }
+        }
+      },
+      "series_h_unsecured_notes_amount": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_h_unsecured_notes_amount": {
+            "type": "text",
+            "value": 100000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series H Unsecured Notes 100,000 4.27% June 13, 2028"
+          }
+        }
+      },
+      "series_l_unsecured_notes_amount": {
+        "final_value": 175000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_l_unsecured_notes_amount": {
+            "type": "text",
+            "value": 175000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series L Unsecured Notes 175,000 6.05% May 28, 2029"
+          }
+        }
+      },
+      "series_o_unsecured_notes_amount": {
+        "final_value": 350000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_o_unsecured_notes_amount": {
+            "type": "text",
+            "value": 350000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series O Unsecured Notes 350,000 5.50% June 25, 2030"
+          }
+        }
+      },
+      "series_m_unsecured_notes_amount": {
+        "final_value": 125000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_m_unsecured_notes_amount": {
+            "type": "text",
+            "value": 125000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series M Unsecured Notes 125,000 6.17% May 28, 2031"
+          }
+        }
+      },
+      "series_i_unsecured_notes_amount": {
+        "final_value": 275000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_i_unsecured_notes_amount": {
+            "type": "text",
+            "value": 275000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series I Unsecured Notes 275,000 2.80% September 29, 2031"
+          }
+        }
+      },
+      "series_k_unsecured_notes_amount": {
+        "final_value": 400000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_k_unsecured_notes_amount": {
+            "type": "text",
+            "value": 400000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series K Unsecured Notes 400,000 4.12% June 28, 2032"
+          }
+        }
+      },
+      "series_p_unsecured_notes_amount": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_p_unsecured_notes_amount": {
+            "type": "text",
+            "value": 100000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series P Unsecured Notes 100,000 5.82% June 25, 2033"
+          }
+        }
+      },
+      "series_j_unsecured_notes_amount": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_j_unsecured_notes_amount": {
+            "type": "text",
+            "value": 50000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series J Unsecured Notes 50,000 2.95% September 28, 2033"
+          }
+        }
+      },
+      "series_n_unsecured_notes_amount": {
+        "final_value": 150000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_n_unsecured_notes_amount": {
+            "type": "text",
+            "value": 150000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series N Unsecured Notes 150,000 6.30% May 28, 2034"
+          }
+        }
+      },
+      "series_q_unsecured_notes_amount": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "series_q_unsecured_notes_amount": {
+            "type": "text",
+            "value": 100000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "Series Q Unsecured Notes 100,000 5.99% June 25, 2035"
+          }
+        }
+      },
+      "united_of_omaha_life_insurance_company_amount": {
+        "final_value": 4212,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "united_of_omaha_life_insurance_company_amount": {
+            "type": "text",
+            "value": 4212,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Debt"
+            },
+            "text_snippet": "United of Omaha Life Insurance Company 4,212 3.71% October 1, 2039"
+          }
+        }
+      },
+      "less_debt_issuance_costs": {
+        "final_value": -11187,
+        "unit": "USD_thousands",
+        "calculation": "unamortized_deferred_financing_fees_and_debt_issuance_costs_unsecured_term_loans + unamortized_deferred_financing_fees_and_debt_issuance_costs_unsecured_notes",
+        "components": {
+          "unamortized_deferred_financing_fees_and_debt_issuance_costs_unsecured_term_loans": -2478,
+          "unamortized_deferred_financing_fees_and_debt_issuance_costs_unsecured_notes": -8709
+        },
+        "sources": {
+          "unamortized_deferred_financing_fees_and_debt_issuance_costs_unsecured_term_loans": {
+            "type": "table",
+            "value": -2478,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt",
+            "location": {
+              "page": 12,
+              "row": "Total unamortized deferred financing fees and debt issuance costs",
+              "column": "Unsecured term loans",
+              "section": "Liabilities"
+            }
+          },
+          "unamortized_deferred_financing_fees_and_debt_issuance_costs_unsecured_notes": {
+            "type": "table",
+            "value": -8709,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt",
+            "location": {
+              "page": 12,
+              "row": "Total unamortized deferred financing fees and debt issuance costs",
+              "column": "Unsecured notes",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "total_debt": {
+        "final_value": 3055212,
+        "unit": "USD_thousands",
+        "calculation": "revolving_credit_facility_amount + unsecured_term_loan_g_amount + unsecured_term_loan_a_amount + unsecured_term_loan_h_amount + unsecured_term_loan_i_amount + unsecured_term_loan_f_amount + series_b_unsecured_notes_amount + series_c_unsecured_notes_amount + series_e_unsecured_notes_amount + series_h_unsecured_notes_amount + series_l_unsecured_notes_amount + series_o_unsecured_notes_amount + series_m_unsecured_notes_amount + series_i_unsecured_notes_amount + series_k_unsecured_notes_amount + series_p_unsecured_notes_amount + series_j_unsecured_notes_amount + series_n_unsecured_notes_amount + series_q_unsecured_notes_amount + united_of_omaha_life_insurance_company_amount",
+        "components": {
+          "revolving_credit_facility_amount": 51000,
+          "unsecured_term_loan_g_amount": 300000,
+          "unsecured_term_loan_a_amount": 150000,
+          "unsecured_term_loan_h_amount": 187500,
+          "unsecured_term_loan_i_amount": 187500,
+          "unsecured_term_loan_f_amount": 200000,
+          "series_b_unsecured_notes_amount": 50000,
+          "series_c_unsecured_notes_amount": 80000,
+          "series_e_unsecured_notes_amount": 20000,
+          "series_h_unsecured_notes_amount": 100000,
+          "series_l_unsecured_notes_amount": 175000,
+          "series_o_unsecured_notes_amount": 350000,
+          "series_m_unsecured_notes_amount": 125000,
+          "series_i_unsecured_notes_amount": 275000,
+          "series_k_unsecured_notes_amount": 400000,
+          "series_p_unsecured_notes_amount": 100000,
+          "series_j_unsecured_notes_amount": 50000,
+          "series_n_unsecured_notes_amount": 150000,
+          "series_q_unsecured_notes_amount": 100000,
+          "united_of_omaha_life_insurance_company_amount": 4212
+        },
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "ref_metric": "revolving_credit_facility_amount"
+          },
+          "unsecured_term_loan_g_amount": {
+            "ref_metric": "unsecured_term_loan_g_amount"
+          },
+          "unsecured_term_loan_a_amount": {
+            "ref_metric": "unsecured_term_loan_a_amount"
+          },
+          "unsecured_term_loan_h_amount": {
+            "ref_metric": "unsecured_term_loan_h_amount"
+          },
+          "unsecured_term_loan_i_amount": {
+            "ref_metric": "unsecured_term_loan_i_amount"
+          },
+          "unsecured_term_loan_f_amount": {
+            "ref_metric": "unsecured_term_loan_f_amount"
+          },
+          "series_b_unsecured_notes_amount": {
+            "ref_metric": "series_b_unsecured_notes_amount"
+          },
+          "series_c_unsecured_notes_amount": {
+            "ref_metric": "series_c_unsecured_notes_amount"
+          },
+          "series_e_unsecured_notes_amount": {
+            "ref_metric": "series_e_unsecured_notes_amount"
+          },
+          "series_h_unsecured_notes_amount": {
+            "ref_metric": "series_h_unsecured_notes_amount"
+          },
+          "series_l_unsecured_notes_amount": {
+            "ref_metric": "series_l_unsecured_notes_amount"
+          },
+          "series_o_unsecured_notes_amount": {
+            "ref_metric": "series_o_unsecured_notes_amount"
+          },
+          "series_m_unsecured_notes_amount": {
+            "ref_metric": "series_m_unsecured_notes_amount"
+          },
+          "series_i_unsecured_notes_amount": {
+            "ref_metric": "series_i_unsecured_notes_amount"
+          },
+          "series_k_unsecured_notes_amount": {
+            "ref_metric": "series_k_unsecured_notes_amount"
+          },
+          "series_p_unsecured_notes_amount": {
+            "ref_metric": "series_p_unsecured_notes_amount"
+          },
+          "series_j_unsecured_notes_amount": {
+            "ref_metric": "series_j_unsecured_notes_amount"
+          },
+          "series_n_unsecured_notes_amount": {
+            "ref_metric": "series_n_unsecured_notes_amount"
+          },
+          "series_q_unsecured_notes_amount": {
+            "ref_metric": "series_q_unsecured_notes_amount"
+          },
+          "united_of_omaha_life_insurance_company_amount": {
+            "ref_metric": "united_of_omaha_life_insurance_company_amount"
+          }
+        }
+      },
+      "book_value_of_equity": {
+        "final_value": 3444877,
+        "unit": "USD_thousands",
+        "calculation": "total_stockholders_equity",
+        "components": {
+          "total_stockholders_equity": 3444877
+        },
+        "sources": {
+          "total_stockholders_equity": {
+            "type": "table",
+            "value": 3444877,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Total stockholders\u2019 equity",
+              "column": "June 30, 2025",
+              "section": "Equity"
+            }
+          }
+        }
+      },
+      "book_capitalization": {
+        "final_value": 6500089,
+        "unit": "USD_thousands",
+        "calculation": "total_debt + book_value_of_equity",
+        "components": {
+          "total_debt": 3055212,
+          "book_value_of_equity": 3444877
+        },
+        "sources": {
+          "total_debt": {
+            "ref_metric": "total_debt"
+          },
+          "book_value_of_equity": {
+            "ref_metric": "book_value_of_equity"
+          }
+        }
+      }
+    }
+  }
+}

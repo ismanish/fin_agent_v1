@@ -1,0 +1,1324 @@
+{
+  "RevenueFromContractWithCustomerExcludingAssessedTax": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1209000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1323000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceOtherMember"
+      },
+      "value": "449000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceOtherMember"
+      },
+      "value": "433000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "1658000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "1756000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AmericasMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "244000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AmericasMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "164000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AmericasMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "222000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AmericasMember"
+      },
+      "value": "630000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AmericasMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "286000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AmericasMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "154000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AmericasMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "247000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AmericasMember"
+      },
+      "value": "687000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "224000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "111000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "123000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:EuropeMember"
+      },
+      "value": "458000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "239000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "98000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:EuropeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "119000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:EuropeMember"
+      },
+      "value": "456000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaPacificMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "378000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaPacificMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "130000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaPacificMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "62000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaPacificMember"
+      },
+      "value": "570000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaPacificMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "418000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaPacificMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "129000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaPacificMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "66000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaPacificMember"
+      },
+      "value": "613000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "a:LifeSciencesandAppliedMarketsMember"
+      },
+      "value": "846000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "a:AgilentCrossLabMember"
+      },
+      "value": "405000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "a:DiagnosticsAndGenomicsMember"
+      },
+      "value": "407000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "a:LifeSciencesandAppliedMarketsMember"
+      },
+      "value": "943000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "a:AgilentCrossLabMember"
+      },
+      "value": "381000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "a:DiagnosticsAndGenomicsMember"
+      },
+      "value": "432000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:PharmaceuticalandBiopharmaceuticalMarketMember"
+      },
+      "value": "565000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:PharmaceuticalandBiopharmaceuticalMarketMember"
+      },
+      "value": "639000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:ChemicalandEnergyMarketMember"
+      },
+      "value": "392000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:ChemicalandEnergyMarketMember"
+      },
+      "value": "406000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:DiagnosticsandClinicalMarketMember"
+      },
+      "value": "228000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:DiagnosticsandClinicalMarketMember"
+      },
+      "value": "239000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:FoodMarketMember"
+      },
+      "value": "157000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:FoodMarketMember"
+      },
+      "value": "160000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:AcademiaandGovernmentMarketMember"
+      },
+      "value": "150000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:AcademiaandGovernmentMarketMember"
+      },
+      "value": "146000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:EnvironmentalandForensicsMarketMember"
+      },
+      "value": "166000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "a:EndMarketsAxis",
+        "value": "a:EnvironmentalandForensicsMarketMember"
+      },
+      "value": "166000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "a:InstrumentationMember"
+      },
+      "value": "630000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "a:InstrumentationMember"
+      },
+      "value": "759000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "a:NonInstrumentationandOtherMember"
+      },
+      "value": "1028000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "a:NonInstrumentationandOtherMember"
+      },
+      "value": "997000000"
+    }
+  ],
+  "CostOfGoodsAndServicesSold": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "514000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "556000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceOtherMember"
+      },
+      "value": "236000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceOtherMember"
+      },
+      "value": "232000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "750000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "788000000"
+    }
+  ],
+  "ResearchAndDevelopmentExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "128000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "123000000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "396000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "419000000"
+    }
+  ],
+  "CostsAndExpenses": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "1274000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "1330000000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "384000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "426000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "236000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:LifeSciencesandAppliedMarketsMember"
+        }
+      ],
+      "value": "300000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "70000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:DiagnosticsAndGenomicsMember"
+        }
+      ],
+      "value": "73000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "122000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "a:AgilentCrossLabMember"
+        }
+      ],
+      "value": "103000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:OperatingSegmentsMember"
+      },
+      "value": "428000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:OperatingSegmentsMember"
+      },
+      "value": "476000000"
+    }
+  ],
+  "InvestmentIncomeInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "18000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "9000000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "22000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "25000000"
+    }
+  ],
+  "OtherNonoperatingIncomeExpense": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "23000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "0"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "403000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "410000000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "55000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "58000000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "348000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "352000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "348000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ParentMember"
+      },
+      "value": "348000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "352000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ParentMember"
+      },
+      "value": "352000000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "1.19"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "1.19"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "1.18"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "1.19"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-6",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "293000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "296000000"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-6",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2023-11-01",
+        "endDate": "2024-01-31"
+      },
+      "value": "294000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-31"
+      },
+      "value": "297000000"
+    }
+  ]
+}

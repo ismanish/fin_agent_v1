@@ -1,0 +1,292 @@
+{
+  "cap_table": {
+    "company": "Elme Communities",
+    "cash_and_equivalents": 7093,
+    "debt": [
+      {
+        "type": "Revolving Credit Facility",
+        "amount": 175000,
+        "ppc_holdings": "-",
+        "coupon": "S + 80-150",
+        "secured": "N",
+        "maturity": "2028"
+      },
+      {
+        "type": "2023 Term Loan",
+        "amount": 125000,
+        "ppc_holdings": "-",
+        "coupon": "S + 95",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Senior Unsecured Notes",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "7.25%",
+        "secured": "N",
+        "maturity": "2028"
+      },
+      {
+        "type": "Senior Unsecured Notes",
+        "amount": 350000,
+        "ppc_holdings": "-",
+        "coupon": "3.44%",
+        "secured": "N",
+        "maturity": "2030"
+      },
+      {
+        "type": "(Less: Unamortized Debt Issue Costs)",
+        "amount": -1804,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "N",
+        "maturity": "-"
+      }
+    ],
+    "total_debt": 698196,
+    "book_value_of_equity": 1046193,
+    "book_capitalization": 1744389,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "market_value_of_re_assets": null,
+    "unencumbered_assets": null,
+    "key_financial_ratios": {
+      "total_debt_to_adj_ebitda": "-",
+      "unencumbered_assets_to_unsecured_debt": null,
+      "total_debt_to_market_value_of_re_assets": null,
+      "total_debt_to_market_capitalization": "-"
+    }
+  },
+  "source_lineage": {
+    "ticker": "ELME",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 7093,
+        "unit": "USD_thousands",
+        "calculation": "cash_and_cash_equivalents + restricted_cash",
+        "components": {
+          "cash_and_cash_equivalents": 4786,
+          "restricted_cash": 2307
+        },
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 4786,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 5,
+              "row": "Cash and cash equivalents",
+              "column": "June 30, 2025",
+              "section": "Assets"
+            }
+          },
+          "restricted_cash": {
+            "type": "table",
+            "value": 2307,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 5,
+              "row": "Restricted cash",
+              "column": "June 30, 2025",
+              "section": "Assets"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_amount": {
+        "final_value": 175000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "type": "table",
+            "value": 175000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 5,
+              "row": "Line of credit",
+              "column": "June 30, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "term_loan_2023_amount": {
+        "final_value": 125000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "term_loan_2023_amount": {
+            "type": "table",
+            "value": 125000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Maturities Table (Liquidity and Capital Resources section)",
+            "location": {
+              "page": 31,
+              "row": "2026",
+              "column": "Unsecured Debt",
+              "section": "Liquidity and Capital Resources"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_2028_amount": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_2028_amount": {
+            "type": "table",
+            "value": 50000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Maturities Table (Liquidity and Capital Resources section)",
+            "location": {
+              "page": 31,
+              "row": "2028",
+              "column": "Unsecured Debt",
+              "section": "Liquidity and Capital Resources"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_2030_amount": {
+        "final_value": 350000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_2030_amount": {
+            "type": "table",
+            "value": 350000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Maturities Table (Liquidity and Capital Resources section)",
+            "location": {
+              "page": 31,
+              "row": "Thereafter",
+              "column": "Unsecured Debt",
+              "section": "Liquidity and Capital Resources"
+            }
+          }
+        }
+      },
+      "unamortized_debt_issue_costs": {
+        "final_value": -1804,
+        "unit": "USD_thousands",
+        "calculation": "net_discounts_premiums + loan_costs_net_of_amortization",
+        "components": {
+          "net_discounts_premiums": -60,
+          "loan_costs_net_of_amortization": -1744
+        },
+        "sources": {
+          "net_discounts_premiums": {
+            "type": "table",
+            "value": -60,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Maturities Table (Liquidity and Capital Resources section)",
+            "location": {
+              "page": 31,
+              "row": "Net discounts/premiums",
+              "column": "Unsecured Debt",
+              "section": "Liquidity and Capital Resources"
+            }
+          },
+          "loan_costs_net_of_amortization": {
+            "type": "table",
+            "value": -1744,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Maturities Table (Liquidity and Capital Resources section)",
+            "location": {
+              "page": 31,
+              "row": "Loan costs, net of amortization",
+              "column": "Unsecured Debt",
+              "section": "Liquidity and Capital Resources"
+            }
+          }
+        }
+      },
+      "total_debt": {
+        "final_value": 698196,
+        "unit": "USD_thousands",
+        "calculation": "revolving_credit_facility_amount + term_loan_2023_amount + senior_unsecured_notes_2028_amount + senior_unsecured_notes_2030_amount + unamortized_debt_issue_costs",
+        "components": {
+          "revolving_credit_facility_amount": 175000,
+          "term_loan_2023_amount": 125000,
+          "senior_unsecured_notes_2028_amount": 50000,
+          "senior_unsecured_notes_2030_amount": 350000,
+          "unamortized_debt_issue_costs": -1804
+        },
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "ref_metric": "revolving_credit_facility_amount"
+          },
+          "term_loan_2023_amount": {
+            "ref_metric": "term_loan_2023_amount"
+          },
+          "senior_unsecured_notes_2028_amount": {
+            "ref_metric": "senior_unsecured_notes_2028_amount"
+          },
+          "senior_unsecured_notes_2030_amount": {
+            "ref_metric": "senior_unsecured_notes_2030_amount"
+          },
+          "unamortized_debt_issue_costs": {
+            "ref_metric": "unamortized_debt_issue_costs"
+          }
+        }
+      },
+      "book_value_of_equity": {
+        "final_value": 1046193,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "book_value_of_equity": {
+            "type": "table",
+            "value": 1046193,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 5,
+              "row": "Total shareholders\u2019 equity",
+              "column": "June 30, 2025",
+              "section": "Equity"
+            }
+          }
+        }
+      },
+      "book_capitalization": {
+        "final_value": 1744389,
+        "unit": "USD_thousands",
+        "calculation": "total_debt + book_value_of_equity",
+        "components": {
+          "total_debt": 698196,
+          "book_value_of_equity": 1046193
+        },
+        "sources": {
+          "total_debt": {
+            "ref_metric": "total_debt"
+          },
+          "book_value_of_equity": {
+            "ref_metric": "book_value_of_equity"
+          }
+        }
+      }
+    }
+  }
+}

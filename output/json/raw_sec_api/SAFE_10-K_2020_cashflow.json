@@ -1,0 +1,4170 @@
+{
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-30853000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "334325000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-18326000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "-32262000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "13936000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "324042000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "10283000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "-42441000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "11588000"
+    }
+  ],
+  "ProvisionForLoanLossesExpensed": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "9052000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "6482000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "16937000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01"
+      },
+      "segment": {
+        "dimension": "srt:CumulativeEffectPeriodOfAdoptionAxis",
+        "value": "srt:CumulativeEffectPeriodOfAdoptionAdjustmentMember"
+      },
+      "value": "3300000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AccountsNotesLoansAndFinancingReceivableByReceivableTypeAxis",
+        "value": "us-gaap:ConstructionLoansMember"
+      },
+      "value": "226000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AccountsNotesLoansAndFinancingReceivableByReceivableTypeAxis",
+        "value": "us-gaap:LoansReceivableMember"
+      },
+      "value": "1280000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AccountsNotesLoansAndFinancingReceivableByReceivableTypeAxis",
+        "value": "us-gaap:FinanceReceivablesMember"
+      },
+      "value": "186000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AccountsNotesLoansAndFinancingReceivableByReceivableTypeAxis",
+        "value": "star:SpecificReceivablesMember"
+      },
+      "value": "4931000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:BalanceSheetLocationAxis",
+        "value": "star:AccruedInterestAndOperatingLeaseIncomeReceivableNetMember"
+      },
+      "value": "900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:AccountsNotesLoansAndFinancingReceivableByReceivableTypeAxis",
+          "value": "us-gaap:FirstMortgageMember"
+        },
+        {
+          "dimension": "us-gaap:FinancialInstrumentPerformanceStatusAxis",
+          "value": "us-gaap:NonperformingFinancingReceivableMember"
+        }
+      ],
+      "value": "4200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-04-01",
+        "endDate": "2018-06-30"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:AccountsNotesLoansAndFinancingReceivableByReceivableTypeAxis",
+          "value": "star:CorporatePartnershipLoanMember"
+        },
+        {
+          "dimension": "us-gaap:FinancialInstrumentPerformanceStatusAxis",
+          "value": "us-gaap:NonperformingFinancingReceivableMember"
+        }
+      ],
+      "value": "21400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "186000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "8866000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "6482000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "16937000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "ProvisionForLeaseLosses": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1760000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1800000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "1760000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "AssetImpairmentCharges": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "7827000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "13419000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "147108000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:NetLeaseAssetOneMember"
+      },
+      "value": "1700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+        "value": "star:LandAndDevelopmentAssetMember"
+      },
+      "value": "2700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+        "value": "star:LandAndDevelopmentAssetMember"
+      },
+      "value": "1100000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "2037000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "3052000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "2738000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "2471000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "3853000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "6427000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "668000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "10391000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "79991000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "56726000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "DepreciationDepletionAndAmortization": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "58092000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "58259000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "58699000"
+    }
+  ],
+  "SalestypeLeaseNetInvestmentinLeaseNonCashInterestIncome": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-24969000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-3781000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "ShareBasedCompensation": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "39354000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "30436000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "17563000"
+    }
+  ],
+  "AmortizationOfFinancingCostsAndDiscounts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "13328000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "13847000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "15422000"
+    }
+  ],
+  "AmortizationOfDiscountsOrPremiumsDeferredInterestAndCostsOnLendingInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "30738000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "42342000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "41168000"
+    }
+  ],
+  "DecreaseIncreaseInDeferredInterestOnLoans": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-20661000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-10397000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-40463000"
+    }
+  ],
+  "VariableInterestEntityInitialConsolidationGainOrLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "67877000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-06-30",
+        "endDate": "2018-06-30"
+      },
+      "value": "67900000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "67877000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "SalesTypeLeaseSellingProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "180416000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "180400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "180416000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "42126000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "41849000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-5007000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeAxis",
+          "value": "us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AccumulatedGainLossCashFlowHedgeIncludingNoncontrollingInterestMember"
+        }
+      ],
+      "value": "-1101000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeAxis",
+          "value": "us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AccumulatedGainLossCashFlowHedgeIncludingNoncontrollingInterestMember"
+        }
+      ],
+      "value": "-184000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeAxis",
+          "value": "us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AccumulatedGainLossCashFlowHedgeIncludingNoncontrollingInterestMember"
+        }
+      ],
+      "value": "20000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:SafeholdInc.Member"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "53476000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:SafeholdInc.Member"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "29764000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:SafeholdInc.Member"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "4711000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseIILLCMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "2654000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseIILLCMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "-529000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseIILLCMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "-333000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseILLCMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseILLCMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseILLCMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "4100000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:OtherRealEstateEquityInvestmentsMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "-12929000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:OtherRealEstateEquityInvestmentsMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "12620000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:OtherRealEstateEquityInvestmentsMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "-4112000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "43201000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "41855000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        },
+        {
+          "dimension": "us-gaap:InvestmentTypeAxis",
+          "value": "us-gaap:RealEstateInvestmentMember"
+        }
+      ],
+      "value": "4366000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:OtherStrategicInvestmentsMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        }
+      ],
+      "value": "-1075000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:OtherStrategicInvestmentsMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        }
+      ],
+      "value": "-6000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:OtherStrategicInvestmentsMember"
+        },
+        {
+          "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+          "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+        }
+      ],
+      "value": "-9373000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+        "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+      },
+      "value": "42126000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+        "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+      },
+      "value": "41849000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeAxis",
+        "value": "us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember"
+      },
+      "value": "-5007000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "56130000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "-16361000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "3432000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-1075000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "29235000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "8298000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "4322000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-6000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:NetLeasingMember"
+        }
+      ],
+      "value": "8479000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:RealEstateLendingMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:OperatingPropertyMember"
+        }
+      ],
+      "value": "-1003000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "star:LandandDevelopmentSegmentMember"
+        }
+      ],
+      "value": "-3110000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-9373000"
+    }
+  ],
+  "EquityMethodInvestmentDividendsOrDistributions": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "24826000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "30058000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "18133000"
+    }
+  ],
+  "StraightLineRent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "14052000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "16185000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "14989000"
+    }
+  ],
+  "GainLossonSaleofPropertiesCashFlowImpact": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "6318000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "236623000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "126004000"
+    }
+  ],
+  "LandDevelopmentRevenueInExcessOfCostOfSales": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-13025000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "9932000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "59529000"
+    }
+  ],
+  "GainsLossesOnExtinguishmentOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-12038000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-27724000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-10367000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:DebtInstrumentAxis",
+          "value": "star:A2016SeniorSecuredCreditFacilityMember"
+        },
+        {
+          "dimension": "us-gaap:IncomeStatementLocationAxis",
+          "value": "star:GainLossOnExtinguishmentOfDebtMember"
+        },
+        {
+          "dimension": "us-gaap:LongtermDebtTypeAxis",
+          "value": "us-gaap:SecuredDebtMember"
+        }
+      ],
+      "value": "-2500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:LongtermDebtTypeAxis",
+        "value": "star:UnsecuredDebtNotesMember"
+      },
+      "value": "-12000000.0"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:LongtermDebtTypeAxis",
+        "value": "star:UnsecuredDebtNotesMember"
+      },
+      "value": "-26600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:LongtermDebtTypeAxis",
+        "value": "star:UnsecuredDebtNotesMember"
+      },
+      "value": "-1200000"
+    }
+  ],
+  "OtherOperatingActivitiesCashFlowStatement": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-19496000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "13642000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "3377000"
+    }
+  ],
+  "IncreaseDecreaseInAccruedInterestAndOperatingLeaseAndIncomeReceivable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "2311000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-417000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-949000"
+    }
+  ],
+  "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "5351000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "5848000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "1925000"
+    }
+  ],
+  "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-1863000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-47655000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-28335000"
+    }
+  ],
+  "NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "21886000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-45625000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-24128000"
+    }
+  ],
+  "PaymentsToAcquireNotesReceivable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "119368000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "255804000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "482143000"
+    }
+  ],
+  "PaymentsToDevelopRealEstateAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "15798000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "39946000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "60495000"
+    }
+  ],
+  "PaymentforCapitalExpendituresonLandandDevelopmentAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "40954000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "117514000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "128543000"
+    }
+  ],
+  "PaymentsToAcquireRealEstate": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "240487000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "19454000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+        "value": "star:NetLeaseAssetOneMember"
+      },
+      "value": "11500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+        "value": "star:LeaseHoldInterestMember"
+      },
+      "value": "98200000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+        "value": "star:NetleaseassettwoMember"
+      },
+      "value": "110600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+        "value": "star:NetLeaseAssetOneMember"
+      },
+      "value": "14800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-05-01",
+        "endDate": "2019-05-31"
+      },
+      "value": "56700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-12-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseIILLCMember"
+        },
+        {
+          "dimension": "us-gaap:RealEstatePropertiesAxis",
+          "value": "star:LivermoreCAPropertiesMember"
+        }
+      ],
+      "value": "81800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-12-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis",
+          "value": "star:IStarNetLeaseIILLCMember"
+        },
+        {
+          "dimension": "us-gaap:RealEstatePropertiesAxis",
+          "value": "star:LivermoreCAPropertiesMember"
+        }
+      ],
+      "value": "31200000"
+    }
+  ],
+  "ProceedsFromPrincipalRepaymentsOnPortfolioOfAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "208240000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "419800000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "832982000"
+    }
+  ],
+  "ProceedsFromSaleOfLoansHeldForInvestment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "11000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "5898000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "ProceedsFromSaleOfRealEstateHeldforinvestment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "48415000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "329971000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "411786000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:OperatingPropertiesMember"
+      },
+      "value": "5900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:OperatingPropertiesMember"
+      },
+      "value": "86100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:OperatingPropertiesMember"
+      },
+      "value": "327900000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:NetLeaseAssetMember"
+      },
+      "value": "42400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:NetLeaseAssetMember"
+      },
+      "value": "469400000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:NetLeaseAssetMember"
+      },
+      "value": "79700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:OperatingPropertiesandNetLeaseMember"
+      },
+      "value": "48300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:OperatingPropertiesandNetLeaseMember"
+      },
+      "value": "555500000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:OperatingPropertiesandNetLeaseMember"
+      },
+      "value": "407600000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:RealEstatePropertiesAxis",
+        "value": "star:NetLeaseAssetOneMember"
+      },
+      "value": "7500000"
+    }
+  ],
+  "ProceedsFromSaleOfLandAndDevelopmentAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "161063000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "114885000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "223416000"
+    }
+  ],
+  "ProceedsFromConsolidationOfEquityMethodInvestmentCashAcquired": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "13608000"
+    }
+  ],
+  "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "39871000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "62911000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "40804000"
+    }
+  ],
+  "PaymentsToAcquireEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "260121000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "656720000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "94578000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-02",
+        "endDate": "2019-01-02"
+      },
+      "value": "250000000.0"
+    }
+  ],
+  "PaymentsForProceedsFromOtherInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1169000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "21090000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-41476000"
+    }
+  ],
+  "NetCashProvidedByUsedInInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "31179000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-398096000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "778859000"
+    }
+  ],
+  "ProceedsFromIssuanceOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "802913000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1486980000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "704360000"
+    }
+  ],
+  "RepaymentsOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "913501000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1482558000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "944800000"
+    }
+  ],
+  "PaymentsToAcquireMarketableSecuritiesRelatedToDefeasanceOfNotesPayable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "110939000"
+    }
+  ],
+  "PaymentsOfDividendsPreferredStockAndPreferenceStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "23496000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "32495000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "32496000"
+    }
+  ],
+  "PaymentsOfDividendsCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "32664000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "25059000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "12227000"
+    }
+  ],
+  "PaymentsForRepurchaseOfCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "54565000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "68289000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "8304000"
+    }
+  ],
+  "PaymentsOfFinancingCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "7711000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "19928000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "5471000"
+    }
+  ],
+  "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "2716000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "4475000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "4807000"
+    }
+  ],
+  "ProceedsFromMinorityShareholders": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "496000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "2812000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "13927000"
+    }
+  ],
+  "PaymentsToMinorityShareholders": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "15167000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "14998000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "60743000"
+    }
+  ],
+  "PaymentsOfDebtExtinguishmentCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "8567000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "20606000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "4132000"
+    }
+  ],
+  "ProceedsFromPaymentsForOtherFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-13000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "7693000"
+    }
+  ],
+  "NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-254978000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-178629000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-457939000"
+    }
+  ],
+  "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "273000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "12000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "19000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-201640000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-622338000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "296811000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2019-12-31"
+      },
+      "value": "352206000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2018-12-31"
+      },
+      "value": "974544000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2017-12-31"
+      },
+      "value": "677733000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "value": "150566000"
+    }
+  ],
+  "InterestPaidNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "142453000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "181520000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "171590000"
+    }
+  ],
+  "FundingRepaymentsForFinancialAssetsAndLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "6720000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "13014000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-80095000"
+    }
+  ],
+  "LeaseOriginationSalesTypeLease": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "411523000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "TransferToOtherRealEstate": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "4600000"
+    }
+  ],
+  "ContributionOfProperty": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "4073000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "CapitalExpendituresIncurredbutNotyetPaidonLandandDevelopmentAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "16052000"
+    }
+  ],
+  "TransferToInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "110939000"
+    }
+  ],
+  "CapitalExpendituresIncurredbutNotyetPaidonRealEstateAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "7604000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "RepaymentofLoanThroughJointVentureConsolidation": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "27000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "ConversionOfStockAmountIssued1": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "193510000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "NotesReduction": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "105785000"
+    }
+  ],
+  "DebtIssuanceCostsIncurredButNotYetPaid": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "115000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "2362000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "ShareRepurchaseAccrued": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "200000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "6358000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "TransferMortgagePayable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "228000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "FinancingOnSaleOfAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "142639000"
+    }
+  ],
+  "FairValueOfAssetsAcquired": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "844550000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+          "value": "us-gaap:LandMember"
+        },
+        {
+          "dimension": "star:AcquisitionTypeAxis",
+          "value": "us-gaap:RealEstateAcquiredInSatisfactionOfDebtMember"
+        }
+      ],
+      "value": "4600000"
+    }
+  ],
+  "LiabilitiesAssumed1": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "464706000"
+    }
+  ],
+  "IncreaseToNoncontrollingInterestUponConsolidationOfEquityMethodInvestment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "200093000"
+    }
+  ]
+}

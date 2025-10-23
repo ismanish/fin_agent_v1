@@ -1,0 +1,417 @@
+{
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "39806000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-56987000"
+    }
+  ],
+  "OperatingInterestPaidReveivedInKind": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "2617000"
+  },
+  "NetAdjustmentsForExpensesFromPre-SpinPeriods": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "24960000"
+  },
+  "ShareBasedCompensation": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-31"
+    },
+    "value": "7158000"
+  },
+  "AmortizationOfDebtDiscountPremium": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-31"
+    },
+    "value": "15000"
+  },
+  "AmortizationOfFinancingCostsAndDiscounts": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "157000"
+  },
+  "IncreaseDecreaseInInventories": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-31"
+    },
+    "value": "-232172000"
+  },
+  "IncreaseDecreaseInEarnestMoneyDepositsOutstanding": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "47206000"
+  },
+  "IncreaseDecreaseInOtherOperatingLiabilities": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "6123000"
+  },
+  "IncreaseDecreaseInDeferredLiabilities": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "65000"
+  },
+  "NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "21288000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "182358000"
+    }
+  ],
+  "ProceedsFromDepositsOnRealEstateSales": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "584848000"
+  },
+  "PaymentsToAcquireLand": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "858938000"
+    },
+    {
+      "decimals": "INF",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-05-12",
+        "endDate": "2025-05-12"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:RangeAxis",
+            "$t": "srt:MaximumMember"
+          },
+          {
+            "dimension": "us-gaap:BusinessAcquisitionAxis",
+            "$t": "ck0002017206:LandseaHomesMember"
+          },
+          {
+            "dimension": "us-gaap:SubsequentEventTypeAxis",
+            "$t": "us-gaap:SubsequentEventMember"
+          },
+          {
+            "dimension": "us-gaap:TypeOfArrangementAxis",
+            "$t": "ck0002017206:AgreementWithNewHomeCompanyMember"
+          }
+        ]
+      },
+      "value": "700000000"
+    }
+  ],
+  "InvestmentInHomesiteInventoriesAndOtherRelatedAssets": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "978480000"
+  },
+  "TakedownsOfHomesiteInventoriesAndOtherRelatedAssets": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "646361000"
+  },
+  "NetCashProvidedByUsedInInvestingActivities": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-606209000"
+  },
+  "CashContributionFromLennarSpinOff": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "415152000"
+  },
+  "PaymentsOfDebtIssuanceCosts": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-31"
+    },
+    "value": "16079000"
+  },
+  "NetTransfersToPredecessor": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-31"
+    },
+    "value": "-166279000"
+  },
+  "PaymentsForSpinOffDealCosts": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "75131000"
+  },
+  "FinancingCostPaymentsForRevolvingCreditFacility": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "9577000"
+  },
+  "ProceedsFromLongTermLinesOfCredit": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "450000000"
+  },
+  "RepaymentsOfLongTermLinesOfCredit": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "100000000"
+  },
+  "RepaymentsOfNotesPayable": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "6000000"
+  },
+  "NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "674444000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-182358000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "89523000"
+  },
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "instant": "2025-03-31"
+      },
+      "value": "89523000"
+    }
+  ],
+  "HomesiteInventoryContributedByLennarNetOfOptionDeposits": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "4911279000"
+  },
+  "DecreaseInDeferredTaxLiabilitiesNonCash": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "59836000"
+  },
+  "LiabilitiesForTransactionDealCostsAndSellerNotes": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-96948000"
+  },
+  "NonCashImpactsOfCommonStockIssuedSpinOff": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-1660000"
+  },
+  "NonCashIncreaseInAdditionalPaidInCapitalSpinOff": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-4872506000"
+  },
+  "ReversalOfPredecessorEquityAtSpinOff": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "5158372000"
+  },
+  "OptionDepositNonCash": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-90264000"
+  },
+  "DevelopmentGuaranteesHoldbackLiabilities": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-100000000"
+  },
+  "IncreaseInDeferredTaxLiabilitiesNonCash": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "-116660000"
+  },
+  "DividendsDeclaredButNotPaid": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "63081000"
+  },
+  "InterestPaidNet": {
+    "decimals": "-3",
+    "unitRef": "U_USD",
+    "period": {
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    "value": "571000"
+  }
+}

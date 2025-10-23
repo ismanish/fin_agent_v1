@@ -1,0 +1,973 @@
+{
+  "Revenues": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "3118721000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "2960615000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "2405172000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "800988000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "757315000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "680005000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "3919709000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "3717930000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "3085177000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "mtd:LaboratoryproductsandservicesMember"
+      },
+      "value": "2083025000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "mtd:LaboratoryproductsandservicesMember"
+      },
+      "value": "1669791000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "mtd:IndustrialproductsandservicesMember"
+      },
+      "value": "1446544000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "mtd:IndustrialproductsandservicesMember"
+      },
+      "value": "1224497000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "mtd:RetailproductsandservicesMember"
+      },
+      "value": "188361000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "mtd:RetailproductsandservicesMember"
+      },
+      "value": "190889000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:UsOperationsSegmentMember"
+      },
+      "value": "1444460000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:SwissOperationsSegmentMember"
+      },
+      "value": "176119000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:WesternEuropeanOperationsSegmentMember"
+      },
+      "value": "799931000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:ChineseOperationsSegmentMember"
+      },
+      "value": "841526000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:OtherOperationsSegmentMember"
+      },
+      "value": "657673000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:EliminationsAndCorporateSegmentMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:UsOperationsSegmentMember"
+      },
+      "value": "1287983000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:SwissOperationsSegmentMember"
+      },
+      "value": "171633000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:WesternEuropeanOperationsSegmentMember"
+      },
+      "value": "829761000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:ChineseOperationsSegmentMember"
+      },
+      "value": "771651000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:OtherOperationsSegmentMember"
+      },
+      "value": "656902000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:EliminationsAndCorporateSegmentMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:UsOperationsSegmentMember"
+      },
+      "value": "1072319000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:SwissOperationsSegmentMember"
+      },
+      "value": "143923000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:WesternEuropeanOperationsSegmentMember"
+      },
+      "value": "716715000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:ChineseOperationsSegmentMember"
+      },
+      "value": "578610000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:OtherOperationsSegmentMember"
+      },
+      "value": "573610000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "mtd:EliminationsAndCorporateSegmentMember"
+      },
+      "value": "0"
+    }
+  ],
+  "CostOfGoodsAndServicesSold": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1227230000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1181020000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "954697000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "384437000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "365357000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "329449000"
+    }
+  ],
+  "GrossProfit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "2308042000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "2171553000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1801031000"
+    }
+  ],
+  "ResearchAndDevelopmentExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "177122000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "169766000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "140102000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "938461000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "943976000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "820221000"
+    }
+  ],
+  "AmortizationOfDeferredCharges": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "66239000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "63075000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "56665000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "55392000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "43242000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "38616000"
+    }
+  ],
+  "RestructuringCharges": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "9556000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "5239000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "10516000"
+    }
+  ],
+  "OtherNonoperatingIncomeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "9320000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "3106000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "13832000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "9300000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "3100000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "13800000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "1070592000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "949361000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "748743000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "198090000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "180376000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "146004000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "872502000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "768985000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "602739000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "602739000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "768985000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "872502000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "38.79"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "33.25"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "25.24"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "22491790"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "23129862"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "23882648"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "38.41"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "32.78"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "24.91"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "22718290"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      },
+      "value": "23457630"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "24199230"
+    }
+  ]
+}

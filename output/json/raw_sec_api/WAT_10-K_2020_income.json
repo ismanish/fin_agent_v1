@@ -1,0 +1,3003 @@
+{
+  "RevenueFromContractWithCustomerExcludingAssessedTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1497333000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1567189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "1604993000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "868032000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "839407000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "814936000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "2365365000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "2406596000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "2419929000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:WatersInstrumentSystemsMember"
+      },
+      "value": "890855000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:WatersInstrumentSystemsMember"
+      },
+      "value": "963871000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:WatersInstrumentSystemsMember"
+      },
+      "value": "1000625000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:ChemistryConsumablesMember"
+      },
+      "value": "432080000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:ChemistryConsumablesMember"
+      },
+      "value": "412018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:ChemistryConsumablesMember"
+      },
+      "value": "400287000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:TaInstrumentSystemsMember"
+      },
+      "value": "174398000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:TaInstrumentSystemsMember"
+      },
+      "value": "191300000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:TaInstrumentSystemsMember"
+      },
+      "value": "204081000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:WatersServiceMember"
+      },
+      "value": "794189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:WatersServiceMember"
+      },
+      "value": "761594000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:WatersServiceMember"
+      },
+      "value": "738433000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:TaServiceMember"
+      },
+      "value": "73843000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:TaServiceMember"
+      },
+      "value": "77813000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "wat:TaServiceMember"
+      },
+      "value": "76503000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:CN"
+      },
+      "value": "404352000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:CN"
+      },
+      "value": "439557000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:CN"
+      },
+      "value": "443321000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:JP"
+      },
+      "value": "179815000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:JP"
+      },
+      "value": "180707000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:JP"
+      },
+      "value": "173357000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "wat:AsiaOtherMember"
+      },
+      "value": "315010000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "wat:AsiaOtherMember"
+      },
+      "value": "318848000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "wat:AsiaOtherMember"
+      },
+      "value": "305613000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaPacificMember"
+      },
+      "value": "899177000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaPacificMember"
+      },
+      "value": "939112000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaPacificMember"
+      },
+      "value": "922291000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "678313000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "692277000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "683596000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "wat:AmericasOtherMember"
+      },
+      "value": "119529000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "wat:AmericasOtherMember"
+      },
+      "value": "137964000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "wat:AmericasOtherMember"
+      },
+      "value": "151581000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AmericasMember"
+      },
+      "value": "797842000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AmericasMember"
+      },
+      "value": "830241000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AmericasMember"
+      },
+      "value": "835177000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:EuropeMember"
+      },
+      "value": "668346000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:EuropeMember"
+      },
+      "value": "637243000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:EuropeMember"
+      },
+      "value": "662461000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:PharmaceuticalCustomersMember"
+      },
+      "value": "1386966000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:PharmaceuticalCustomersMember"
+      },
+      "value": "1365275000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:PharmaceuticalCustomersMember"
+      },
+      "value": "1365731000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:IndustrialCustomersMember"
+      },
+      "value": "707772000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:IndustrialCustomersMember"
+      },
+      "value": "719377000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:IndustrialCustomersMember"
+      },
+      "value": "737144000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:GovernmentalAndAcademicCustomersMember"
+      },
+      "value": "270627000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:GovernmentalAndAcademicCustomersMember"
+      },
+      "value": "321944000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:MajorCustomersAxis",
+        "value": "wat:GovernmentalAndAcademicCustomersMember"
+      },
+      "value": "317054000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "wat:InstrumentSystemsMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "1065253000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "wat:InstrumentSystemsMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "1155171000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "wat:InstrumentSystemsMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "1204706000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "wat:ChemistryConsumablesMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "432080000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "wat:ChemistryConsumablesMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "412018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "wat:ChemistryConsumablesMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "400287000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ServiceMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "365776000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ServiceMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "323247000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ServiceMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "317549000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredAtPointInTimeMember"
+      },
+      "value": "1863109000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredAtPointInTimeMember"
+      },
+      "value": "1890436000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredAtPointInTimeMember"
+      },
+      "value": "1922542000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ServiceMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "502256000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ServiceMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "516160000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ServiceMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "497387000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "464939000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "519984000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "593784000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "786658000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "513862000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "599162000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "577278000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "716294000"
+    }
+  ],
+  "CostOfGoodsAndServicesSold": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "638033000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "642706000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ProductMember"
+      },
+      "value": "656275000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "368656000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "367994000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ServiceMember"
+      },
+      "value": "336289000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "210644000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "213134000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "262342000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "320569000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1006689000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "221031000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "249546000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "241055000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "299068000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1010700000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "553698000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "534791000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "536902000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "147735000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "117449000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "135430000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "153084000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "134339000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "133208000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "126036000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "141208000"
+    }
+  ],
+  "ResearchAndDevelopmentExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "140777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "142955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "143403000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "34989000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "31155000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "34971000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "39662000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "35060000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "36490000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "34333000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "37072000"
+    }
+  ],
+  "AmortizationOfAcquisitionCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "10587000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "9693000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "7712000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "2625000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "2618000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "2657000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "2687000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "2281000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "2264000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "2619000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "2529000"
+    }
+  ],
+  "AssetImpairmentCharges": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "6945000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "7000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "6945000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "7000000"
+    }
+  ],
+  "GainLossRelatedToLitigationSettlement": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-1180000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "426000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2017-01-01",
+        "endDate": "2017-12-31"
+      },
+      "value": "-11000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-03-31"
+      },
+      "value": "2000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "-666000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "-514000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "CostsAndExpenses": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1719876000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1698139000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "1680155000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "396659000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "364870000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "435400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "522947000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "392711000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "421508000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "404043000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "479877000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "645489000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "708457000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "739774000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "68280000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "155114000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "158384000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "263711000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "121151000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "177654000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "173235000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "236417000"
+    }
+  ],
+  "OtherNonoperatingIncomeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-1775000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-3586000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-47794000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "-525000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "-342000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "-496000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-2223000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "49070000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "48690000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "48641000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "14079000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "13018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "10915000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "11058000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "11563000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "11448000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "11456000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "14223000"
+    }
+  ],
+  "InvestmentIncomeInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "16270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "22058000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "38807000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "4036000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "4003000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "4007000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "4224000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "8315000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "5871000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "3455000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "4417000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "610914000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "678239000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "682146000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "57863000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "145363000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "150437000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "257251000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "117378000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "171735000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "164738000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "224388000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "89343000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "86041000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "88352000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:GiltiTaxMember"
+      },
+      "value": "13000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:StockBasedCompensationTaxBenefitMember"
+      },
+      "value": "7000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:GiltiTaxMember"
+      },
+      "value": "11000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:ForeignCurrencyTranslationAdjustmentMember"
+      },
+      "value": "9000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:GiltiTaxMember"
+      },
+      "value": "14000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:ForeignCurrencyTranslationAdjustmentMember"
+      },
+      "value": "8000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:ValuationAllowanceByDeferredTaxAssetAxis",
+        "value": "wat:StockBasedCompensationTaxBenefitMember"
+      },
+      "value": "9000000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeTaxAuthorityAxis",
+        "value": "wat:TaxCutsAndJobsActOf2017Member"
+      },
+      "value": "6000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "4301000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "22434000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "23668000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "38940000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "8392000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "27325000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "26605000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "23719000"
+    }
+  ],
+  "NetIncomeLossAvailableToCommonStockholdersBasic": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "521571000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "592198000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "593794000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "593794000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "592198000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "521571000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "53562000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "122929000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "126769000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "218311000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "108986000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "144410000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "138133000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_USD",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "200669000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "8.40"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "8.76"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "7.71"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "0.86"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "1.98"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "2.04"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "3.51"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "1.52"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "2.09"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "2.09"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "3.15"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "62094000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "67627000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "76992000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "62232000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "61944000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "62002000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "62170000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "71704000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "68989000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "66226000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "63795000"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "8.36"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "8.69"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "7.65"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "0.86"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "1.98"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "2.03"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "3.49"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "1.51"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "2.08"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "2.07"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "Unit_USD_per_Share",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "3.12"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "62414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "68166000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "77618000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-03-31"
+      },
+      "value": "62626000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-04-01",
+        "endDate": "2020-06-30"
+      },
+      "value": "62184000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-09-30"
+      },
+      "value": "62303000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2020-10-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "62501000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-03-31"
+      },
+      "value": "72415000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-04-01",
+        "endDate": "2019-06-30"
+      },
+      "value": "69494000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-07-01",
+        "endDate": "2019-09-30"
+      },
+      "value": "66768000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "Unit_shares",
+      "period": {
+        "startDate": "2019-10-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "64348000"
+    }
+  ]
+}

@@ -1,0 +1,1107 @@
+{
+  "Revenues": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "549295000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "543622000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "549295000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "543622000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:SameStoreMember"
+        }
+      },
+      "value": "518825000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:SameStoreMember"
+        }
+      },
+      "value": "518533000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:NonSameStoreAndOtherMember"
+        }
+      },
+      "value": "30470000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "$t": "maa:NonSameStoreAndOtherMember"
+        }
+      },
+      "value": "25089000"
+    }
+  ],
+  "OperatingCostsAndExpensesExcludingDepreciationAndAmortizationAndRealEstateTaxesAndInsurance": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "124955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "118199000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "124955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "118199000"
+    }
+  ],
+  "RealEstateTaxesAndInsurance": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "76398000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "79603000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "76398000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "79603000"
+    }
+  ],
+  "DepreciationAndAmortization": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "152350000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "143020000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "152350000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "143020000"
+    }
+  ],
+  "PropertyOperatingExpenses": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "353703000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "340822000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "353703000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "340822000"
+    }
+  ],
+  "OtherCostAndExpenseOperating": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "20578000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "19995000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "20578000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "19995000"
+    }
+  ],
+  "GeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "15619000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "17045000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "15619000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "17045000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "45161000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "40361000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "45161000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "40361000"
+    }
+  ],
+  "GainLossOnSaleOfPropertyPlantEquipment": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "71911000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "-2000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "71911000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "-2000"
+    },
+    {
+      "decimals": "-6",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": [
+          {
+            "dimension": "srt:MortgageLoansOnRealEstateDescriptionTypeOfPropertyAxis",
+            "$t": "srt:MultifamilyMember"
+          },
+          {
+            "dimension": "srt:StatementGeographicalAxis",
+            "$t": "maa:ColumbiaScMember"
+          }
+        ]
+      },
+      "value": "72000000"
+    }
+  ],
+  "OtherNonoperatingIncomeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "834000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "23526000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "834000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "23526000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "186979000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "148923000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "186979000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "148923000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1038000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1795000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "1038000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "1795000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "185941000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "147128000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "185941000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "147128000"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "465000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "482000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "465000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "482000"
+    }
+  ],
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "186406000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "147610000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "186406000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "147610000"
+    }
+  ],
+  "NetIncomeLossAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "4733000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "3861000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "181673000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "143749000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "186406000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "147610000"
+    }
+  ],
+  "PreferredStockDividendsIncomeStatementImpact": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "922000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "922000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "922000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "922000"
+    }
+  ],
+  "NetIncomeLossAvailableToCommonStockholdersBasic": [
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "180751000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "142827000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "185484000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "U_USD",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "146688000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1.55"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1.22"
+    }
+  ],
+  "BasicEarningsPerUnit": [
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "1.55"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "1.22"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "value": "1.54"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "value": "1.22"
+    }
+  ],
+  "DilutedEarningsPerUnit": [
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2025-01-01",
+        "endDate": "2025-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "1.54"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "U_UnitedStatesOfAmericaDollarsShare",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-31"
+      },
+      "segment": {
+        "explicitMember": {
+          "dimension": "dei:LegalEntityAxis",
+          "$t": "maa:LimitedPartnershipMember"
+        }
+      },
+      "value": "1.22"
+    }
+  ]
+}

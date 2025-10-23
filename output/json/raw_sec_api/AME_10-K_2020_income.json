@@ -1,0 +1,2478 @@
+{
+  "RevenueFromContractWithCustomerIncludingAssessedTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "4540029000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "5158557000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "4845872000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "1513967000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "816159000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "2330126000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:GB"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "54158000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:GB"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "117469000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:GB"
+      },
+      "value": "171627000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "us-gaap:EuropeanUnionMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "371884000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "us-gaap:EuropeanUnionMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "324203000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "us-gaap:EuropeanUnionMember"
+      },
+      "value": "696087000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "769532000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "189987000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaMember"
+      },
+      "value": "959519000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:OtherForeignCountriesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "280387000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:OtherForeignCountriesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "102283000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "ame:OtherForeignCountriesMember"
+      },
+      "value": "382670000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:InternationalMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "1475961000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:InternationalMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "733942000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "ame:InternationalMember"
+      },
+      "value": "2209903000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "ame:ElectronicInstrumentsGroupMember"
+      },
+      "value": "2989928000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "ame:ElectromechanicalGroupMember"
+      },
+      "value": "1550101000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "us-gaap:NonUsMember"
+      },
+      "value": "1196400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "1685369000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "998317000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "2683686000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:GB"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "64423000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:GB"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "132485000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:GB"
+      },
+      "value": "196908000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "us-gaap:EuropeanUnionMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "434072000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "us-gaap:EuropeanUnionMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "392283000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "us-gaap:EuropeanUnionMember"
+      },
+      "value": "826355000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "773034000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "186535000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaMember"
+      },
+      "value": "959569000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:OtherForeignCountriesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "365983000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:OtherForeignCountriesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "126056000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "ame:OtherForeignCountriesMember"
+      },
+      "value": "492039000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:InternationalMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "1637512000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:InternationalMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "837359000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "ame:InternationalMember"
+      },
+      "value": "2474871000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "ame:ElectronicInstrumentsGroupMember"
+      },
+      "value": "3322881000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "ame:ElectromechanicalGroupMember"
+      },
+      "value": "1835676000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "us-gaap:NonUsMember"
+      },
+      "value": "1306200000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "1446974000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:US"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "950358000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:US"
+      },
+      "value": "2397332000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:GB"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "61513000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "country:GB"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "135077000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "country:GB"
+      },
+      "value": "196590000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "us-gaap:EuropeanUnionMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "389032000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "us-gaap:EuropeanUnionMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "399547000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "us-gaap:EuropeanUnionMember"
+      },
+      "value": "788579000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "780135000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "srt:AsiaMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "205047000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "srt:AsiaMember"
+      },
+      "value": "985182000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:OtherForeignCountriesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "351305000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:OtherForeignCountriesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "126884000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "ame:OtherForeignCountriesMember"
+      },
+      "value": "478189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:InternationalMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "1581985000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:StatementGeographicalAxis",
+          "value": "ame:InternationalMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "866555000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "ame:InternationalMember"
+      },
+      "value": "2448540000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "ame:ElectronicInstrumentsGroupMember"
+      },
+      "value": "3028959000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "ame:ElectromechanicalGroupMember"
+      },
+      "value": "1816913000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:StatementGeographicalAxis",
+        "value": "us-gaap:NonUsMember"
+      },
+      "value": "1269400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "2199167000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+      },
+      "value": "2199167000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AerospaceAndPowerMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "790761000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AerospaceAndPowerMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "466343000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:AerospaceAndPowerMember"
+      },
+      "value": "1257104000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AutomationAndEngineeredSolutionsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AutomationAndEngineeredSolutionsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "1083758000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:AutomationAndEngineeredSolutionsMember"
+      },
+      "value": "1083758000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "2393587000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+      },
+      "value": "2393587000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AerospaceAndPowerMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "929294000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AerospaceAndPowerMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "491171000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:AerospaceAndPowerMember"
+      },
+      "value": "1420465000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AutomationAndEngineeredSolutionsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AutomationAndEngineeredSolutionsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "1344505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:AutomationAndEngineeredSolutionsMember"
+      },
+      "value": "1344505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "2120448000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:ProcessAndAnalyticalInstrumentationMember"
+      },
+      "value": "2120448000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AerospaceAndPowerMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "908511000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AerospaceAndPowerMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "456517000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:AerospaceAndPowerMember"
+      },
+      "value": "1365028000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AutomationAndEngineeredSolutionsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "ame:AutomationAndEngineeredSolutionsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "1360396000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "ame:AutomationAndEngineeredSolutionsMember"
+      },
+      "value": "1360396000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "2427254000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "1390574000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredAtPointInTimeMember"
+      },
+      "value": "3817828000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "562674000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "159527000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredOverTimeMember"
+      },
+      "value": "722201000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "2680296000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "1670448000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredAtPointInTimeMember"
+      },
+      "value": "4350744000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "642585000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "165228000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredOverTimeMember"
+      },
+      "value": "807813000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "2533718000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredAtPointInTimeMember"
+        }
+      ],
+      "value": "1690124000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredAtPointInTimeMember"
+      },
+      "value": "4223842000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "495241000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        },
+        {
+          "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+          "value": "us-gaap:TransferredOverTimeMember"
+        }
+      ],
+      "value": "126789000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TimingOfTransferOfGoodOrServiceAxis",
+        "value": "us-gaap:TransferredOverTimeMember"
+      },
+      "value": "622030000"
+    }
+  ],
+  "CostOfGoodsAndServicesSold": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "2996515000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "3370897000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "3186310000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ShippingAndHandlingMember"
+      },
+      "value": "56800000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ShippingAndHandlingMember"
+      },
+      "value": "66700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ShippingAndHandlingMember"
+      },
+      "value": "62700000"
+    }
+  ],
+  "SellingGeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "515630000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "610280000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "584022000"
+    }
+  ],
+  "CostsAndExpenses": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "3512145000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "3981177000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "3770332000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1027884000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1177380000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "1075540000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "770620000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "865307000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectronicInstrumentsGroupMember"
+        }
+      ],
+      "value": "782144000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "324962000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "387931000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "us-gaap:OperatingSegmentsMember"
+        },
+        {
+          "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+          "value": "ame:ElectromechanicalGroupMember"
+        }
+      ],
+      "value": "363765000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:OperatingSegmentsMember"
+      },
+      "value": "1095582000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:OperatingSegmentsMember"
+      },
+      "value": "1253238000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:OperatingSegmentsMember"
+      },
+      "value": "1145909000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-67698000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-75858000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidationItemsAxis",
+        "value": "us-gaap:CorporateNonSegmentMember"
+      },
+      "value": "-70369000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "86062000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "88481000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "82180000"
+    }
+  ],
+  "OtherNonoperatingIncomeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "140487000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-19151000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-5615000"
+    }
+  ],
+  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "1082309000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1069748000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "987745000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "209870000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "208451000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "209812000"
+    }
+  ],
+  "NetIncomeLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "872439000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "861297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "777933000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "872439000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "861297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "777933000"
+    }
+  ],
+  "EarningsPerShareBasic": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "3.80"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "3.78"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "3.37"
+    }
+  ],
+  "EarningsPerShareDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "3.77"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "3.75"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "3.34"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "229435000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "227759000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "230823000"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "231150000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "229395000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "232712000"
+    }
+  ]
+}

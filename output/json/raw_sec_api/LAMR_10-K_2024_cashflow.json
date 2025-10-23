@@ -1,0 +1,3527 @@
+{
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "362939000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "496836000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "438647000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "438647000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "495763000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "1073000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "361867000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "1072000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "363507000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "497333000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "439149000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "439149000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "496260000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "1073000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "362435000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "1072000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "362435000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "530522000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-10804000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-518646000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "363507000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "496260000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "673330000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-16393000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-655864000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "497333000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "439149000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "561626000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-81000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-561545000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "439149000"
+    }
+  ],
+  "DepreciationAmortizationAndAccretionNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "462967000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "293423000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "349449000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "lamr:AdvertisementExpenseMember"
+      },
+      "value": "439933000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "lamr:AdvertisementExpenseMember"
+      },
+      "value": "273297000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "lamr:AdvertisementExpenseMember"
+      },
+      "value": "330357000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "us-gaap:GeneralAndAdministrativeExpenseMember"
+      },
+      "value": "5334000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "us-gaap:GeneralAndAdministrativeExpenseMember"
+      },
+      "value": "5691000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "us-gaap:GeneralAndAdministrativeExpenseMember"
+      },
+      "value": "5242000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "lamr:CorporateExpensesMember"
+      },
+      "value": "17700000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "lamr:CorporateExpensesMember"
+      },
+      "value": "14435000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:IncomeStatementLocationAxis",
+        "value": "lamr:CorporateExpensesMember"
+      },
+      "value": "13850000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "462967000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "293423000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "349449000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "462967000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "293423000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "349449000"
+    }
+  ],
+  "ShareBasedCompensation": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "44525000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "22649000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "23136000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AwardTypeAxis",
+        "value": "lamr:EmployeeStockOptionsAndEmployeeStockPurchasePlanMember"
+      },
+      "value": "5072000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AwardTypeAxis",
+        "value": "lamr:PerformanceBasedStockIncentiveProgramMember"
+      },
+      "value": "24711000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AwardTypeAxis",
+        "value": "lamr:LongTermIncentivePlanMember"
+      },
+      "value": "13996000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:AwardTypeAxis",
+        "value": "lamr:RestrictedStockAwardsToDirectorsMember"
+      },
+      "value": "745000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "44525000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "22649000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "23136000"
+    }
+  ],
+  "AmortizationOfFinancingCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "6332000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "6538000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "6158000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6332000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6538000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6158000"
+    }
+  ],
+  "GainLossOnDispositionOfAssets1": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "6057000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "5474000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "15721000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TypeOfArrangementAxis",
+        "value": "lamr:TerminationOfLeaseAgreementMember"
+      },
+      "value": "403000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TypeOfArrangementAxis",
+        "value": "lamr:TerminationOfLeaseAgreementMember"
+      },
+      "value": "295000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:TypeOfArrangementAxis",
+        "value": "lamr:TerminationOfLeaseAgreementMember"
+      },
+      "value": "824000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "6057000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "5474000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "15721000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6057000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5474000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "15721000"
+    }
+  ],
+  "GainsLossesOnExtinguishmentOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "-270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-115000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "-270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "-115000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-115000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "5094000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "3696000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "4315000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "5094000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "3696000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementBusinessSegmentsAxis",
+        "value": "lamr:ReportableSegmentMember"
+      },
+      "value": "4315000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5094000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3696000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "4315000"
+    }
+  ],
+  "DeferredIncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "-4036000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "2384000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "3212000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-4036000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2384000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3212000"
+    }
+  ],
+  "ProvisionForDoubtfulAccounts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "8770000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "12737000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "9013000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "8770000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "12737000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "9013000"
+    }
+  ],
+  "IncreaseDecreaseInReceivables": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "43000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "28744000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "22511000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "43000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "28744000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "22511000"
+    }
+  ],
+  "IncreaseDecreaseInPrepaidExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "2656000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-1087000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "906000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2656000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-1087000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "906000"
+    }
+  ],
+  "IncreaseDecreaseInOtherOperatingAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "7424000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "3363000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-2711000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "7424000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3363000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-2711000"
+    }
+  ],
+  "IncreaseDecreaseInAccountsPayableTrade": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "3262000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-307000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "1176000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3262000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-307000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1176000"
+    }
+  ],
+  "IncreaseDecreaseInAccruedLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "18902000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-1708000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-10773000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "18902000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-1708000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-10773000"
+    }
+  ],
+  "IncreaseDecreaseInOperatingLeaseLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "7498000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "2490000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "7198000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "7498000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2490000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "7198000"
+    }
+  ],
+  "IncreaseDecreaseInOtherOperatingLiabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "26412000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-11354000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-4862000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-10567000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-39154000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-47110000"
+    }
+  ],
+  "NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "873610000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "783613000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "781612000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "837199000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "756310000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "739866000"
+    }
+  ],
+  "PaymentsToAcquirePropertyPlantAndEquipment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "125284000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "178271000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "167078000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "125284000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "178271000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "167078000"
+    }
+  ],
+  "PaymentsToAcquireBusinessesNetOfCashAcquired": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "45393000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "138961000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "479766000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "45393000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "138961000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "479766000"
+    }
+  ],
+  "ProceedsFromSaleOfNotesReceivable": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "65000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "62000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "12124000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "65000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "62000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "12124000"
+    }
+  ],
+  "ProceedsFromSaleOfPropertyPlantAndEquipment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "5706000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "7051000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "15649000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5706000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "7051000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "15649000"
+    }
+  ],
+  "NetCashProvidedByUsedInInvestingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "-164906000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-310119000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-619071000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-164906000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-310119000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-619071000"
+    }
+  ],
+  "ProceedsFromIssuanceOfCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "20980000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "15689000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "18894000"
+    }
+  ],
+  "PaymentsForRepurchaseOfCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "5341000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "5989000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "10506000"
+    }
+  ],
+  "ProceedsFromLinesOfCredit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "783000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "403000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "445000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "783000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "403000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "445000000"
+    }
+  ],
+  "RepaymentsOfLinesOfCredit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "569000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "378000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "575000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "569000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "378000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "575000000"
+    }
+  ],
+  "RepaymentsOfLongTermDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "381000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "365000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "381000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "365000"
+    }
+  ],
+  "FinanceLeasePrincipalPayments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1331000"
+    }
+  ],
+  "ProceedsFromBankDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "350000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-02-06",
+        "endDate": "2020-02-06"
+      },
+      "segment": {
+        "dimension": "us-gaap:CreditFacilityAxis",
+        "value": "lamr:TermBLoanFacilityMember"
+      },
+      "value": "600000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "350000000"
+    }
+  ],
+  "RepaymentsOfBankDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "350000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "350000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    }
+  ],
+  "ProceedsFromAccountsReceivableSecuritization": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "86400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "114900000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "265000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "86400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "114900000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "265000000"
+    }
+  ],
+  "RepaymentsOfAccountsReceivableSecuritization": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "86400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "114900000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "190000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "86400000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "114900000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "190000000"
+    }
+  ],
+  "PaymentsOfDebtIssuanceCosts": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "464000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "2951000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "1583000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "464000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2951000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1583000"
+    }
+  ],
+  "PaymentsOfDistributionsToAffiliates": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "1655000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "1056000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "814000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1655000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1056000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "814000"
+    }
+  ],
+  "PaymentsOfOrdinaryDividends": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "579214000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "510616000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "508614000"
+    }
+  ],
+  "NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "-703425000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-481635000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-209319000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-667014000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-454332000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-167573000"
+    }
+  ],
+  "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "-423000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "127000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-391000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-423000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "127000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-391000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "4856000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "-8014000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "-47169000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "4856000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-8014000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-47169000"
+    }
+  ],
+  "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "44605000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "52619000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "value": "99788000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "value": "49461000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "44105000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "52119000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "99288000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "48961000"
+    }
+  ],
+  "InterestPaidNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "165827000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "168011000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "120000000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "165827000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "168011000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "120000000"
+    }
+  ],
+  "IncomeTaxesPaid": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "value": "8505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "value": "11432000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "value": "16325000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "8505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "11432000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "16325000"
+    }
+  ]
+}

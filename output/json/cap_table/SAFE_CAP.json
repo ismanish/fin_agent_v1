@@ -1,0 +1,391 @@
+{
+  "cap_table": {
+    "company": "Safehold Inc.",
+    "cash_and_equivalents": 13907,
+    "debt": [
+      {
+        "type": "2024 Unsecured Revolving Credit Facility",
+        "amount": 812000,
+        "ppc_holdings": "-",
+        "coupon": "S + 85",
+        "secured": "N",
+        "maturity": "2029"
+      },
+      {
+        "type": "Mortgages",
+        "amount": 1498113,
+        "ppc_holdings": "-",
+        "coupon": "3.99%",
+        "secured": "Y",
+        "maturity": "2027-2069"
+      },
+      {
+        "type": "2.80% Senior Notes",
+        "amount": 400000,
+        "ppc_holdings": "-",
+        "coupon": "2.80%",
+        "secured": "N",
+        "maturity": "2031"
+      },
+      {
+        "type": "2.85% Senior Notes",
+        "amount": 350000,
+        "ppc_holdings": "-",
+        "coupon": "2.85%",
+        "secured": "N",
+        "maturity": "2032"
+      },
+      {
+        "type": "6.10% Senior Notes",
+        "amount": 300000,
+        "ppc_holdings": "-",
+        "coupon": "6.10%",
+        "secured": "N",
+        "maturity": "2034"
+      },
+      {
+        "type": "5.65% Senior Notes",
+        "amount": 400000,
+        "ppc_holdings": "-",
+        "coupon": "5.65%",
+        "secured": "N",
+        "maturity": "2035"
+      },
+      {
+        "type": "3.98% Senior Notes",
+        "amount": 475000,
+        "ppc_holdings": "-",
+        "coupon": "3.98%",
+        "secured": "N",
+        "maturity": "2052"
+      },
+      {
+        "type": "5.15% Senior Notes",
+        "amount": 162327,
+        "ppc_holdings": "-",
+        "coupon": "5.15%",
+        "secured": "N",
+        "maturity": "2052"
+      },
+      {
+        "type": "Trust Preferred Securities",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "S + 150",
+        "secured": "N",
+        "maturity": "2035"
+      },
+      {
+        "type": "(Less: Debt Issuance Costs)",
+        "amount": -53028,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "-",
+        "maturity": "-"
+      }
+    ],
+    "total_debt": 4444412,
+    "book_value_of_equity": 2404067,
+    "book_capitalization": 6848479,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "key_financial_ratios": {
+      "total_debt_to_adj_ebitda": "-",
+      "total_debt_to_market_capitalization": "-"
+    }
+  },
+  "source_lineage": {
+    "ticker": "SAFE",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 13907,
+        "unit": "USD_thousands",
+        "calculation": "cash_and_cash_equivalents",
+        "components": {
+          "cash_and_cash_equivalents": 13907
+        },
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 13907,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 1,
+              "row": "Cash and cash equivalents",
+              "column": "June 30, 2025",
+              "section": "Assets"
+            }
+          }
+        }
+      },
+      "2024_unsecured_revolving_credit_facility_amount": {
+        "final_value": 812000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "2024_unsecured_revolving_credit_facility_amount": {
+            "type": "table",
+            "value": 812000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "2024 Unsecured Revolver",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "mortgages_amount": {
+        "final_value": 1498113,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "mortgages_amount": {
+            "type": "table",
+            "value": 1498113,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "Mortgages",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "2_80_senior_notes_amount": {
+        "final_value": 400000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "2_80_senior_notes_amount": {
+            "type": "table",
+            "value": 400000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "2.80% senior notes",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "2_85_senior_notes_amount": {
+        "final_value": 350000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "2_85_senior_notes_amount": {
+            "type": "table",
+            "value": 350000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "2.85% senior notes",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "6_10_senior_notes_amount": {
+        "final_value": 300000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "6_10_senior_notes_amount": {
+            "type": "table",
+            "value": 300000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "6.10% senior notes",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "5_65_senior_notes_amount": {
+        "final_value": 400000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "5_65_senior_notes_amount": {
+            "type": "table",
+            "value": 400000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "5.65% senior notes",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "3_98_senior_notes_amount": {
+        "final_value": 475000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "3_98_senior_notes_amount": {
+            "type": "table",
+            "value": 475000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "3.98% senior notes",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "5_15_senior_notes_amount": {
+        "final_value": 162327,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "5_15_senior_notes_amount": {
+            "type": "table",
+            "value": 162327,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "5.15% senior notes",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "trust_preferred_securities_amount": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "trust_preferred_securities_amount": {
+            "type": "table",
+            "value": 100000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "Trust preferred securities",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "less_debt_issuance_costs": {
+        "final_value": -53028,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "less_debt_issuance_costs": {
+            "type": "table",
+            "value": -53028,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Debt Obligations, net",
+            "location": {
+              "page": 22,
+              "row": "Debt premium, discount and deferred financing costs, net",
+              "column": "June 30, 2025",
+              "section": "Debt"
+            }
+          }
+        }
+      },
+      "total_debt": {
+        "final_value": 4444412,
+        "unit": "USD_thousands",
+        "calculation": "2024_unsecured_revolving_credit_facility_amount + mortgages_amount + 2_80_senior_notes_amount + 2_85_senior_notes_amount + 6_10_senior_notes_amount + 5_65_senior_notes_amount + 3_98_senior_notes_amount + 5_15_senior_notes_amount + trust_preferred_securities_amount + less_debt_issuance_costs",
+        "components": {
+          "2024_unsecured_revolving_credit_facility_amount": 812000,
+          "mortgages_amount": 1498113,
+          "2_80_senior_notes_amount": 400000,
+          "2_85_senior_notes_amount": 350000,
+          "6_10_senior_notes_amount": 300000,
+          "5_65_senior_notes_amount": 400000,
+          "3_98_senior_notes_amount": 475000,
+          "5_15_senior_notes_amount": 162327,
+          "trust_preferred_securities_amount": 100000,
+          "less_debt_issuance_costs": -53028
+        },
+        "sources": {
+          "ref_metric": "2024_unsecured_revolving_credit_facility_amount"
+        }
+      },
+      "book_value_of_equity": {
+        "final_value": 2404067,
+        "unit": "USD_thousands",
+        "calculation": "total_equity",
+        "components": {
+          "total_equity": 2404067
+        },
+        "sources": {
+          "book_value_of_equity": {
+            "type": "table",
+            "value": 2404067,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 1,
+              "row": "Total equity",
+              "column": "June 30, 2025",
+              "section": "Equity"
+            }
+          }
+        }
+      },
+      "book_capitalization": {
+        "final_value": 6848479,
+        "unit": "USD_thousands",
+        "calculation": "total_debt + book_value_of_equity",
+        "components": {
+          "total_debt": 4444412,
+          "book_value_of_equity": 2404067
+        },
+        "sources": {
+          "ref_metric": "total_debt"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2185 @@
+{
+  "OperatingLeaseLeaseIncome": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "257670000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "308399000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "257670000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "308399000"
+    }
+  ],
+  "OperatingLeasesIncomeStatementMinimumLeaseRevenue": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "338523000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "338523000"
+    }
+  ],
+  "Revenues": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:RealEstateOtherMember"
+      },
+      "value": "8597000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:RealEstateOtherMember"
+      },
+      "value": "6326000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:RealEstateOtherMember"
+      },
+      "value": "13138000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ManagementServiceMember"
+      },
+      "value": "378000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ManagementServiceMember"
+      },
+      "value": "448000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ProductOrServiceAxis",
+        "value": "us-gaap:ManagementServiceMember"
+      },
+      "value": "2523000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "266645000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "315173000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "354184000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateOtherMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "krg:KiteRealtyGroupLPMember"
+        }
+      ],
+      "value": "8597000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateOtherMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "krg:KiteRealtyGroupLPMember"
+        }
+      ],
+      "value": "6326000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:RealEstateOtherMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "krg:KiteRealtyGroupLPMember"
+        }
+      ],
+      "value": "13138000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ManagementServiceMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "krg:KiteRealtyGroupLPMember"
+        }
+      ],
+      "value": "378000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ManagementServiceMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "krg:KiteRealtyGroupLPMember"
+        }
+      ],
+      "value": "448000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "value": "us-gaap:ManagementServiceMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "krg:KiteRealtyGroupLPMember"
+        }
+      ],
+      "value": "2523000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "266645000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "315173000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "354184000"
+    }
+  ],
+  "OperatingLeaseCost": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "41012000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "45575000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "41012000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "45575000"
+    }
+  ],
+  "DirectCostsOfLeasedAndRentedPropertyOrEquipment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "50356000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "50356000"
+    }
+  ],
+  "RealEstateTaxExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "35867000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "38777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "42378000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "35867000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "38777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "42378000"
+    }
+  ],
+  "GeneralAndAdministrativeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "30840000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "28214000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "21320000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "30840000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "28214000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "21320000"
+    }
+  ],
+  "DepreciationDepletionAndAmortization": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "128648000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "132098000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "152163000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "128648000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "132098000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "152163000"
+    }
+  ],
+  "AssetImpairmentCharges": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "37723000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "70360000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "37723000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "70360000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "srt:RealEstateAndAccumulatedDepreciationDescriptionOfPropertyAxis",
+        "value": "krg:UnnamedPropertyEightUnnamedPropertyNineUnnamedPropertyTenandUnnamedPropertyElevenUnnamedPropertyTwelveUnnamedPropertyThirteenUnnamedPropertyFourteenMember"
+      },
+      "value": "37700000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "srt:RealEstateAndAccumulatedDepreciationDescriptionOfPropertyAxis",
+        "value": "krg:UnnamedPropertyFourUnnamedPropertyFiveUnnamedPropertySixandUnnamedPropertySevenMember"
+      },
+      "value": "70400000"
+    }
+  ],
+  "CostsAndExpenses": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "236367000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "282387000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "336577000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "236367000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "282387000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "336577000"
+    }
+  ],
+  "GainLossOnDispositionOfAssets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "4733000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "38971000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "3424000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "4733000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "38971000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "3424000"
+    }
+  ],
+  "OperatingIncomeLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "35011000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "71757000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "21031000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "35011000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "71757000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "21031000"
+    }
+  ],
+  "InterestExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "50399000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "59268000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "66785000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "50399000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "59268000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "66785000"
+    },
+    {
+      "decimals": "-5",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:DerivativeInstrumentRiskAxis",
+        "value": "krg:IncreaseAsHedgedForecastedInterestPaymentsOccurMember"
+      },
+      "value": "6400000"
+    }
+  ],
+  "IncomeTaxExpenseBenefit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-696000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-282000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-227000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-696000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-282000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-227000"
+    }
+  ],
+  "GainsLossesOnExtinguishmentOfDebt": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-11572000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-11572000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "0"
+    }
+  ],
+  "IncomeLossFromEquityMethodInvestments": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-1685000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-628000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-278000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-1685000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-628000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-278000"
+    }
+  ],
+  "NonoperatingIncomeExpense": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "254000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-573000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-646000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "254000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-573000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-646000"
+    }
+  ],
+  "ProfitLoss": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-16123000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-2000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-46451000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-16123000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-2000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-46451000"
+    }
+  ],
+  "NetIncomeLossAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "100000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "532000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "116000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "528000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "528000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "1151000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:OtherOwnershipInterestsByNameAxis",
+        "value": "krg:ExcludingRedeemableNonControllingInterestsMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:OtherOwnershipInterestsByNameAxis",
+        "value": "krg:ExcludingRedeemableNonControllingInterestsMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:OtherOwnershipInterestsByNameAxis",
+        "value": "krg:ExcludingRedeemableNonControllingInterestsMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "krg:NoncontrollingInterestsAxis",
+        "value": "krg:RedeemableNoncontrollingInterestsMember"
+      },
+      "value": "100000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "krg:NoncontrollingInterestsAxis",
+        "value": "krg:RedeemableNoncontrollingInterestsMember"
+      },
+      "value": "532000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "krg:NoncontrollingInterestsAxis",
+        "value": "krg:RedeemableNoncontrollingInterestsMember"
+      },
+      "value": "116000"
+    }
+  ],
+  "NetIncomeLossAvailableToCommonStockholdersBasic": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-16223000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-534000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-46567000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-16651000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-530000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-47602000"
+    }
+  ],
+  "NetIncomeLossAllocatedToLimitedPartners": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-428000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "4000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-1035000"
+    }
+  ],
+  "NetIncomeLossAllocatedToGeneralPartners": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-16223000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-534000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-46567000"
+    }
+  ],
+  "EarningsPerShareBasicAndDiluted": [
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-0.19"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-0.01"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-0.56"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-0.19"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-0.01"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-0.56"
+    }
+  ],
+  "WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "84142261"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "83926296"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "83693385"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "86361139"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "86027409"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "85740449"
+    }
+  ],
+  "WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "84142261"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "83926296"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "83693385"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "86361139"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "86027409"
+    },
+    {
+      "decimals": "0",
+      "unitRef": "shares",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "85740449"
+    }
+  ],
+  "CommonStockDividendsPerShareDeclared": [
+    {
+      "decimals": "4",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "0.4495"
+    },
+    {
+      "decimals": "4",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1.2700"
+    },
+    {
+      "decimals": "4",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "1.2700"
+    },
+    {
+      "decimals": "4",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "0.4495"
+    },
+    {
+      "decimals": "4",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "1.2700"
+    },
+    {
+      "decimals": "4",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "1.2700"
+    },
+    {
+      "decimals": "3",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "1.27"
+    },
+    {
+      "decimals": "2",
+      "unitRef": "usdPerShare",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "1.27"
+    }
+  ],
+  "OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-14969000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-13158000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-14969000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-13158000"
+    }
+  ],
+  "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-6647000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-6647000"
+    }
+  ],
+  "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-31092000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-13160000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-53098000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-31092000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-13160000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-53098000"
+    }
+  ],
+  "ComprehensiveIncomeNetOfTaxAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-367000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "160000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-44000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "528000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "528000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "1151000"
+    }
+  ],
+  "ComprehensiveIncomeNetOfTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "value": "-30725000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "value": "-13320000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "value": "-53054000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-31620000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-13688000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "krg:KiteRealtyGroupLPMember"
+      },
+      "value": "-54249000"
+    }
+  ]
+}

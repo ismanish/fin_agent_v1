@@ -1,0 +1,592 @@
+{
+  "cap_table": {
+    "company": "Ametek, Inc.",
+    "cash_and_equivalents": 619712,
+    "debt": [
+      {
+        "type": "Revolving Credit Facility",
+        "amount": 230000,
+        "ppc_holdings": "-",
+        "coupon": "S + 80-150",
+        "secured": "N",
+        "maturity": "May-27"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "3.96%",
+        "secured": "N",
+        "maturity": "Aug-25"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 275000,
+        "ppc_holdings": "-",
+        "coupon": "4.18%",
+        "secured": "N",
+        "maturity": "Dec-25"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "3.83%",
+        "secured": "N",
+        "maturity": "Sep-26"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 250000,
+        "ppc_holdings": "-",
+        "coupon": "4.32%",
+        "secured": "N",
+        "maturity": "Dec-27"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "4.37%",
+        "secured": "N",
+        "maturity": "Dec-28"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "3.98%",
+        "secured": "N",
+        "maturity": "Sep-29"
+      },
+      {
+        "type": "USD Senior Notes",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "4.45%",
+        "secured": "N",
+        "maturity": "Aug-35"
+      },
+      {
+        "type": "EUR Senior Notes",
+        "amount": 310514,
+        "ppc_holdings": "-",
+        "coupon": "1.34%",
+        "secured": "N",
+        "maturity": "Oct-26"
+      },
+      {
+        "type": "EUR Senior Notes",
+        "amount": 77628,
+        "ppc_holdings": "-",
+        "coupon": "1.71%",
+        "secured": "N",
+        "maturity": "Dec-27"
+      },
+      {
+        "type": "EUR Senior Notes",
+        "amount": 207011,
+        "ppc_holdings": "-",
+        "coupon": "1.53%",
+        "secured": "N",
+        "maturity": "Oct-28"
+      },
+      {
+        "type": "GBP Senior Notes",
+        "amount": 187803,
+        "ppc_holdings": "-",
+        "coupon": "2.59%",
+        "secured": "N",
+        "maturity": "Nov-28"
+      },
+      {
+        "type": "GBP Senior Notes",
+        "amount": 93917,
+        "ppc_holdings": "-",
+        "coupon": "2.70%",
+        "secured": "N",
+        "maturity": "Nov-31"
+      },
+      {
+        "type": "Other Debt",
+        "amount": 1906,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "-",
+        "maturity": "-"
+      },
+      {
+        "type": "(Less: Debt Issuance Costs)",
+        "amount": 4058,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "-",
+        "maturity": "-"
+      }
+    ],
+    "total_debt": 1942000,
+    "capitalized_operating_leases": 256701,
+    "total_debt_plus_cols": 2198701,
+    "book_value_of_equity": 10388672,
+    "book_capitalization": 12330672,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "key_financial_ratios": {
+      "total_debt_plus_cols_to_adj_ebitdar": "-",
+      "net_debt_plus_cols_to_adj_ebitdar": "-",
+      "total_debt_plus_cols_to_book_capitalization": "17.83%",
+      "total_debt_plus_cols_to_market_capitalization": "-"
+    }
+  },
+  "source_lineage": {
+    "ticker": "AME",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 619712,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 619712,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheet",
+            "location": {
+              "page": 5,
+              "row": "Cash and cash equivalents",
+              "column": "June 30, 2025",
+              "section": "Current assets"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_amount": {
+        "final_value": 230000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "type": "table",
+            "value": 230000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "Revolving credit facility borrowings",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_396_aug_25": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_396_aug_25": {
+            "type": "table",
+            "value": 100000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 3.96% senior notes due August 2025",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_418_dec_25": {
+        "final_value": 275000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_418_dec_25": {
+            "type": "table",
+            "value": 275000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 4.18% senior notes due December 2025",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_383_sep_26": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_383_sep_26": {
+            "type": "table",
+            "value": 100000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 3.83% senior notes due September 2026",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_432_dec_27": {
+        "final_value": 250000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_432_dec_27": {
+            "type": "table",
+            "value": 250000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 4.32% senior notes due December 2027",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_437_dec_28": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_437_dec_28": {
+            "type": "table",
+            "value": 50000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 4.37% senior notes due December 2028",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_398_sep_29": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_398_sep_29": {
+            "type": "table",
+            "value": 100000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 3.98% senior notes due September 2029",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "usd_senior_notes_445_aug_35": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "usd_senior_notes_445_aug_35": {
+            "type": "table",
+            "value": 50000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "U.S. dollar 4.45% senior notes due August 2035",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "eur_senior_notes_134_oct_26": {
+        "final_value": 310514,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "eur_senior_notes_134_oct_26": {
+            "type": "table",
+            "value": 310514,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "Euro 1.34% senior notes due October 2026",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "eur_senior_notes_171_dec_27": {
+        "final_value": 77628,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "eur_senior_notes_171_dec_27": {
+            "type": "table",
+            "value": 77628,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "Euro 1.71% senior notes due December 2027",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "eur_senior_notes_153_oct_28": {
+        "final_value": 207011,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "eur_senior_notes_153_oct_28": {
+            "type": "table",
+            "value": 207011,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "Euro 1.53% senior notes due October 2028",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "gbp_senior_notes_259_nov_28": {
+        "final_value": 187803,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "gbp_senior_notes_259_nov_28": {
+            "type": "table",
+            "value": 187803,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "British pound 2.59% senior note due November 2028",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "gbp_senior_notes_270_nov_31": {
+        "final_value": 93917,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "gbp_senior_notes_270_nov_31": {
+            "type": "table",
+            "value": 93917,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "British pound 2.70% senior note due November 2031",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "other_debt": {
+        "final_value": 1906,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "other_debt": {
+            "type": "table",
+            "value": 1906,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "Other, principally foreign",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "less_debt_issuance_costs": {
+        "final_value": 4058,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "less_debt_issuance_costs": {
+            "type": "table",
+            "value": 4058,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Note 10. Debt",
+            "location": {
+              "page": 60,
+              "row": "Less: Debt issuance costs",
+              "column": "Dec 31, 2024",
+              "section": "Long-term debt, net"
+            }
+          }
+        }
+      },
+      "total_debt": {
+        "final_value": 1942000,
+        "unit": "USD_thousands",
+        "calculation": "sum of all debt instruments minus less_debt_issuance_costs",
+        "components": {
+          "revolving_credit_facility_amount": 230000,
+          "usd_senior_notes_396_aug_25": 100000,
+          "usd_senior_notes_418_dec_25": 275000,
+          "usd_senior_notes_383_sep_26": 100000,
+          "usd_senior_notes_432_dec_27": 250000,
+          "usd_senior_notes_437_dec_28": 50000,
+          "usd_senior_notes_398_sep_29": 100000,
+          "usd_senior_notes_445_aug_35": 50000,
+          "eur_senior_notes_134_oct_26": 310514,
+          "eur_senior_notes_171_dec_27": 77628,
+          "eur_senior_notes_153_oct_28": 207011,
+          "gbp_senior_notes_259_nov_28": 187803,
+          "gbp_senior_notes_270_nov_31": 93917,
+          "other_debt": 1906,
+          "less_debt_issuance_costs": 4058
+        },
+        "sources": {
+          "total_debt": {
+            "type": "table",
+            "value": 1942000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheet",
+            "location": {
+              "page": 5,
+              "row": "Short-term borrowings and current portion of long-term debt, net + Long-term debt, net",
+              "column": "June 30, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "capitalized_operating_leases": {
+        "final_value": 256701,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "capitalized_operating_leases": {
+            "type": "table",
+            "value": 256701,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Notes to Consolidated Financial Statements, Note 8. Leases and Other Commitments",
+            "location": {
+              "page": 13,
+              "row": "Total lease liabilities",
+              "column": "June 30, 2025",
+              "section": "Supplemental balance sheet information related to leases"
+            }
+          }
+        }
+      },
+      "total_debt_plus_cols": {
+        "final_value": 2198701,
+        "unit": "USD_thousands",
+        "calculation": "total_debt + capitalized_operating_leases",
+        "components": {
+          "total_debt": 1942000,
+          "capitalized_operating_leases": 256701
+        },
+        "sources": {
+          "total_debt_plus_cols": {
+            "type": "ref_metric",
+            "ref_metric": "total_debt + capitalized_operating_leases"
+          }
+        }
+      },
+      "book_value_of_equity": {
+        "final_value": 10388672,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "book_value_of_equity": {
+            "type": "table",
+            "value": 10388672,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheet",
+            "location": {
+              "page": 5,
+              "row": "Total stockholders\u2019 equity",
+              "column": "June 30, 2025",
+              "section": "Stockholders\u2019 equity"
+            }
+          }
+        }
+      },
+      "book_capitalization": {
+        "final_value": 12587373,
+        "unit": "USD_thousands",
+        "calculation": "total_debt_plus_cols + book_value_of_equity",
+        "components": {
+          "total_debt_plus_cols": 2198701,
+          "book_value_of_equity": 10388672
+        },
+        "sources": {
+          "book_capitalization": {
+            "type": "ref_metric",
+            "ref_metric": "total_debt_plus_cols + book_value_of_equity"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4409 @@
+{
+  "AME": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax (2024) - RevenueFromContractWithCustomerExcludingAssessedTax (2023)) / RevenueFromContractWithCustomerExcludingAssessedTax (2023) * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold) / RevenueFromContractWithCustomerExcludingAssessedTax * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostsAndExpenses",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostsAndExpenses - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [
+            "Operating Expenses",
+            "Adjustments",
+            "Gross Profit"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "CostsAndExpenses",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - (CostsAndExpenses - CostOfGoodsAndServicesSold)) + DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "CostsAndExpenses",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - (CostsAndExpenses - CostOfGoodsAndServicesSold)) + DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense) / RevenueFromContractWithCustomerExcludingAssessedTax * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInReceivables",
+            "IncreaseDecreaseInInventoriesAndOtherCurrentAssets",
+            "IncreaseDecreaseInPayablesAccrualsAndIncomeTaxes"
+          ],
+          "calculation": "IncreaseDecreaseInReceivables + IncreaseDecreaseInInventoriesAndOtherCurrentAssets + IncreaseDecreaseInPayablesAccrualsAndIncomeTaxes"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInOtherNoncurrentLiabilities",
+            "OtherNoncashIncomeExpense",
+            "PensionContributions"
+          ],
+          "calculation": "IncreaseDecreaseInOtherNoncurrentLiabilities + OtherNoncashIncomeExpense + PensionContributions"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "ProceedsFromDivestitureOfBusinesses",
+            "ProceedsFromSaleOfFacilities"
+          ],
+          "calculation": "-PaymentsToAcquireBusinessesNetOfCashAcquired + ProceedsFromDivestitureOfBusinesses + ProceedsFromSaleOfFacilities"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromRepaymentsOfShortTermDebt",
+            "ProceedsFromIssuanceOfLongTermDebt",
+            "RepaymentsOfLongTermDebt"
+          ],
+          "calculation": "ProceedsFromRepaymentsOfShortTermDebt + ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfLongTermDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividendsCommonStock",
+            "PaymentsForRepurchaseOfCommonStock",
+            "ProceedsFromStockOptionsExercised"
+          ],
+          "calculation": "-PaymentsOfDividendsCommonStock - PaymentsForRepurchaseOfCommonStock + ProceedsFromStockOptionsExercised"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForProceedsFromOtherFinancingActivities"
+          ],
+          "calculation": "PaymentsForProceedsFromOtherFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent"
+          ],
+          "calculation": "DebtCurrent + LongTermDebtNoncurrent"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "CostsAndExpenses",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - (CostsAndExpenses - CostOfGoodsAndServicesSold)) + DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense) / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "CostsAndExpenses",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent) / ((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - (CostsAndExpenses - CostOfGoodsAndServicesSold)) + DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent) / (DebtCurrent + LongTermDebtNoncurrent + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseRightOfUseAsset",
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "CostsAndExpenses",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent + OperatingLeaseRightOfUseAsset) / ((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - (CostsAndExpenses - CostOfGoodsAndServicesSold)) + DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseRightOfUseAsset",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent + OperatingLeaseRightOfUseAsset) / (DebtCurrent + LongTermDebtNoncurrent + OperatingLeaseRightOfUseAsset + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "CostsAndExpenses",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense",
+            "InterestExpenseNonoperating",
+            "OperatingLeaseRightOfUseAsset"
+          ],
+          "calculation": "(((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - (CostsAndExpenses - CostOfGoodsAndServicesSold)) + DepreciationAndAmortization + ShareBasedCompensation + OtherNoncashIncomeExpense + OperatingLeaseRightOfUseAsset)) / (InterestExpenseNonoperating + OperatingLeaseRightOfUseAsset)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax[2025-03-31] - RevenueFromContractWithCustomerExcludingAssessedTax[2024-03-31]) / RevenueFromContractWithCustomerExcludingAssessedTax[2024-03-31]"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold) / RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "SellingGeneralAndAdministrativeExpense"
+          ],
+          "calculation": "SellingGeneralAndAdministrativeExpense"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation"
+          ],
+          "calculation": "DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [
+            "Operating Expenses",
+            "Gross Profit",
+            "Adjustments"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "SellingGeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - SellingGeneralAndAdministrativeExpense) + DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "SellingGeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation"
+          ],
+          "calculation": "((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - SellingGeneralAndAdministrativeExpense) + DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation) / RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInOperatingCapital"
+          ],
+          "calculation": "IncreaseDecreaseInOperatingCapital"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncomeExpense"
+          ],
+          "calculation": "OtherNonoperatingIncomeExpense"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "ProceedsFromSaleOfFacilities"
+          ],
+          "calculation": "ProceedsFromSaleOfFacilities - PaymentsToAcquireBusinessesNetOfCashAcquired"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromRepaymentsOfShortTermDebt"
+          ],
+          "calculation": "ProceedsFromRepaymentsOfShortTermDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividendsCommonStock",
+            "ProceedsFromStockOptionsExercised",
+            "PaymentsForRepurchaseOfCommonStock"
+          ],
+          "calculation": "ProceedsFromStockOptionsExercised - PaymentsForRepurchaseOfCommonStock - PaymentsOfDividendsCommonStock"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromPaymentsForOtherFinancingActivities"
+          ],
+          "calculation": "ProceedsFromPaymentsForOtherFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashAndRestrictedCashEquivalents"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashAndRestrictedCashEquivalents[2025-03-31]"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent"
+          ],
+          "calculation": "DebtCurrent + LongTermDebtNoncurrent"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Interest Expense"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "SellingGeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - SellingGeneralAndAdministrativeExpense) + DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation) / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "SellingGeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent) / ((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - SellingGeneralAndAdministrativeExpense) + DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent) / ((DebtCurrent + LongTermDebtNoncurrent) + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseRightOfUseAsset",
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "SellingGeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent + OperatingLeaseRightOfUseAsset) / ((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - SellingGeneralAndAdministrativeExpense) + DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseRightOfUseAsset",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtNoncurrent + OperatingLeaseRightOfUseAsset) / ((DebtCurrent + LongTermDebtNoncurrent + OperatingLeaseRightOfUseAsset) + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold",
+            "SellingGeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherNoncashIncomeExpense",
+            "ShareBasedCompensation",
+            "InterestExpenseNonoperating",
+            "OperatingLeaseRightOfUseAsset"
+          ],
+          "calculation": "(((RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold - SellingGeneralAndAdministrativeExpense) + DepreciationAndAmortization + OtherNoncashIncomeExpense + ShareBasedCompensation + OperatingLeaseRightOfUseAsset) / (InterestExpenseNonoperating + OperatingLeaseRightOfUseAsset))"
+        }
+      ]
+    ]
+  },
+  "SAFE": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues[2024] - Revenues[2023]) / Revenues[2023]"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "Revenues - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "Gross Profit / Revenues"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherExpenses"
+          ],
+          "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationAndAmortization",
+            "AssetImpairmentCharges",
+            "ShareBasedCompensation",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "ProvisionForLoanLeaseAndOtherLosses"
+          ],
+          "calculation": "DepreciationAndAmortization + AssetImpairmentCharges + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + ProvisionForLoanLeaseAndOtherLosses"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Adjustments"
+          ],
+          "calculation": "OperatingIncomeLoss + Adjustments"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Adjustments",
+            "Revenues"
+          ],
+          "calculation": "Adjusted EBITDA / Revenues"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseOperating"
+          ],
+          "calculation": "InterestExpenseOperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherOperatingActivitiesCashFlowStatement"
+          ],
+          "calculation": "OtherOperatingActivitiesCashFlowStatement"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentforCapitalExpendituresonLandandDevelopmentAssets"
+          ],
+          "calculation": "PaymentforCapitalExpendituresonLandandDevelopmentAssets"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentforCapitalExpendituresonLandandDevelopmentAssets"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentforCapitalExpendituresonLandandDevelopmentAssets"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromSaleOfRealEstateHeldforinvestment",
+            "PaymentsToAcquireRealEstate"
+          ],
+          "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment - PaymentsToAcquireRealEstate"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfLongTermDebt",
+            "RepaymentsOfSecuredDebt"
+          ],
+          "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfCommonStock",
+            "PaymentsOfDividends"
+          ],
+          "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromPaymentsForOtherFinancingActivities"
+          ],
+          "calculation": "ProceedsFromPaymentsForOtherFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebt"
+          ],
+          "calculation": "LongTermDebt"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Interest Expense"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Adjustments",
+            "InterestExpenseOperating"
+          ],
+          "calculation": "Adjusted EBITDA / InterestExpenseOperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "OperatingIncomeLoss",
+            "Adjustments"
+          ],
+          "calculation": "LongTermDebt / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "StockholdersEquity"
+          ],
+          "calculation": "LongTermDebt / (LongTermDebt + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "OperatingIncomeLoss",
+            "Adjustments"
+          ],
+          "calculation": "(LongTermDebt + 0) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "StockholdersEquity"
+          ],
+          "calculation": "(LongTermDebt + 0) / (LongTermDebt + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Adjustments",
+            "InterestExpenseOperating",
+            "OperatingLeaseLeaseIncome"
+          ],
+          "calculation": "(OperatingIncomeLoss + Adjustments + OperatingLeaseLeaseIncome) / (InterestExpenseOperating + OperatingLeaseLeaseIncome)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "((Revenues (2025-03-31) - Revenues (2024-03-31)) / Revenues (2024-03-31)) * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "Revenues - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(Gross Profit / Revenues) * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherExpenses",
+            "ProvisionForLoanLeaseAndOtherLosses"
+          ],
+          "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses + ProvisionForLoanLeaseAndOtherLosses"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "StraightLineRent",
+            "NonCashInterestIncomeFromSalesTypeLeases",
+            "InterestExpenseNoncashAccretion",
+            "AmortizationOfAboveAndBelowMarketLeases",
+            "ProvisionForLoanLeaseAndOtherLosses",
+            "IncomeLossFromEquityMethodInvestments",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "OtherOperatingActivitiesCashFlowStatement"
+          ],
+          "calculation": "DepreciationAndAmortization + ShareBasedCompensation + StraightLineRent + NonCashInterestIncomeFromSalesTypeLeases + InterestExpenseNoncashAccretion + AmortizationOfAboveAndBelowMarketLeases + ProvisionForLoanLeaseAndOtherLosses + IncomeLossFromEquityMethodInvestments + AmortizationOfFinancingCostsAndDiscounts + OtherOperatingActivitiesCashFlowStatement"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "DepreciationAndAmortization",
+            "ShareBasedCompensation",
+            "StraightLineRent",
+            "NonCashInterestIncomeFromSalesTypeLeases",
+            "InterestExpenseNoncashAccretion",
+            "AmortizationOfAboveAndBelowMarketLeases",
+            "ProvisionForLoanLeaseAndOtherLosses",
+            "IncomeLossFromEquityMethodInvestments",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "OtherOperatingActivitiesCashFlowStatement"
+          ],
+          "calculation": "OperatingIncomeLoss + Adjustments"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Adjusted EBITDA / Revenues) * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseOperating",
+            "InterestExpenseNoncashAccretion"
+          ],
+          "calculation": "InterestExpenseOperating + InterestExpenseNoncashAccretion"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherIncome",
+            "OtherExpenses",
+            "OtherOperatingActivitiesCashFlowStatement",
+            "PaymentsForProceedsFromOtherInvestingActivities"
+          ],
+          "calculation": "OtherIncome + OtherExpenses + OtherOperatingActivitiesCashFlowStatement + PaymentsForProceedsFromOtherInvestingActivities"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentstoOriginateAcquireSalesTypeLease",
+            "PaymentsToAcquireEquityMethodInvestments"
+          ],
+          "calculation": "PaymentstoOriginateAcquireSalesTypeLease + PaymentsToAcquireEquityMethodInvestments"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "Capital Expenditures"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - Capital Expenditures"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromSaleOfRealEstateHeldforinvestment",
+            "PaymentsToAcquireEquityMethodInvestments",
+            "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital",
+            "PaymentstoOriginateAcquireSalesTypeLease"
+          ],
+          "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment + ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital - PaymentsToAcquireEquityMethodInvestments - PaymentstoOriginateAcquireSalesTypeLease"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfLongTermDebt",
+            "RepaymentsOfSecuredDebt"
+          ],
+          "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividends",
+            "PaymentsForRedemptionOfNoncontrollingInterest",
+            "PaymentsToMinorityShareholdersDistributions"
+          ],
+          "calculation": "PaymentsOfDividends + PaymentsForRedemptionOfNoncontrollingInterest + PaymentsToMinorityShareholdersDistributions"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfFinancingCosts",
+            "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+            "PaymentsofOfferingCosts"
+          ],
+          "calculation": "PaymentsOfFinancingCosts + PaymentsRelatedToTaxWithholdingForShareBasedCompensation + PaymentsofOfferingCosts"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebt"
+          ],
+          "calculation": "LongTermDebt"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "InterestExpenseOperating",
+            "InterestExpenseNoncashAccretion"
+          ],
+          "calculation": "Adjusted EBITDA / (InterestExpenseOperating + InterestExpenseNoncashAccretion)"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "LongTermDebt"
+          ],
+          "calculation": "LongTermDebt / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "StockholdersEquity"
+          ],
+          "calculation": "LongTermDebt / (LongTermDebt + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "BelowMarketLeaseNet"
+          ],
+          "calculation": "(LongTermDebt + BelowMarketLeaseNet) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebt",
+            "BelowMarketLeaseNet",
+            "StockholdersEquity"
+          ],
+          "calculation": "(LongTermDebt + BelowMarketLeaseNet) / (LongTermDebt + BelowMarketLeaseNet + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "ManagementFeeExpense",
+            "InterestExpenseOperating",
+            "InterestExpenseNoncashAccretion"
+          ],
+          "calculation": "(Adjusted EBITDA + ManagementFeeExpense) / (InterestExpenseOperating + InterestExpenseNoncashAccretion + ManagementFeeExpense)"
+        }
+      ]
+    ]
+  },
+  "WAT": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax[2024] - RevenueFromContractWithCustomerExcludingAssessedTax[2023]) / RevenueFromContractWithCustomerExcludingAssessedTax[2023]"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold) / RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "SellingGeneralAndAdministrativeExpense",
+            "ResearchAndDevelopmentExpense",
+            "AmortizationOfAcquisitionCosts"
+          ],
+          "calculation": "SellingGeneralAndAdministrativeExpense + ResearchAndDevelopmentExpense + AmortizationOfAcquisitionCosts"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShareBasedCompensation",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "AssetImpairmentCharges"
+          ],
+          "calculation": "ShareBasedCompensation + Depreciation + AdjustmentForAmortization + AssetImpairmentCharges"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "ShareBasedCompensation",
+            "AssetImpairmentCharges"
+          ],
+          "calculation": "OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + ShareBasedCompensation + AssetImpairmentCharges"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "ShareBasedCompensation",
+            "AssetImpairmentCharges",
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + ShareBasedCompensation + AssetImpairmentCharges) / RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpense"
+          ],
+          "calculation": "InterestExpense"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInInventories",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInOtherOperatingAssets",
+            "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+            "IncreaseDecreaseInOtherOperatingLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInInventories + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInOtherOperatingAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInOtherOperatingLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncomeExpense",
+            "GainLossRelatedToLitigationSettlement"
+          ],
+          "calculation": "OtherNonoperatingIncomeExpense + GainLossRelatedToLitigationSettlement"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForProceedsFromProductiveAssets"
+          ],
+          "calculation": "PaymentsForProceedsFromProductiveAssets"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsForProceedsFromProductiveAssets"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsForProceedsFromProductiveAssets"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "ProceedsFromSaleMaturityAndCollectionsOfInvestments"
+          ],
+          "calculation": "-PaymentsToAcquireBusinessesNetOfCashAcquired + ProceedsFromSaleMaturityAndCollectionsOfInvestments"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfLongTermDebt",
+            "RepaymentsOfLongTermDebt"
+          ],
+          "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfLongTermDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions",
+            "PaymentsForRepurchaseOfCommonStock"
+          ],
+          "calculation": "ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions - PaymentsForRepurchaseOfCommonStock"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForProceedsFromDerivativeInstrumentFinancingActivities"
+          ],
+          "calculation": "PaymentsForProceedsFromDerivativeInstrumentFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent"
+          ],
+          "calculation": "NotesPayableCurrent + LongTermDebtNoncurrent"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "ShareBasedCompensation",
+            "AssetImpairmentCharges",
+            "InterestExpense"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + ShareBasedCompensation + AssetImpairmentCharges) / InterestExpense"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "ShareBasedCompensation",
+            "AssetImpairmentCharges"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent) / (OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + ShareBasedCompensation + AssetImpairmentCharges)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent) / (NotesPayableCurrent + LongTermDebtNoncurrent + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "ShareBasedCompensation",
+            "AssetImpairmentCharges"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + ShareBasedCompensation + AssetImpairmentCharges)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (NotesPayableCurrent + LongTermDebtNoncurrent + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "ShareBasedCompensation",
+            "AssetImpairmentCharges",
+            "InterestExpense",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + ShareBasedCompensation + AssetImpairmentCharges + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (InterestExpense + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax[2025-03-29] - RevenueFromContractWithCustomerExcludingAssessedTax[2024-03-30]) / RevenueFromContractWithCustomerExcludingAssessedTax[2024-03-30] * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold) / RevenueFromContractWithCustomerExcludingAssessedTax * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "SellingGeneralAndAdministrativeExpense",
+            "ResearchAndDevelopmentExpense",
+            "AmortizationOfAcquisitionCosts"
+          ],
+          "calculation": "SellingGeneralAndAdministrativeExpense + ResearchAndDevelopmentExpense + AmortizationOfAcquisitionCosts"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShareBasedCompensation",
+            "DeferredIncomeTaxExpenseBenefit",
+            "Depreciation",
+            "AdjustmentForAmortization"
+          ],
+          "calculation": "ShareBasedCompensation + DeferredIncomeTaxExpenseBenefit + Depreciation + AdjustmentForAmortization"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [
+            "Operating Expenses",
+            "Adjustments"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "InterestExpense",
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + InterestExpense + IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "InterestExpense",
+            "IncomeTaxExpenseBenefit",
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + InterestExpense + IncomeTaxExpenseBenefit) / RevenueFromContractWithCustomerExcludingAssessedTax * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpense"
+          ],
+          "calculation": "InterestExpense"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInInventories",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInOtherOperatingAssets",
+            "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+            "IncreaseDecreaseInOtherOperatingLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInInventories + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInOtherOperatingAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInOtherOperatingLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncomeExpense",
+            "GainLossRelatedToLitigationSettlement"
+          ],
+          "calculation": "OtherNonoperatingIncomeExpense + GainLossRelatedToLitigationSettlement"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForProceedsFromProductiveAssets"
+          ],
+          "calculation": "PaymentsForProceedsFromProductiveAssets"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [
+            "Capital Expenditures"
+          ],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsForProceedsFromProductiveAssets"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsForProceedsFromProductiveAssets"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsPaymentsOfEquityInvestments",
+            "PaymentsToAcquireInvestments",
+            "ProceedsFromSaleMaturityAndCollectionsOfInvestments"
+          ],
+          "calculation": "ProceedsPaymentsOfEquityInvestments - PaymentsToAcquireInvestments + ProceedsFromSaleMaturityAndCollectionsOfInvestments"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RepaymentsOfLongTermDebt"
+          ],
+          "calculation": "-RepaymentsOfLongTermDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions",
+            "PaymentsForRepurchaseOfCommonStock"
+          ],
+          "calculation": "ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions - PaymentsForRepurchaseOfCommonStock"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForProceedsFromDerivativeInstrumentFinancingActivities"
+          ],
+          "calculation": "PaymentsForProceedsFromDerivativeInstrumentFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent"
+          ],
+          "calculation": "NotesPayableCurrent + LongTermDebtNoncurrent"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "InterestExpense"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AdjustmentForAmortization) / InterestExpense"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent) / (OperatingIncomeLoss + Depreciation + AdjustmentForAmortization)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent) / (NotesPayableCurrent + LongTermDebtNoncurrent + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (OperatingIncomeLoss + Depreciation + AdjustmentForAmortization)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayableCurrent",
+            "LongTermDebtNoncurrent",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayableCurrent + LongTermDebtNoncurrent + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (NotesPayableCurrent + LongTermDebtNoncurrent + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AdjustmentForAmortization",
+            "InterestExpense",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AdjustmentForAmortization + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (InterestExpense + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent)"
+        }
+      ]
+    ]
+  },
+  "ELME": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues_2024 - Revenues_2023) / Revenues_2023"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PropertyOperatingAndMaintenance",
+            "RealEstateTaxesAndInsurance",
+            "CostsOfGoodsAndServicesSoldPropertyManagement"
+          ],
+          "calculation": "PropertyOperatingAndMaintenance + RealEstateTaxesAndInsurance + CostsOfGoodsAndServicesSoldPropertyManagement"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues",
+            "PropertyOperatingAndMaintenance",
+            "RealEstateTaxesAndInsurance",
+            "CostsOfGoodsAndServicesSoldPropertyManagement"
+          ],
+          "calculation": "Revenues - (PropertyOperatingAndMaintenance + RealEstateTaxesAndInsurance + CostsOfGoodsAndServicesSoldPropertyManagement)"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit"
+          ],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Gross Profit / Revenues"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GeneralAndAdministrativeExpense",
+            "ImpairmentOfRealEstate",
+            "DepreciationAndAmortization"
+          ],
+          "calculation": "GeneralAndAdministrativeExpense + ImpairmentOfRealEstate + DepreciationAndAmortization"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationAndAmortization",
+            "ImpairmentOfRealEstate",
+            "ShareBasedCompensation",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "GainsLossesOnExtinguishmentOfDebt"
+          ],
+          "calculation": "DepreciationAndAmortization + ImpairmentOfRealEstate + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + GainsLossesOnExtinguishmentOfDebt"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "DepreciationAndAmortization",
+            "ImpairmentOfRealEstate",
+            "ShareBasedCompensation",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "GainsLossesOnExtinguishmentOfDebt"
+          ],
+          "calculation": "OperatingIncomeLoss + DepreciationAndAmortization + ImpairmentOfRealEstate + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + GainsLossesOnExtinguishmentOfDebt"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Adjusted EBITDA / Revenues"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "No dedicated tax line present in statements; assumed zero or immaterial"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "AccountsAndNotesReceivableNet",
+            "PrepaidExpenseAndOtherAssets",
+            "AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent",
+            "AdvanceRent",
+            "SecurityDepositLiability"
+          ],
+          "calculation": "([AccountsAndNotesReceivableNet_2024 + PrepaidExpenseAndOtherAssets_2024 + AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent_2024 + AdvanceRent_2024 + SecurityDepositLiability_2024] - [AccountsAndNotesReceivableNet_2023 + PrepaidExpenseAndOtherAssets_2023 + AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent_2023 + AdvanceRent_2023 + SecurityDepositLiability_2023])"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncome"
+          ],
+          "calculation": "OtherNonoperatingIncome"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireOtherProductiveAssets"
+          ],
+          "calculation": "PaymentsForCapitalImprovements + PaymentsToAcquireOtherProductiveAssets"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireOtherProductiveAssets"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - (PaymentsForCapitalImprovements + PaymentsToAcquireOtherProductiveAssets)"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireCommercialRealEstate",
+            "ProceedsFromSaleOfPropertyHeldForSale"
+          ],
+          "calculation": "ProceedsFromSaleOfPropertyHeldForSale - PaymentsToAcquireCommercialRealEstate"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit"
+          ],
+          "calculation": "(NotesPayable_2024 + LineOfCredit_2024) - (NotesPayable_2023 + LineOfCredit_2023)"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividends",
+            "ProceedsFromIssuanceOfCommonStockDividendReinvestmentPlan"
+          ],
+          "calculation": "ProceedsFromIssuanceOfCommonStockDividendReinvestmentPlan - PaymentsOfDividends"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentOfFinancingAndStockIssuanceCosts",
+            "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+            "PaymentsToMinorityShareholders"
+          ],
+          "calculation": "PaymentOfFinancingAndStockIssuanceCosts + PaymentsRelatedToTaxWithholdingForShareBasedCompensation + PaymentsToMinorityShareholders"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue",
+            "RestrictedCashAndCashEquivalents"
+          ],
+          "calculation": "(CashAndCashEquivalentsAtCarryingValue_2024 + RestrictedCashAndCashEquivalents_2024) - (CashAndCashEquivalentsAtCarryingValue_2023 + RestrictedCashAndCashEquivalents_2023)"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue",
+            "RestrictedCashAndCashEquivalents"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue + RestrictedCashAndCashEquivalents"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit"
+          ],
+          "calculation": "NotesPayable + LineOfCredit"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "Adjusted EBITDA / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "StockholdersEquity",
+            "NotesPayable",
+            "LineOfCredit"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "RealEstateTaxesAndInsurance",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "(Adjusted EBITDA + RealEstateTaxesAndInsurance) / (InterestExpenseNonoperating + RealEstateTaxesAndInsurance)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues[2025-03-31] - Revenues[2024-03-31]) / Revenues[2024-03-31] * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PropertyOperatingAndMaintenance",
+            "RealEstateTaxesAndInsurance",
+            "CostsOfGoodsAndServicesSoldPropertyManagement"
+          ],
+          "calculation": "PropertyOperatingAndMaintenance + RealEstateTaxesAndInsurance + CostsOfGoodsAndServicesSoldPropertyManagement"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "PropertyOperatingAndMaintenance",
+            "RealEstateTaxesAndInsurance",
+            "CostsOfGoodsAndServicesSoldPropertyManagement"
+          ],
+          "calculation": "Revenues - (PropertyOperatingAndMaintenance + RealEstateTaxesAndInsurance + CostsOfGoodsAndServicesSoldPropertyManagement)"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "PropertyOperatingAndMaintenance",
+            "RealEstateTaxesAndInsurance",
+            "CostsOfGoodsAndServicesSoldPropertyManagement"
+          ],
+          "calculation": "Gross Profit / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization"
+          ],
+          "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationDepletionAndAmortization",
+            "ProvisionForDoubtfulAccounts",
+            "ShareBasedCompensation",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "GainLossOnLandEasement"
+          ],
+          "calculation": "DepreciationDepletionAndAmortization + ProvisionForDoubtfulAccounts + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + GainLossOnLandEasement"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetIncomeLoss",
+            "InterestExpenseNonoperating",
+            "DepreciationAndAmortization",
+            "DepreciationDepletionAndAmortization",
+            "ProvisionForDoubtfulAccounts",
+            "ShareBasedCompensation",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "GainLossOnLandEasement"
+          ],
+          "calculation": "NetIncomeLoss + InterestExpenseNonoperating + DepreciationAndAmortization + ProvisionForDoubtfulAccounts + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + GainLossOnLandEasement"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "NetIncomeLoss",
+            "InterestExpenseNonoperating",
+            "DepreciationAndAmortization",
+            "DepreciationDepletionAndAmortization",
+            "ProvisionForDoubtfulAccounts",
+            "ShareBasedCompensation",
+            "AmortizationOfFinancingCostsAndDiscounts",
+            "GainLossOnLandEasement"
+          ],
+          "calculation": "Adjusted EBITDA / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "Not separately disclosed in provided data"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInOtherOperatingAssets",
+            "IncreaseDecreaseInOtherOperatingLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInOtherOperatingAssets + IncreaseDecreaseInOtherOperatingLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncome"
+          ],
+          "calculation": "OtherNonoperatingIncome"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireOtherProductiveAssets",
+            "ChangeInAccruedCapitalImprovementAndDevelopmentCosts"
+          ],
+          "calculation": "PaymentsForCapitalImprovements + PaymentsToAcquireOtherProductiveAssets + ChangeInAccruedCapitalImprovementAndDevelopmentCosts"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireOtherProductiveAssets"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - (PaymentsForCapitalImprovements + PaymentsToAcquireOtherProductiveAssets)"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromLandEasement",
+            "GainLossOnLandEasement"
+          ],
+          "calculation": "ProceedsFromLandEasement + GainLossOnLandEasement"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromRepaymentsOfLinesOfCredit",
+            "LineOfCredit",
+            "NotesPayable"
+          ],
+          "calculation": "(LineOfCredit[2025-03-31] + NotesPayable[2025-03-31]) - (LineOfCredit[2024-12-31] + NotesPayable[2024-12-31])"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividends"
+          ],
+          "calculation": "PaymentsOfDividends"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToMinorityShareholders",
+            "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+            "PaymentOfFinancingAndStockIssuanceCosts"
+          ],
+          "calculation": "PaymentsToMinorityShareholders + PaymentsRelatedToTaxWithholdingForShareBasedCompensation + PaymentOfFinancingAndStockIssuanceCosts"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue[2025-03-31] - CashAndCashEquivalentsAtCarryingValue[2024-12-31]"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue[2025-03-31]"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit"
+          ],
+          "calculation": "NotesPayable + LineOfCredit"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "Adjusted EBITDA / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NotesPayable",
+            "LineOfCredit",
+            "StockholdersEquity"
+          ],
+          "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "Not enough data to calculate (no rent expense provided)"
+        }
+      ]
+    ]
+  },
+  "TMO": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax[2024] - RevenueFromContractWithCustomerExcludingAssessedTax[2023]) / RevenueFromContractWithCustomerExcludingAssessedTax[2023] * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold) / RevenueFromContractWithCustomerExcludingAssessedTax * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "SellingGeneralAndAdministrativeExpense",
+            "ResearchAndDevelopmentExpense",
+            "RestructuringAndOtherCostsIncomeNet"
+          ],
+          "calculation": "SellingGeneralAndAdministrativeExpense + ResearchAndDevelopmentExpense + RestructuringAndOtherCostsIncomeNet"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense",
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense) / RevenueFromContractWithCustomerExcludingAssessedTax * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInInventories",
+            "IncreaseDecreaseInAccountsPayable",
+            "IncreaseDecreaseInOtherOperatingCapitalNet",
+            "IncreaseDecreaseInContractWithCustomerAssetsAndLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInInventories + IncreaseDecreaseInAccountsPayable + IncreaseDecreaseInOtherOperatingCapitalNet + IncreaseDecreaseInContractWithCustomerAssetsAndLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncomeExpense"
+          ],
+          "calculation": "OtherNonoperatingIncomeExpense"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "ProceedsFromSaleOfPropertyPlantAndEquipment"
+          ],
+          "calculation": "PaymentsToAcquirePropertyPlantAndEquipment - ProceedsFromSaleOfPropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "ProceedsFromDivestitureOfBusinessesNetOfCashDivested"
+          ],
+          "calculation": "PaymentsToAcquireBusinessesNetOfCashAcquired - ProceedsFromDivestitureOfBusinessesNetOfCashDivested"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfLongTermDebt",
+            "RepaymentsOfLongTermDebt",
+            "ProceedsFromIssuanceOfCommercialPaper",
+            "RepaymentsOfCommercialPaper"
+          ],
+          "calculation": "(ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfLongTermDebt) + (ProceedsFromIssuanceOfCommercialPaper - RepaymentsOfCommercialPaper)"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForRepurchaseOfCommonStock",
+            "PaymentsOfDividendsCommonStock"
+          ],
+          "calculation": "PaymentsForRepurchaseOfCommonStock + PaymentsOfDividendsCommonStock"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromPaymentsForOtherFinancingActivities"
+          ],
+          "calculation": "ProceedsFromPaymentsForOtherFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations"
+          ],
+          "calculation": "DebtCurrent + LongTermDebtAndCapitalLeaseObligations"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Interest Expense"
+          ],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense) / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (DebtCurrent + LongTermDebtAndCapitalLeaseObligations + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (DebtCurrent + LongTermDebtAndCapitalLeaseObligations + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "OtherNoncashIncomeExpense",
+            "InterestExpenseNonoperating",
+            "RestructuringAndOtherCostsIncomeNet"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + OtherNoncashIncomeExpense + RestructuringAndOtherCostsIncomeNet) / (InterestExpenseNonoperating + RestructuringAndOtherCostsIncomeNet)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax[2025-03-29] - RevenueFromContractWithCustomerExcludingAssessedTax[2024-03-30]) / RevenueFromContractWithCustomerExcludingAssessedTax[2024-03-30]"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "(RevenueFromContractWithCustomerExcludingAssessedTax - CostOfGoodsAndServicesSold) / RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "SellingGeneralAndAdministrativeExpense",
+            "ResearchAndDevelopmentExpense",
+            "RestructuringAndOtherCostsIncomeNet"
+          ],
+          "calculation": "SellingGeneralAndAdministrativeExpense + ResearchAndDevelopmentExpense + RestructuringAndOtherCostsIncomeNet"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "IncreaseDecreaseInDeferredIncomeTaxes",
+            "ShareBasedCompensation",
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "Depreciation + AmortizationOfIntangibleAssets + IncreaseDecreaseInDeferredIncomeTaxes + ShareBasedCompensation + OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "RestructuringAndOtherCostsIncomeNet"
+          ],
+          "calculation": "OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + RestructuringAndOtherCostsIncomeNet"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "RestructuringAndOtherCostsIncomeNet",
+            "RevenueFromContractWithCustomerExcludingAssessedTax"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + RestructuringAndOtherCostsIncomeNet) / RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInOperatingCapitalExcludingDeferredTaxes"
+          ],
+          "calculation": "IncreaseDecreaseInOperatingCapitalExcludingDeferredTaxes"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireInvestments",
+            "ProceedsFromSaleOfPropertyPlantAndEquipment",
+            "PaymentsForProceedsFromOtherInvestingActivities"
+          ],
+          "calculation": "PaymentsToAcquireInvestments + ProceedsFromSaleOfPropertyPlantAndEquipment + PaymentsForProceedsFromOtherInvestingActivities"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfLongTermDebt",
+            "RepaymentsOfLongTermDebt"
+          ],
+          "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfLongTermDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForRepurchaseOfCommonStock",
+            "PaymentsOfDividendsCommonStock"
+          ],
+          "calculation": "PaymentsForRepurchaseOfCommonStock + PaymentsOfDividendsCommonStock"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromPaymentsForOtherFinancingActivities"
+          ],
+          "calculation": "ProceedsFromPaymentsForOtherFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents[2025-03-29]"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations"
+          ],
+          "calculation": "DebtCurrent + LongTermDebtAndCapitalLeaseObligations"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "RestructuringAndOtherCostsIncomeNet",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + RestructuringAndOtherCostsIncomeNet) / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "RestructuringAndOtherCostsIncomeNet"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + RestructuringAndOtherCostsIncomeNet)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (DebtCurrent + LongTermDebtAndCapitalLeaseObligations + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "RestructuringAndOtherCostsIncomeNet"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + RestructuringAndOtherCostsIncomeNet)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DebtCurrent",
+            "LongTermDebtAndCapitalLeaseObligations",
+            "StockholdersEquity"
+          ],
+          "calculation": "(DebtCurrent + LongTermDebtAndCapitalLeaseObligations) / (DebtCurrent + LongTermDebtAndCapitalLeaseObligations + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Depreciation",
+            "AmortizationOfIntangibleAssets",
+            "RestructuringAndOtherCostsIncomeNet",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "(OperatingIncomeLoss + Depreciation + AmortizationOfIntangibleAssets + RestructuringAndOtherCostsIncomeNet) / InterestExpenseNonoperating"
+        }
+      ]
+    ]
+  },
+  "STAG": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues_2024 - Revenues_2023) / Revenues_2023 * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+          ],
+          "calculation": "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+          ],
+          "calculation": "Revenues - DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+          ],
+          "calculation": "(Revenues - DirectCostsOfLeasedAndRentedPropertyOrEquipment) / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "AssetImpairmentCharges",
+            "OtherExpenses"
+          ],
+          "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + AssetImpairmentCharges + OtherExpenses"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities"
+          ],
+          "calculation": "AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProfitLoss",
+            "DepreciationAndAmortization",
+            "InterestExpense",
+            "Taxes",
+            "AssetImpairmentCharges",
+            "OtherNonrecurringGain"
+          ],
+          "calculation": "ProfitLoss + DepreciationAndAmortization + InterestExpense + Taxes + AssetImpairmentCharges + OtherNonrecurringGain"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "ProfitLoss",
+            "DepreciationAndAmortization",
+            "InterestExpense",
+            "Taxes",
+            "AssetImpairmentCharges",
+            "OtherNonrecurringGain",
+            "Revenues"
+          ],
+          "calculation": "(ProfitLoss + DepreciationAndAmortization + InterestExpense + Taxes + AssetImpairmentCharges + OtherNonrecurringGain) / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpense"
+          ],
+          "calculation": "InterestExpense"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "N/A (Not provided in financial statements)"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+            "IncreaseDecreaseInCustomerAdvancesAndDeposits"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInCustomerAdvancesAndDeposits"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "N/A (Not specified with unique keys in financials)"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireIntangibleAssets"
+          ],
+          "calculation": "PaymentsForCapitalImprovements + PaymentsToAcquireIntangibleAssets"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsForCapitalImprovements"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsForCapitalImprovements"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireCommercialRealEstate",
+            "ProceedsFromSaleOfBuildings"
+          ],
+          "calculation": "ProceedsFromSaleOfBuildings - PaymentsToAcquireCommercialRealEstate"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromUnsecuredLinesOfCredit",
+            "RepaymentsOfLinesOfCredit",
+            "ProceedsFromUnsecuredNotesPayable",
+            "RepaymentsOfSecuredDebt",
+            "RepaymentsOfUnsecuredDebt",
+            "ProceedsFromIssuanceOfOtherLongTermDebt",
+            "RepaymentsOfOtherLongTermDebt"
+          ],
+          "calculation": "(ProceedsFromUnsecuredLinesOfCredit - RepaymentsOfLinesOfCredit) + (ProceedsFromUnsecuredNotesPayable - RepaymentsOfSecuredDebt - RepaymentsOfUnsecuredDebt) + (ProceedsFromIssuanceOfOtherLongTermDebt - RepaymentsOfOtherLongTermDebt)"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromIssuanceOfCommonStock",
+            "PaymentsOfDividends"
+          ],
+          "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "N/A (Not specified with unique keys in financials)"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LineOfCredit",
+            "LoansPayable",
+            "NotesPayable",
+            "SecuredDebt"
+          ],
+          "calculation": "LineOfCredit + LoansPayable + NotesPayable + SecuredDebt"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProfitLoss",
+            "DepreciationAndAmortization",
+            "InterestExpense"
+          ],
+          "calculation": "(ProfitLoss + DepreciationAndAmortization) / InterestExpense"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LineOfCredit",
+            "LoansPayable",
+            "NotesPayable",
+            "SecuredDebt",
+            "ProfitLoss",
+            "DepreciationAndAmortization"
+          ],
+          "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt) / (ProfitLoss + DepreciationAndAmortization)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LineOfCredit",
+            "LoansPayable",
+            "NotesPayable",
+            "SecuredDebt",
+            "StockholdersEquity"
+          ],
+          "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LineOfCredit",
+            "LoansPayable",
+            "NotesPayable",
+            "SecuredDebt",
+            "OperatingLeaseLiability",
+            "ProfitLoss",
+            "DepreciationAndAmortization"
+          ],
+          "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (ProfitLoss + DepreciationAndAmortization)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LineOfCredit",
+            "LoansPayable",
+            "NotesPayable",
+            "SecuredDebt",
+            "OperatingLeaseLiability",
+            "StockholdersEquity"
+          ],
+          "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProfitLoss",
+            "DepreciationAndAmortization",
+            "OperatingLeaseLiability",
+            "InterestExpense"
+          ],
+          "calculation": "(ProfitLoss + DepreciationAndAmortization + OperatingLeaseLiability) / (InterestExpense + OperatingLeaseLiability)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues[2025-03-31] - Revenues[2024-03-31]) / Revenues[2024-03-31]"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+          ],
+          "calculation": "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues",
+            "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+          ],
+          "calculation": "Revenues - DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "DirectCostsOfLeasedAndRentedPropertyOrEquipment"
+          ],
+          "calculation": "(Gross Profit) / Revenues"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GeneralAndAdministrativeExpense",
+            "DepreciationAndAmortization",
+            "OtherExpenses"
+          ],
+          "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities"
+          ],
+          "calculation": "AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetIncomeLoss",
+            "InterestExpense",
+            "DepreciationAndAmortization",
+            "OtherNonrecurringGain",
+            "DisposalGroupNotDiscontinuedOperationGainLossOnDisposal"
+          ],
+          "calculation": "NetIncomeLoss + InterestExpense + DepreciationAndAmortization - OtherNonrecurringGain - DisposalGroupNotDiscontinuedOperationGainLossOnDisposal"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Adjusted EBITDA) / Revenues"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpense"
+          ],
+          "calculation": "InterestExpense"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [],
+          "calculation": "N/A"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+            "IncreaseDecreaseInCustomerAdvancesAndDeposits"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInCustomerAdvancesAndDeposits"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherExpenses"
+          ],
+          "calculation": "OtherExpenses"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForCapitalImprovements",
+            "PaymentsToAcquireCommercialRealEstate",
+            "PaymentsToAcquireIntangibleAssets",
+            "AcquisitionsOfLandAndBuildingsAndImprovements"
+          ],
+          "calculation": "PaymentsForCapitalImprovements + PaymentsToAcquireCommercialRealEstate + PaymentsToAcquireIntangibleAssets + AcquisitionsOfLandAndBuildingsAndImprovements"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "Capital Expenditures"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - (PaymentsForCapitalImprovements + PaymentsToAcquireCommercialRealEstate + PaymentsToAcquireIntangibleAssets + AcquisitionsOfLandAndBuildingsAndImprovements)"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromSaleOfBuildings",
+            "PaymentsToAcquireCommercialRealEstate"
+          ],
+          "calculation": "ProceedsFromSaleOfBuildings - PaymentsToAcquireCommercialRealEstate"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromUnsecuredLinesOfCredit",
+            "RepaymentsOfLinesOfCredit",
+            "RepaymentsOfNotesPayable",
+            "RepaymentsOfSecuredDebt"
+          ],
+          "calculation": "ProceedsFromUnsecuredLinesOfCredit - RepaymentsOfLinesOfCredit - RepaymentsOfNotesPayable - RepaymentsOfSecuredDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividends"
+          ],
+          "calculation": "PaymentsOfDividends"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+            "PaymentsOfStockIssuanceCosts",
+            "PaymentsOfFinancingCosts",
+            "ProceedsFromPaymentsToMinorityShareholders"
+          ],
+          "calculation": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation + PaymentsOfStockIssuanceCosts + PaymentsOfFinancingCosts + ProceedsFromPaymentsToMinorityShareholders"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue[2025-03-31] - CashAndCashEquivalentsAtCarryingValue[2024-12-31]"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue[2025-03-31]"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LineOfCredit",
+            "LoansPayable",
+            "NotesPayable",
+            "SecuredDebt"
+          ],
+          "calculation": "LineOfCredit + LoansPayable + NotesPayable + SecuredDebt"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "InterestExpense"
+          ],
+          "calculation": "Adjusted EBITDA / InterestExpense"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [],
+          "calculation": "Total Debt / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [],
+          "calculation": "Total Debt / (Total Debt + Book Equity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "OperatingLeaseLiability"
+          ],
+          "calculation": "(Total Debt + OperatingLeaseLiability) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "financial_statement_keys": [
+            "OperatingLeaseLiability"
+          ],
+          "calculation": "(Total Debt + OperatingLeaseLiability) / (Total Debt + OperatingLeaseLiability + Book Equity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [
+            "Adjusted EBITDA"
+          ],
+          "financial_statement_keys": [
+            "OperatingLeaseLeaseIncome"
+          ],
+          "calculation": "Adjusted EBITDA / (InterestExpense + OperatingLeaseLeaseIncome)"
+        }
+      ]
+    ]
+  },
+  "STE": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues[2024] - Revenues[2023]) / Revenues[2023] * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GrossProfit"
+          ],
+          "calculation": "GrossProfit"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GrossProfit",
+            "Revenues"
+          ],
+          "calculation": "GrossProfit / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingExpenses"
+          ],
+          "calculation": "OperatingExpenses"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationDepletionAndAmortization",
+            "ShareBasedCompensation",
+            "RestructuringCosts"
+          ],
+          "calculation": "DepreciationDepletionAndAmortization + ShareBasedCompensation + RestructuringCosts"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "DepreciationDepletionAndAmortization",
+            "ShareBasedCompensation",
+            "RestructuringCosts"
+          ],
+          "calculation": "OperatingIncomeLoss + DepreciationDepletionAndAmortization + ShareBasedCompensation + RestructuringCosts"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "Revenues"
+          ],
+          "calculation": "Adjusted EBITDA / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpense"
+          ],
+          "calculation": "InterestExpense"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInInventories",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInAccountsPayable",
+            "IncreaseDecreaseInAccruedLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInInventories + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayable + IncreaseDecreaseInAccruedLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNoncashIncomeExpense"
+          ],
+          "calculation": "OtherNoncashIncomeExpense"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "ProceedsFromDivestitureOfBusinesses"
+          ],
+          "calculation": "PaymentsToAcquireBusinessesNetOfCashAcquired - ProceedsFromDivestitureOfBusinesses"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromRepaymentsOfLinesOfCredit",
+            "ProceedsFromIssuanceOfDebt",
+            "RepaymentsOfTermLoans"
+          ],
+          "calculation": "ProceedsFromRepaymentsOfLinesOfCredit + ProceedsFromIssuanceOfDebt - RepaymentsOfTermLoans"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsForRepurchaseOfCommonStock",
+            "PaymentsOfDividendsCommonStock",
+            "ProceedsFromMinorityShareholders",
+            "PaymentsToMinorityShareholders"
+          ],
+          "calculation": "PaymentsForRepurchaseOfCommonStock + PaymentsOfDividendsCommonStock + PaymentsToMinorityShareholders - ProceedsFromMinorityShareholders"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromPaymentsForOtherFinancingActivities"
+          ],
+          "calculation": "ProceedsFromPaymentsForOtherFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "NetCashProvidedByUsedInInvestingActivities",
+            "NetCashProvidedByUsedInFinancingActivities",
+            "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities + NetCashProvidedByUsedInInvestingActivities + NetCashProvidedByUsedInFinancingActivities + EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebtNoncurrent",
+            "ShortTermBorrowings"
+          ],
+          "calculation": "LongTermDebtNoncurrent + ShortTermBorrowings"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquity"
+          ],
+          "calculation": "StockholdersEquity"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "InterestExpense"
+          ],
+          "calculation": "Adjusted EBITDA / InterestExpense"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebtNoncurrent",
+            "ShortTermBorrowings",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(LongTermDebtNoncurrent + ShortTermBorrowings) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebtNoncurrent",
+            "ShortTermBorrowings",
+            "StockholdersEquity"
+          ],
+          "calculation": "(LongTermDebtNoncurrent + ShortTermBorrowings) / (LongTermDebtNoncurrent + ShortTermBorrowings + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebtNoncurrent",
+            "ShortTermBorrowings",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(LongTermDebtNoncurrent + ShortTermBorrowings + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "LongTermDebtNoncurrent",
+            "ShortTermBorrowings",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "StockholdersEquity"
+          ],
+          "calculation": "(LongTermDebtNoncurrent + ShortTermBorrowings + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (LongTermDebtNoncurrent + ShortTermBorrowings + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent + StockholdersEquity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "OperatingLeaseLiabilityCurrent",
+            "OperatingLeaseLiabilityNoncurrent",
+            "InterestExpense"
+          ],
+          "calculation": "(Adjusted EBITDA + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent) / (InterestExpense + OperatingLeaseLiabilityCurrent + OperatingLeaseLiabilityNoncurrent)"
+        }
+      ]
+    ],
+    "10-Q": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "(Revenues['2024-09-30'] - Revenues['2023-09-30']) / Revenues['2023-09-30'] * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CostOfGoodsAndServicesSold"
+          ],
+          "calculation": "CostOfGoodsAndServicesSold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GrossProfit"
+          ],
+          "calculation": "GrossProfit"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "GrossProfit",
+            "Revenues"
+          ],
+          "calculation": "GrossProfit / Revenues"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingExpenses"
+          ],
+          "calculation": "OperatingExpenses"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "DepreciationDepletionAndAmortization",
+            "ShareBasedCompensation",
+            "GainLossOnSaleOfPropertyPlantEquipment",
+            "GainLossOnDispositionOfBusinessAndEquityInvestmentsNet",
+            "OtherNoncashIncomeExpense",
+            "RestructuringCosts"
+          ],
+          "calculation": "DepreciationDepletionAndAmortization + ShareBasedCompensation + GainLossOnSaleOfPropertyPlantEquipment + GainLossOnDispositionOfBusinessAndEquityInvestmentsNet + OtherNoncashIncomeExpense + RestructuringCosts"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "DepreciationDepletionAndAmortization",
+            "ShareBasedCompensation",
+            "GainLossOnSaleOfPropertyPlantEquipment",
+            "GainLossOnDispositionOfBusinessAndEquityInvestmentsNet",
+            "OtherNoncashIncomeExpense",
+            "RestructuringCosts"
+          ],
+          "calculation": "OperatingIncomeLoss + DepreciationDepletionAndAmortization + ShareBasedCompensation + GainLossOnSaleOfPropertyPlantEquipment + GainLossOnDispositionOfBusinessAndEquityInvestmentsNet + OtherNoncashIncomeExpense + RestructuringCosts"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "Revenues"
+          ],
+          "calculation": "OperatingIncomeLoss / Revenues"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncomeTaxExpenseBenefit"
+          ],
+          "calculation": "IncomeTaxExpenseBenefit"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "IncreaseDecreaseInAccountsReceivable",
+            "IncreaseDecreaseInInventories",
+            "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+            "IncreaseDecreaseInAccountsPayable",
+            "IncreaseDecreaseInAccruedLiabilities"
+          ],
+          "calculation": "IncreaseDecreaseInAccountsReceivable + IncreaseDecreaseInInventories + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayable + IncreaseDecreaseInAccruedLiabilities"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OtherNonoperatingIncomeExpense"
+          ],
+          "calculation": "OtherNonoperatingIncomeExpense"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "NetCashProvidedByUsedInOperatingActivities",
+            "PaymentsToAcquirePropertyPlantAndEquipment"
+          ],
+          "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "ProceedsFromDivestitureOfBusinessesNetOfCashDivested"
+          ],
+          "calculation": "ProceedsFromDivestitureOfBusinessesNetOfCashDivested - PaymentsToAcquireBusinessesNetOfCashAcquired"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "RepaymentsOfSecuredDebt",
+            "ProceedsFromRepaymentsOfLinesOfCredit"
+          ],
+          "calculation": "ProceedsFromRepaymentsOfLinesOfCredit - RepaymentsOfSecuredDebt"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "PaymentsOfDividendsCommonStock",
+            "PaymentsForRepurchaseOfCommonStock"
+          ],
+          "calculation": "PaymentsOfDividendsCommonStock + PaymentsForRepurchaseOfCommonStock"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ProceedsFromMinorityShareholders",
+            "ProceedsFromPaymentsForOtherFinancingActivities",
+            "PaymentsOfMergerRelatedCostsFinancingActivities"
+          ],
+          "calculation": "ProceedsFromMinorityShareholders + ProceedsFromPaymentsForOtherFinancingActivities - PaymentsOfMergerRelatedCostsFinancingActivities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+          ],
+          "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "calculation": "CashAndCashEquivalentsAtCarryingValue['2024-09-30']"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShortTermBorrowings",
+            "LongTermDebtNoncurrent"
+          ],
+          "calculation": "ShortTermBorrowings + LongTermDebtNoncurrent"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+          ],
+          "calculation": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest['2024-09-30']"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "DepreciationDepletionAndAmortization",
+            "InterestExpenseNonoperating"
+          ],
+          "calculation": "(OperatingIncomeLoss + DepreciationDepletionAndAmortization) / InterestExpenseNonoperating"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShortTermBorrowings",
+            "LongTermDebtNoncurrent",
+            "OperatingIncomeLoss",
+            "DepreciationDepletionAndAmortization"
+          ],
+          "calculation": "(ShortTermBorrowings + LongTermDebtNoncurrent) / (OperatingIncomeLoss + DepreciationDepletionAndAmortization)"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShortTermBorrowings",
+            "LongTermDebtNoncurrent",
+            "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+          ],
+          "calculation": "(ShortTermBorrowings + LongTermDebtNoncurrent) / (StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest['2024-09-30'] + ShortTermBorrowings + LongTermDebtNoncurrent)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShortTermBorrowings",
+            "LongTermDebtNoncurrent",
+            "OperatingAndFinanceLeaseObligationNoncurrent",
+            "OperatingIncomeLoss",
+            "DepreciationDepletionAndAmortization"
+          ],
+          "calculation": "(ShortTermBorrowings + LongTermDebtNoncurrent + OperatingAndFinanceLeaseObligationNoncurrent) / (OperatingIncomeLoss + DepreciationDepletionAndAmortization)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "ShortTermBorrowings",
+            "LongTermDebtNoncurrent",
+            "OperatingAndFinanceLeaseObligationNoncurrent",
+            "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+          ],
+          "calculation": "(ShortTermBorrowings + LongTermDebtNoncurrent + OperatingAndFinanceLeaseObligationNoncurrent) / (StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest['2024-09-30'] + ShortTermBorrowings + LongTermDebtNoncurrent + OperatingAndFinanceLeaseObligationNoncurrent)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "OperatingIncomeLoss",
+            "DepreciationDepletionAndAmortization",
+            "RestructuringCosts",
+            "InterestExpenseNonoperating",
+            "OperatingLeaseLiabilityCurrent"
+          ],
+          "calculation": "(OperatingIncomeLoss + DepreciationDepletionAndAmortization + RestructuringCosts) / (InterestExpenseNonoperating + OperatingLeaseLiabilityCurrent)"
+        }
+      ]
+    ]
+  },
+  "KITE": {
+    "10-K": [
+      [
+        {
+          "aqrr_key": "Revenue",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Revenues"
+          ],
+          "calculation": "Revenues"
+        },
+        {
+          "aqrr_key": "% YoY Growth",
+          "aqrr_keys": [
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "Prior Year Revenues"
+          ],
+          "calculation": "(Revenues - Prior Year Revenues) / Prior Year Revenues * 100"
+        },
+        {
+          "aqrr_key": "Cost of Goods Sold",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Cost of Goods Sold"
+          ],
+          "calculation": "Cost of Goods Sold"
+        },
+        {
+          "aqrr_key": "Gross Profit",
+          "aqrr_keys": [
+            "Revenue",
+            "Cost of Goods Sold"
+          ],
+          "financial_statement_keys": [
+            "Revenues",
+            "Cost of Goods Sold"
+          ],
+          "calculation": "Revenues - Cost of Goods Sold"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Gross Profit",
+            "Revenues"
+          ],
+          "calculation": "Gross Profit / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Operating Expenses",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "General and Administrative",
+            "Real Estate Impairment"
+          ],
+          "calculation": "General and Administrative + Real Estate Impairment"
+        },
+        {
+          "aqrr_key": "Adjustments",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Non-cash Rent Expense",
+            "Real Estate Impairment",
+            "Acquisition Expenses"
+          ],
+          "calculation": "Non-cash Rent Expense + Real Estate Impairment + Acquisition Expenses"
+        },
+        {
+          "aqrr_key": "Adjusted EBITDA",
+          "aqrr_keys": [
+            "Gross Profit",
+            "Operating Expenses",
+            "Adjustments"
+          ],
+          "financial_statement_keys": [
+            "Gross Profit",
+            "Operating Expenses",
+            "Adjustments"
+          ],
+          "calculation": "Gross Profit - Operating Expenses + Adjustments"
+        },
+        {
+          "aqrr_key": "% Margin",
+          "aqrr_keys": [
+            "Adjusted EBITDA",
+            "Revenue"
+          ],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "Revenues"
+          ],
+          "calculation": "Adjusted EBITDA / Revenues * 100"
+        },
+        {
+          "aqrr_key": "Interest Expense",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Interest Expense"
+          ],
+          "calculation": "Interest Expense"
+        },
+        {
+          "aqrr_key": "Taxes",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Income Taxes"
+          ],
+          "calculation": "Income Taxes"
+        },
+        {
+          "aqrr_key": "Change in Working Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Change in Receivables",
+            "Change in Payables",
+            "Change in Other Working Capital"
+          ],
+          "calculation": "Change in Receivables + Change in Payables + Change in Other Working Capital"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Other Income",
+            "Other Expense"
+          ],
+          "calculation": "Other Income + Other Expense"
+        },
+        {
+          "aqrr_key": "Capital Expenditures",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Capital Expenditures"
+          ],
+          "calculation": "Capital Expenditures"
+        },
+        {
+          "aqrr_key": "Free Cash Flow",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Net Cash Provided by Operating Activities",
+            "Capital Expenditures"
+          ],
+          "calculation": "Net Cash Provided by Operating Activities - Capital Expenditures"
+        },
+        {
+          "aqrr_key": "Acq. / Disp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Acquisitions",
+            "Dispositions"
+          ],
+          "calculation": "Acquisitions - Dispositions"
+        },
+        {
+          "aqrr_key": "Change in Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Proceeds from Debt Issuance",
+            "Debt Repayments"
+          ],
+          "calculation": "Proceeds from Debt Issuance - Debt Repayments"
+        },
+        {
+          "aqrr_key": "Equity / Dividends",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Dividends Paid",
+            "Proceeds from Equity Issuance",
+            "Share Repurchases"
+          ],
+          "calculation": "Proceeds from Equity Issuance - Dividends Paid - Share Repurchases"
+        },
+        {
+          "aqrr_key": "Other",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Other Financing Activities"
+          ],
+          "calculation": "Other Financing Activities"
+        },
+        {
+          "aqrr_key": "Change in Cash",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Net Increase (Decrease) in Cash"
+          ],
+          "calculation": "Net Increase (Decrease) in Cash"
+        },
+        {
+          "aqrr_key": "Cash - End of Period",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Cash and Cash Equivalents, End of Period"
+          ],
+          "calculation": "Cash and Cash Equivalents, End of Period"
+        },
+        {
+          "aqrr_key": "Total Debt",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Notes Payable",
+            "Mortgage Debt",
+            "Lines of Credit"
+          ],
+          "calculation": "Notes Payable + Mortgage Debt + Lines of Credit"
+        },
+        {
+          "aqrr_key": "Book Equity",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Common Equity",
+            "Additional Paid-in Capital",
+            "Retained Earnings",
+            "Accumulated Other Comprehensive Income"
+          ],
+          "calculation": "Common Equity + Additional Paid-in Capital + Retained Earnings + Accumulated Other Comprehensive Income"
+        },
+        {
+          "aqrr_key": "EBITDA / Int. Exp.",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "Interest Expense"
+          ],
+          "calculation": "Adjusted EBITDA / Interest Expense"
+        },
+        {
+          "aqrr_key": "Total Debt / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Total Debt",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "Total Debt / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Total Debt",
+            "Book Equity"
+          ],
+          "calculation": "Total Debt / (Total Debt + Book Equity)"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / EBITDA",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Total Debt",
+            "Lease Liabilities",
+            "Adjusted EBITDA"
+          ],
+          "calculation": "(Total Debt + Lease Liabilities) / Adjusted EBITDA"
+        },
+        {
+          "aqrr_key": "Total Debt + Leases / Book Capital",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Total Debt",
+            "Lease Liabilities",
+            "Book Equity"
+          ],
+          "calculation": "(Total Debt + Lease Liabilities) / (Total Debt + Lease Liabilities + Book Equity)"
+        },
+        {
+          "aqrr_key": "EBITDAR / Interest + Rent",
+          "aqrr_keys": [],
+          "financial_statement_keys": [
+            "Adjusted EBITDA",
+            "Rent Expense",
+            "Interest Expense"
+          ],
+          "calculation": "(Adjusted EBITDA + Rent Expense) / (Interest Expense + Rent Expense)"
+        }
+      ]
+    ],
+    "10-Q": []
+  }
+}

@@ -1,0 +1,321 @@
+prompt_start: |
+  You are a financial analyst. I need you to extract and build a detailed capitalization table for {ticker} from the provided public company's SEC filings (specifically the 10-K or 10-Q).
+  I will provide you with the structure of the cap table in JSON format as well as the filings. Your task is to update the values in this table based on the most recent financial data from the SEC filings.
+  Keep the same structure and format, but update the values. Mention all the terms as provided by the cap table, do not omit anything. 
+  Do not put any commas or '$' symbol in any numerical value data. Example - put "$1,234,567" or "1,234,567" as "1234567".
+  Mention all numerical value data in thousands.
+  Make sure not to copy any numerical data from the provided cap table structure. Please refer to the structure just for format and terms. Make sure the numerical data is coming from financials only. If not found, simply put null but do not occupy the data for that portion for which the provided structure also doesn't have.
+  Make sure all the numerical data provided is accurate. Do not provide any dummy data or value. If for a term, value isn't found, put null.
+  Prefer taking the value from latest financial text provided.
+  If the company uses abbreviations (e.g., "RCF" for revolving credit facility), expand them in the final output.
+  Avoid estimating at all costs; prefer disclosed figures.
+  Focus on instruments that affect the capital structure — exclude operating leases, payables, or other non-interest-bearing liabilities.
+  Group the cap table logically.
+  If any data is not disclosed, mark it as null.
+  Notes:
+  "Coupon Rate" should be displayed either as a percentage (e.g., 5.25%) or in some floating form (e.g., S + 95). Please do not add any facility fee into it. 
+  Please provide only the required data, do not add any context by using brackets or mentioning anything such as via swaps or effective or anything else. 
+  For Revolving credit facility coupon rate, prefer mentioning the range such as if Spread is SOFR + 0.10% + margin (0.70% – 1.40%), then value of coupon rate will be given as S + 80 - 150 which means low end is 80 bps and high end is 150 bps.
+  "Secured?" should be either "Y" for yes or "N" for no.
+  Make sure to mention all the debt related terms as per provided in JSON.
+  Among all the above provided metrics, mention the values of Coupon Rate, Secured, Maturity Date only for the secured debts, unsecured debts, Other debt and Unamortized debt issue if provided. For rest of metrics do not populate any of these fields.
+  When mentioning any of the debt name, make sure that it does not have any date or number/percent related to coupon as they have to be populated separately.
+  
+  IMPORTANT LINEAGE REQUIREMENTS:
+  For each numerical value you extract, you must provide detailed source information with these EXACT rules:
+  1. Use snake_case for ALL variable names in calculations and components
+  2. There are ONLY THREE types of sources allowed:
+     - "table": When value comes from a structured table in filings
+     - "text": When value comes from narrative text in filings  
+     - "ref_metric": When value references another metric (use only the metric name)
+  3. For "table" sources: Include type, value, filing_type, period, table, location (page, row, column, section). NO text_snippet.
+  4. For "text" sources: Include type, value, filing_type, period, location (page, section), text_snippet. NO row/column.
+  5. For "ref_metric" sources: ONLY include ref_metric field with the metric name.
+  6. NO xbrl_key fields anywhere.
+  7. Calculations must use snake_case variable names with spaces around operators (e.g., "total_debt + book_value_of_equity")
+  
+  Please provide your response in TWO parts:
+  1. CAPITALIZATION_DATA: The standard JSON structure with the cap table
+  2. SOURCE_LINEAGE: A detailed JSON with source information for each value.
+  
+  Format your response as(Ensure every property name is in double quotes.):
+  ```
+  CAPITALIZATION_DATA: 
+  {
+    // your standard cap table structure here
+  }
+  
+  SOURCE_LINEAGE:
+  {
+    "ticker": "{ticker}",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 12345,
+        "unit": "USD_thousands",
+        "calculation": "cash_and_cash_equivalents + restricted_cash", // Always ensure that calculations should be in in such a way that they are consistent with the final values.
+        "components": {
+          "cash_and_cash_equivalents": 8000,
+          "restricted_cash": 4345
+        },
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 8000,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 5,
+              "row": "Cash and cash equivalents",
+              "column": "Mar 31, 2024",
+              "section": "Assets"
+            }
+          },
+          "restricted_cash": {
+            "type": "table", 
+            "value": 4345,
+            "filing_type": "10-Q",
+            "period": "Q1 2024", 
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 5,
+              "row": "Restricted cash",
+              "column": "Mar 31, 2024", 
+              "section": "Assets"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_amount": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "type": "text",
+            "value": 50000,
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 45,
+              "section": "Debt and Credit Arrangements"
+            },
+            "text_snippet": "As of December 31, 2024, we had $50.0 million outstanding under our revolving credit facility"
+          }
+        }
+      }
+    }
+  }
+  ```
+
+ELME: |
+  Notes:
+  For 'Cash & Equivalents', always use the value for 'Cash, cash equivalents and restricted cash' as shown in the reconciliation at the end of the CONSOLIDATED STATEMENTS OF CASH FLOWS for the most recent period (e.g., March 31, 2025). Do not use the balance sheet value for 'Cash and cash equivalents' alone. The value must match the sum of 'cash and cash equivalents' and 'restricted cash' as shown in the reconciliation table at the end of the cash flow statement.
+  For 'Unamortized Debt Issue Cost', always sum the values for 'Net discounts/premiums' and 'Loan costs, net of amortization' as shown in the debt maturity table (or equivalent) in the most recent 10-Q. The result should be a negative value (in parentheses) and must match the sum of these two line items exactly as reported for the current period. DO NOT use only one of the components or any other line item. Only use the sum of 'Net discounts/premiums' and 'Loan costs, net of amortization'.
+  For 'Book Value of Equity', use the value labeled 'Total shareholders' equity' from the most recent consolidated balance sheet. Do not use 'Total equity' or any other value. "If there is both 'Total shareholders' equity' and 'Total equity', always use 'Total shareholders' equity'."
+  
+  Please provide the response in exactly the format specified above with both CAPITALIZATION_DATA and SOURCE_LINEAGE sections.
+  
+  CAPITALIZATION_DATA JSON structure:
+  {
+      "company": "Elme Communities",
+      "cash_and_equivalents": 0,
+      "debt": [
+          {
+              "type": "Revolving Credit Facility",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "S + 00-000",
+              "secured": "N",
+              "maturity": "YYYY"
+          },
+          {
+              "type": "2023 Term Loan",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "S + 00",
+              "secured": "N",
+              "maturity": "YYYY"
+          },
+          {
+              "type": "Senior Unsecured Notes",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "0.00%",
+              "secured": "N",
+              "maturity": "YYYY"
+          },
+          {
+              "type": "Senior Unsecured Notes",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "0.00%",
+              "secured": "N",
+              "maturity": "YYYY"
+          },
+          {
+              "type": "(Less: Unamortized Debt Issue Costs)",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "-",
+              "secured": "N",
+              "maturity": "-"
+          }
+      ],
+      "total_debt": 0,
+      "book_value_of_equity": 0,
+      "book_capitalization": 0,
+      "market_value_of_equity": null,
+      "market_capitalization": null,
+      "ltm_adj_ebitda": null,
+      "market_value_of_re_assets": null,
+      "unencumbered_assets": null,
+      "key_financial_ratios": {
+          "total_debt_to_adj_ebitda": null,
+          "unencumbered_assets_to_unsecured_debt": null,
+          "total_debt_to_market_value_of_re_assets": null,
+          "total_debt_to_market_capitalization": null
+      }
+  }
+  
+  For SOURCE_LINEAGE, provide source information for each numerical value including: cash_and_equivalents, each debt item amount (use snake_case names like revolving_credit_facility_amount, term_loan_2023_amount, etc.), total_debt, and book_value_of_equity.
+  
+  Do not update the values for these metrics - ppc_holdings for any debt, market_value_of_equity, market_capitalization, ltm_adj_ebitda, market_value_of_re_assets, unencumbered_assets and any of key_financial_ratios
+
+AME: |
+  Please provide the response in exactly the format specified above with both CAPITALIZATION_DATA and SOURCE_LINEAGE sections.
+
+  CAPITALIZATION_DATA:
+  {
+    "company": "Ametek, Inc.",
+    "cash_and_equivalents": 0,
+    "debt": [
+        {
+            "type": "Revolving Credit Facility",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "S + 00-000",
+            "secured": "N",
+            "maturity": "Jan-35"
+        },
+        {
+            "type": "USD Senior Notes",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "0.00%",
+            "secured": "N",
+            "maturity": "Jan-35"
+        },
+        ... mention all USD Senior Notes in format same as above
+        {
+            "type": "EUR Senior Notes",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "0.00%",
+            "secured": "N",
+            "maturity": "Jan-35"
+        },
+        ... mention all EUR Senior Notes in format same as above
+        {
+            "type": "GBP Senior Notes",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "0.00%",
+            "secured": "N",
+            "maturity": "Jan-35"
+        },
+        ... mention all GBP Senior Notes in format same as above
+        {
+            "type": "Other Debt",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "-",
+            "secured": "-",
+            "maturity": "-"
+        },
+        {
+            "type": "(Less: Debt Issuance Costs)",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "-",
+            "secured": "-",
+            "maturity": "-"
+        }
+    ],
+    "total_debt": 0,
+    "capitalized_operating_leases": 0,
+    "total_debt_plus_cols": 0,
+    "book_value_of_equity": 0,
+    "book_capitalization": 0,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "key_financial_ratios": {
+        "total_debt_plus_cols_to_adj_ebitdar": null,
+        "net_debt_plus_cols_to_adj_ebitdar": null,
+        "total_debt_plus_cols_to_book_capitalization": null,
+        "total_debt_plus_cols_to_market_capitalization": null
+    }
+  }
+  
+  For SOURCE_LINEAGE, provide source information for each numerical value including: cash_and_equivalents, each debt item amount (use snake_case names), capitalized_operating_leases, total_debt, total_debt_plus_cols, and book_value_of_equity.
+  
+  Do not update the values for these metrics - ppc_holdings for any debt, market_value_of_equity, market_capitalization, ltm_adj_ebitda and any of key_financial_ratios
+
+default: |
+  Please provide the response in exactly the format specified above with both CAPITALIZATION_DATA and SOURCE_LINEAGE sections.
+  
+  CAPITALIZATION_DATA JSON structure:
+  {
+      "company": "Full company name",
+      "cash_and_equivalents": 0,
+      "debt": [
+          {
+              "type": "Revolving Credit Facility",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "S + 00-000",
+              "secured": "N",
+              "maturity": "YYYY"
+          },
+          {
+              "type": "Mention debt name as per provided in financial",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "S + 00" or "0.00%",
+              "secured": "N" or "Y",
+              "maturity": "YYYY"
+          },
+          {
+              "type": "Mention debt name as per provided in financial",
+              "amount": 0,
+              "ppc_holdings": "-",
+              "coupon": "S + 00" or "0.00%",
+              "secured": "N" or "Y",
+              "maturity": "YYYY"
+          },
+          {
+            "type": "(Less: Debt Issuance Costs)",
+            "amount": 0,
+            "ppc_holdings": "-",
+            "coupon": "-",
+            "secured": "-",
+            "maturity": "-"
+          }         
+      ],
+      "total_debt": 0,
+      "book_value_of_equity": 0,
+      "book_capitalization": 0,
+      "market_value_of_equity": null,
+      "market_capitalization": null,
+      "ltm_adj_ebitda": null,
+      "key_financial_ratios": {
+          "total_debt_to_adj_ebitda": null,
+          "total_debt_to_market_capitalization": null
+      }
+  }
+  
+  For SOURCE_LINEAGE, provide source information for each numerical value including: cash_and_equivalents, each debt item amount (use snake_case names), total_debt, and book_value_of_equity.
+  
+  Do not update the values for these metrics - market_value_of_equity, market_capitalization, ltm_adj_ebitda and any of key_financial_ratios

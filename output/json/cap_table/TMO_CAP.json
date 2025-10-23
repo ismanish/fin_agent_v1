@@ -1,0 +1,245 @@
+{
+  "cap_table": {
+    "company": "Thermo Fisher Scientific Inc.",
+    "cash_and_equivalents": 4576,
+    "debt": [
+      {
+        "type": "Revolving Credit Facility",
+        "amount": 0,
+        "ppc_holdings": "-",
+        "coupon": "S + 80-150",
+        "secured": "N",
+        "maturity": "2027"
+      },
+      {
+        "type": "Senior Notes",
+        "amount": 35303,
+        "ppc_holdings": "-",
+        "coupon": null,
+        "secured": "N",
+        "maturity": null
+      },
+      {
+        "type": "(Less: Debt Issuance Costs)",
+        "amount": 172,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "-",
+        "maturity": "-"
+      }
+    ],
+    "total_debt": 35033,
+    "book_value_of_equity": 50512,
+    "book_capitalization": 85545,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "key_financial_ratios": {
+      "total_debt_to_adj_ebitda": "-",
+      "total_debt_to_market_capitalization": "-"
+    }
+  },
+  "source_lineage": {
+    "ticker": "TMO",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 4576,
+        "unit": "USD_thousands",
+        "calculation": "cash_and_cash_equivalents",
+        "components": {
+          "cash_and_cash_equivalents": 4576
+        },
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 4576,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Condensed Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Cash and cash equivalents",
+              "column": "June 28, 2025",
+              "section": "Assets"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_amount": {
+        "final_value": 0,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "type": "text",
+            "value": 0,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Note 3. Debt and Other Financing Arrangements"
+            },
+            "text_snippet": "As of June 28, 2025, no borrowings were outstanding under the Facility, although available capacity was reduced by immaterial outstanding letters of credit."
+          }
+        }
+      },
+      "revolving_credit_facility_coupon": {
+        "final_value": "S + 80-150",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_coupon": {
+            "type": "text",
+            "value": "S + 80-150",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 48,
+              "section": "Note 3. Debt and Other Financing Arrangements"
+            },
+            "text_snippet": "The revolving credit agreement calls for interest at either a Term Secured Overnight Financing Rate (SOFR), a Euro Interbank Offered Rate (EURIBOR)-based rate (for funds drawn in euro), or a rate based on the prime lending rate of the agent bank, at the company\u2019s option. ... The margin ranges from 0.70% to 1.40%."
+          }
+        }
+      },
+      "revolving_credit_facility_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 48,
+              "section": "Note 3. Debt and Other Financing Arrangements"
+            },
+            "text_snippet": "The company has a revolving credit facility (the Facility) with a bank group that provides for up to $5.00 billion of unsecured multi-currency revolving credit."
+          }
+        }
+      },
+      "revolving_credit_facility_maturity": {
+        "final_value": "2027",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_maturity": {
+            "type": "text",
+            "value": "2027",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 12,
+              "section": "Note 3. Debt and Other Financing Arrangements"
+            },
+            "text_snippet": "The Facility expires on January 7, 2027."
+          }
+        }
+      },
+      "senior_notes_amount": {
+        "final_value": 35303,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_notes_amount": {
+            "type": "table",
+            "value": 35303,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Note 3. Debt and Other Financing Arrangements",
+            "location": {
+              "page": 11,
+              "row": "Total borrowings at par value",
+              "column": "June 28, 2025",
+              "section": "Debt and Other Financing Arrangements"
+            }
+          }
+        }
+      },
+      "less_debt_issuance_costs": {
+        "final_value": 172,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "less_debt_issuance_costs": {
+            "type": "table",
+            "value": 172,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Note 3. Debt and Other Financing Arrangements",
+            "location": {
+              "page": 11,
+              "row": "Unamortized debt issuance costs",
+              "column": "June 28, 2025",
+              "section": "Debt and Other Financing Arrangements"
+            }
+          }
+        }
+      },
+      "total_debt": {
+        "final_value": 35033,
+        "unit": "USD_thousands",
+        "calculation": "senior_notes_amount - less_debt_issuance_costs",
+        "components": {
+          "senior_notes_amount": 35303,
+          "less_debt_issuance_costs": 172
+        },
+        "sources": {
+          "senior_notes_amount": {
+            "ref_metric": "senior_notes_amount"
+          },
+          "less_debt_issuance_costs": {
+            "ref_metric": "less_debt_issuance_costs"
+          }
+        }
+      },
+      "book_value_of_equity": {
+        "final_value": 50512,
+        "unit": "USD_thousands",
+        "calculation": "total_thermo_fisher_scientific_inc_shareholders_equity",
+        "components": {
+          "total_thermo_fisher_scientific_inc_shareholders_equity": 50512
+        },
+        "sources": {
+          "total_thermo_fisher_scientific_inc_shareholders_equity": {
+            "type": "table",
+            "value": 50512,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Condensed Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Total Thermo Fisher Scientific Inc. shareholders\u2019 equity",
+              "column": "June 28, 2025",
+              "section": "Equity"
+            }
+          }
+        }
+      },
+      "book_capitalization": {
+        "final_value": 85545,
+        "unit": "USD_thousands",
+        "calculation": "total_debt + book_value_of_equity",
+        "components": {
+          "total_debt": 35033,
+          "book_value_of_equity": 50512
+        },
+        "sources": {
+          "total_debt": {
+            "ref_metric": "total_debt"
+          },
+          "book_value_of_equity": {
+            "ref_metric": "book_value_of_equity"
+          }
+        }
+      }
+    }
+  }
+}

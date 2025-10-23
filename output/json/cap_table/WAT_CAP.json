@@ -1,0 +1,841 @@
+{
+  "cap_table": {
+    "company": "Waters Corporation",
+    "cash_and_equivalents": 367215,
+    "debt": [
+      {
+        "type": "Revolving Credit Facility",
+        "amount": 200000,
+        "ppc_holdings": "-",
+        "coupon": "S + 80-112.5",
+        "secured": "N",
+        "maturity": "2030"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series K",
+        "amount": 160000,
+        "ppc_holdings": "-",
+        "coupon": "3.44%",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series L",
+        "amount": 200000,
+        "ppc_holdings": "-",
+        "coupon": "3.31%",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series M",
+        "amount": 300000,
+        "ppc_holdings": "-",
+        "coupon": "3.53%",
+        "secured": "N",
+        "maturity": "2029"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series N",
+        "amount": 100000,
+        "ppc_holdings": "-",
+        "coupon": "1.68%",
+        "secured": "N",
+        "maturity": "2026"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series O",
+        "amount": 400000,
+        "ppc_holdings": "-",
+        "coupon": "2.25%",
+        "secured": "N",
+        "maturity": "2031"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series P",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "4.91%",
+        "secured": "N",
+        "maturity": "2028"
+      },
+      {
+        "type": "Senior Unsecured Notes - Series Q",
+        "amount": 50000,
+        "ppc_holdings": "-",
+        "coupon": "4.91%",
+        "secured": "N",
+        "maturity": "2030"
+      },
+      {
+        "type": "(Less: Debt Issuance Costs)",
+        "amount": -3034,
+        "ppc_holdings": "-",
+        "coupon": "-",
+        "secured": "-",
+        "maturity": "-"
+      }
+    ],
+    "total_debt": 1456966,
+    "book_value_of_equity": 2159812,
+    "book_capitalization": 3616778,
+    "market_value_of_equity": null,
+    "market_capitalization": null,
+    "ltm_adj_ebitda": null,
+    "key_financial_ratios": {
+      "total_debt_to_adj_ebitda": "-",
+      "total_debt_to_market_capitalization": "-"
+    }
+  },
+  "source_lineage": {
+    "ticker": "WAT",
+    "metrics": {
+      "cash_and_equivalents": {
+        "final_value": 367215,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "cash_and_cash_equivalents": {
+            "type": "table",
+            "value": 367215,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Cash and cash equivalents",
+              "column": "June 28, 2025",
+              "section": "Assets"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_amount": {
+        "final_value": 200000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_amount": {
+            "type": "table",
+            "value": 200000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Credit agreement",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "revolving_credit_facility_coupon": {
+        "final_value": "S + 80-112.5",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_coupon": {
+            "type": "text",
+            "value": "S + 80-112.5",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 18,
+              "section": "Debt"
+            },
+            "text_snippet": "applicable spreads range from 80 basis points to 112.5 basis points over Term SOFR"
+          }
+        }
+      },
+      "revolving_credit_facility_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured revolving credit facility"
+          }
+        }
+      },
+      "revolving_credit_facility_maturity": {
+        "final_value": "2030",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "revolving_credit_facility_maturity": {
+            "type": "text",
+            "value": "2030",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "location": {
+              "page": 18,
+              "section": "Debt"
+            },
+            "text_snippet": "The Credit Facility will mature on May 22, 2030"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_k_amount": {
+        "final_value": 160000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_k_amount": {
+            "type": "table",
+            "value": 160000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series K - 3.44%, due May 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_k_coupon": {
+        "final_value": "3.44%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_k_coupon": {
+            "type": "table",
+            "value": "3.44%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series K - 3.44%, due May 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_k_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_k_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_k_maturity": {
+        "final_value": "2026",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_k_maturity": {
+            "type": "table",
+            "value": "2026",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series K - 3.44%, due May 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_l_amount": {
+        "final_value": 200000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_l_amount": {
+            "type": "table",
+            "value": 200000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series L - 3.31%, due September 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_l_coupon": {
+        "final_value": "3.31%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_l_coupon": {
+            "type": "table",
+            "value": "3.31%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series L - 3.31%, due September 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_l_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_l_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_l_maturity": {
+        "final_value": "2026",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_l_maturity": {
+            "type": "table",
+            "value": "2026",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series L - 3.31%, due September 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_m_amount": {
+        "final_value": 300000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_m_amount": {
+            "type": "table",
+            "value": 300000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series M - 3.53%, due September 2029",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_m_coupon": {
+        "final_value": "3.53%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_m_coupon": {
+            "type": "table",
+            "value": "3.53%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series M - 3.53%, due September 2029",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_m_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_m_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_m_maturity": {
+        "final_value": "2029",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_m_maturity": {
+            "type": "table",
+            "value": "2029",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series M - 3.53%, due September 2029",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_n_amount": {
+        "final_value": 100000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_n_amount": {
+            "type": "table",
+            "value": 100000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series N - 1.68%, due March 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_n_coupon": {
+        "final_value": "1.68%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_n_coupon": {
+            "type": "table",
+            "value": "1.68%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series N - 1.68%, due March 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_n_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_n_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_n_maturity": {
+        "final_value": "2026",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_n_maturity": {
+            "type": "table",
+            "value": "2026",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series N - 1.68%, due March 2026",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_o_amount": {
+        "final_value": 400000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_o_amount": {
+            "type": "table",
+            "value": 400000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series O - 2.25%, due March 2031",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_o_coupon": {
+        "final_value": "2.25%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_o_coupon": {
+            "type": "table",
+            "value": "2.25%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series O - 2.25%, due March 2031",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_o_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_o_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_o_maturity": {
+        "final_value": "2031",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_o_maturity": {
+            "type": "table",
+            "value": "2031",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series O - 2.25%, due March 2031",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_p_amount": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_p_amount": {
+            "type": "table",
+            "value": 50000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series P - 4.91%, due May 2028",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_p_coupon": {
+        "final_value": "4.91%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_p_coupon": {
+            "type": "table",
+            "value": "4.91%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series P - 4.91%, due May 2028",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_p_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_p_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_p_maturity": {
+        "final_value": "2028",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_p_maturity": {
+            "type": "table",
+            "value": "2028",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series P - 4.91%, due May 2028",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_q_amount": {
+        "final_value": 50000,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_q_amount": {
+            "type": "table",
+            "value": 50000,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series Q - 4.91%, due May 2030",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_q_coupon": {
+        "final_value": "4.91%",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_q_coupon": {
+            "type": "table",
+            "value": "4.91%",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series Q - 4.91%, due May 2030",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "senior_unsecured_notes_series_q_secured": {
+        "final_value": "N",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_q_secured": {
+            "type": "text",
+            "value": "N",
+            "filing_type": "10-K",
+            "period": "2024",
+            "location": {
+              "page": 77,
+              "section": "Debt"
+            },
+            "text_snippet": "senior unsecured notes"
+          }
+        }
+      },
+      "senior_unsecured_notes_series_q_maturity": {
+        "final_value": "2030",
+        "unit": null,
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "senior_unsecured_notes_series_q_maturity": {
+            "type": "table",
+            "value": "2030",
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Senior unsecured notes - Series Q - 4.91%, due May 2030",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "less_debt_issuance_costs": {
+        "final_value": -3034,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "less_debt_issuance_costs": {
+            "type": "table",
+            "value": -3034,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 18,
+              "row": "Unamortized debt issuance costs",
+              "column": "June 28, 2025",
+              "section": "Liabilities"
+            }
+          }
+        }
+      },
+      "total_debt": {
+        "final_value": 1456966,
+        "unit": "USD_thousands",
+        "calculation": "revolving_credit_facility_amount + senior_unsecured_notes_series_k_amount + senior_unsecured_notes_series_l_amount + senior_unsecured_notes_series_m_amount + senior_unsecured_notes_series_n_amount + senior_unsecured_notes_series_o_amount + senior_unsecured_notes_series_p_amount + senior_unsecured_notes_series_q_amount + less_debt_issuance_costs",
+        "components": {
+          "revolving_credit_facility_amount": 200000,
+          "senior_unsecured_notes_series_k_amount": 160000,
+          "senior_unsecured_notes_series_l_amount": 200000,
+          "senior_unsecured_notes_series_m_amount": 300000,
+          "senior_unsecured_notes_series_n_amount": 100000,
+          "senior_unsecured_notes_series_o_amount": 400000,
+          "senior_unsecured_notes_series_p_amount": 50000,
+          "senior_unsecured_notes_series_q_amount": 50000,
+          "less_debt_issuance_costs": -3034
+        },
+        "sources": {
+          "ref_metric": "revolving_credit_facility_amount"
+        }
+      },
+      "book_value_of_equity": {
+        "final_value": 2159812,
+        "unit": "USD_thousands",
+        "calculation": null,
+        "components": {},
+        "sources": {
+          "book_value_of_equity": {
+            "type": "table",
+            "value": 2159812,
+            "filing_type": "10-Q",
+            "period": "Q2 2025",
+            "table": "Consolidated Balance Sheets",
+            "location": {
+              "page": 3,
+              "row": "Total stockholders\u2019 equity",
+              "column": "June 28, 2025",
+              "section": "Stockholders\u2019 equity"
+            }
+          }
+        }
+      },
+      "book_capitalization": {
+        "final_value": 3616778,
+        "unit": "USD_thousands",
+        "calculation": "total_debt + book_value_of_equity",
+        "components": {
+          "total_debt": 1456966,
+          "book_value_of_equity": 2159812
+        },
+        "sources": {
+          "ref_metric": "total_debt"
+        }
+      }
+    }
+  }
+}

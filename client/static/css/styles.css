@@ -1,0 +1,676 @@
+/* Import fonts similar to Prudential */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Base styling */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+/* Custom Combobox Styling */
+.custom-combobox {
+    position: relative;
+}
+
+.custom-combobox .combobox-input {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    padding-right: 65px !important;
+}
+
+.combobox-input:hover {
+    border-color: #cbd5e1;
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+}
+
+.combobox-input:focus {
+    outline: none;
+    border-color: #1e3a8a;
+    box-shadow: 0 0 0 1px rgba(30, 58, 138, 0.1);
+    background: #ffffff;
+}
+
+.combobox-dropdown {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    animation: slideDown 0.2s ease-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    zoom:0.95;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.combobox-dropdown > div:first-child {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.combobox-search {
+    background: #f9fafb;
+}
+
+.combobox-search:focus {
+    background: white;
+    border-color: #1e3a8a;
+}
+
+.combobox-options {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.combobox-option {
+    border-bottom: 1px solid #f3f4f6;
+    position: relative;
+}
+
+.combobox-option:last-child {
+    border-bottom: none;
+}
+
+.combobox-option:hover {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+}
+
+.combobox-option.highlighted {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+}
+
+.combobox-toggle {
+    transition: all 0.2s ease;
+}
+
+.combobox-toggle:hover {
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 4px;
+}
+
+.combobox-clear {
+    transition: all 0.2s ease;
+    border-radius: 4px;
+}
+
+.combobox-clear:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: #dc2626;
+}
+
+.combobox-clear:active {
+    background: rgba(239, 68, 68, 0.2);
+    transform: scale(0.95);
+}
+
+/* Custom scrollbar for combobox dropdown */
+.combobox-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+
+.combobox-dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.combobox-dropdown::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.combobox-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Legacy support - keeping custom-select for backward compatibility */
+.custom-select {
+    background-image: none;
+    appearance: none;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.custom-select:hover {
+    border-color: #cbd5e1;
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+}
+.custom-select:focus {
+    outline: none;
+    border-color: #1e3a8a;
+    box-shadow: 0 0 0 1px rgba(30, 58, 138, 0.1);
+    background: #ffffff;
+}
+
+/* Button styling to match Prudential */
+.generate-btn {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    position: relative;
+    overflow: hidden;
+}
+
+.generate-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.generate-btn:hover:not(:disabled)::before {
+    left: 100%;
+}
+
+.generate-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+.download-btn {
+    background: linear-gradient(135deg, #16a34a 0%, #4ade80 100%); /* Green-600 → Green-400 */
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.download-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.download-btn:hover:not(:disabled)::before {
+    left: 100%;
+}
+
+.download-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #15803d 0%, #22c55e 100%); /* Darker green-700 → green-500 */
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(34,197,94,0.4); /* Soft green glow */
+}
+
+
+/* Tab styling to match Prudential design */
+.tab-button {
+    color: #ffffff;
+    border-color: transparent;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.tab-button:hover:not(.active) {
+    color: #ffffff;
+}
+
+.tab-button.active {
+    color: #ffffff;
+    border-color: #1e3a8a;
+    background: none;
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ffffff;
+}
+
+/* Enhanced Card styling */
+.shadow-sm {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* PDF iframe styling */
+#pdf-frame {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+/* Enhanced Loading and Success States */
+#loading-state, #success-state {
+    backdrop-filter: blur(10px);
+    animation: slideInFromTop 0.3s ease-out;
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Custom animations */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Loading animation enhancement */
+@keyframes pulse-glow {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}
+
+.animate-pulse-glow {
+    animation: pulse-glow 2s infinite;
+}
+
+/* Hover effects */
+.hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .grid.grid-cols-12 {
+        display: block;
+    }
+    
+    .col-span-4,
+    .col-span-8 {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Loading animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Gradient background */
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+/* Notification styling */
+.notification {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 50;
+    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid;
+    padding: 1rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.notification.show {
+    transform: translateX(0);
+}
+
+.notification.success {
+    border-left-color: #10b981;
+}
+
+.notification.error {
+    border-left-color: #ef4444;
+}
+
+.notification.info {
+    border-left-color: #3b82f6;
+}
+
+/* Smooth transitions */
+* {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Focus states */
+button:focus,
+select:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/* Hover effects for better UX */
+.hover-lift {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced empty state */
+#empty-state {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Dropdown arrow animation */
+.custom-select:focus + .absolute svg {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+}
+
+/* Additional styles for Reports & Analytics tab */
+.form-radio {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 50%;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+.form-radio::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+.form-radio:checked {
+    border-color: #1e3a8a;
+    --form-control-color: #1e3a8a;
+}
+
+.form-radio:checked::before {
+    transform: scale(1);
+}
+
+/* Conversation styling */
+.conversation-item {
+    animation: slideInFromLeft 0.3s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Example questions hover effects */
+.example-question:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Analysis results scrollbar */
+#conversation-history::-webkit-scrollbar {
+    width: 6px;
+}
+
+#conversation-history::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+#conversation-history::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+#conversation-history::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Responsive improvements */
+@media (max-width: 1024px) {
+    .grid-cols-12 .col-span-4,
+    .grid-cols-12 .col-span-8 {
+        grid-column: span 12;
+    }
+    
+    .col-span-4 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Enhanced button states */
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+button:not(:disabled):hover {
+    transform: translateY(-1px);
+}
+
+/* Enhanced form inputs */
+textarea:focus {
+    outline: none;
+    border-color: #1e3a8a;
+    box-shadow: 0 0 0 1px rgba(30, 58, 138, 0.1);
+}
+
+/* Status indicators */
+.query-loading {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Smooth transitions for example sections */
+#qa-examples, #report-examples {
+    transition: all 0.3s ease-in-out;
+}
+
+#qa-examples.hidden, #report-examples.hidden {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+    overflow: hidden;
+}
+
+#qa-examples:not(.hidden), #report-examples:not(.hidden) {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 500px;
+}
+
+/* Enhanced example question styling */
+.example-question {
+    position: relative;
+    overflow: hidden;
+}
+
+.example-question::before {
+    content: '•';
+    color: #6b7280;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.example-question:hover::before {
+    color: #1e3a8a;
+}
+
+/* Mode badge styling */
+.mode-badge {
+    animation: fadeInScale 0.3s ease-out;
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Pro tip styling */
+.pro-tip {
+    animation: slideInFromBottom 0.4s ease-out;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Analyzing animation */
+.analyzing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 1px solid #0ea5e9;
+    border-radius: 12px;
+    margin: 12px 0;
+    animation: slideInFromLeft 0.3s ease-out;
+}
+
+.analyzing-dots {
+    display: flex;
+    gap: 4px;
+}
+
+.analyzing-dot {
+    width: 6px;
+    height: 6px;
+    background: #0ea5e9;
+    border-radius: 50%;
+    animation: pulse-wave 1.4s infinite ease-in-out;
+}
+
+.analyzing-dot:nth-child(1) { animation-delay: -0.32s; }
+.analyzing-dot:nth-child(2) { animation-delay: -0.16s; }
+.analyzing-dot:nth-child(3) { animation-delay: 0s; }
+
+@keyframes pulse-wave {
+    0%, 80%, 100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.analyzing-text {
+    color: #0369a1;
+    font-weight: 500;
+    font-size: 0.875rem;
+}

@@ -1,0 +1,107 @@
+ # Git ignore rules for pgim-dealio
+
+ # ----------------------------
+ # Project-specific artifacts
+ # ----------------------------
+ reports/
+ notebook/sec_tables/
+ notebook/output/
+ news-data-fetch/data/raw/dql/
+ news-data-fetch/data/processed/
+ 
+ # Outputs
+ output/
+ 
+ # Generated files
+ *.html
+ 
+ # ----------------------------
+ # Environments
+ # ----------------------------
+ .venv/
+ venv/
+ env/
+ 
+ # ----------------------------
+ # Python: caches and build
+ # ----------------------------
+ __pycache__/
+ *.py[cod]
+ *$py.class
+ *.so
+ .Python
+ build/
+ develop-eggs/
+ dist/
+ downloads/
+ eggs/
+ .eggs/
+ lib/
+ lib64/
+ parts/
+ sdist/
+ var/
+ wheels/
+ 
+ # ----------------------------
+ # Testing / Coverage
+ # ----------------------------
+ .pytest_cache/
+ .coverage
+ .coverage.*
+ htmlcov/
+ .tox/
+ .nox/
+ 
+ # ----------------------------
+ # Type checking & Linters
+ # ----------------------------
+ .mypy_cache/
+ .pytype/
+ .pyre/
+ .ruff_cache/
+ .dmypy.json
+ dmypy.json
+ 
+ # ----------------------------
+ # Notebooks
+ # ----------------------------
+ .ipynb_checkpoints/
+ 
+ # ----------------------------
+ # Logs & Caches
+ # ----------------------------
+ *.log
+ .cache/
+ 
+ # ----------------------------
+ # Editors / IDEs
+ # ----------------------------
+ .vscode/
+ .idea/
+ 
+ # ----------------------------
+ # OS files
+ # ----------------------------
+ .DS_Store
+ Thumbs.db
+ 
+ # ----------------------------
+ # Packaging
+ # ----------------------------
+*.egg-info/
+.installed.cfg
+*.egg
+
+.venv
+.env
+
+__pycache__
+
+Elme Essence Table(Essence Table).csv
+
+logs/
+
+*.msi
+local.settings.json
+.vscode

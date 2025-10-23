@@ -1,0 +1,4990 @@
+{
+  "CashAndCashEquivalentsAtCarryingValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "44605000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "52619000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "44105000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "52119000"
+    }
+  ],
+  "AccountsReceivableNetCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "301189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "285039000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "301189000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "285039000"
+    }
+  ],
+  "OtherAssetsCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "27392000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "26894000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "27392000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "26894000"
+    }
+  ],
+  "AssetsCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "373186000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "364552000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "372686000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "364052000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "33875000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "28905000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "309906000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "372686000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "39829000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "36667000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "287556000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "364052000"
+    }
+  ],
+  "PropertyPlantAndEquipmentGross": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "4274831000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "4109146000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "us-gaap:LandMember"
+      },
+      "value": "482424000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "us-gaap:LandMember"
+      },
+      "value": "459370000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "us-gaap:BuildingAndBuildingImprovementsMember"
+      },
+      "value": "235861000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "us-gaap:BuildingAndBuildingImprovementsMember"
+      },
+      "value": "220468000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "lamr:AdvertisingStructuresMember"
+      },
+      "value": "3401132000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "lamr:AdvertisingStructuresMember"
+      },
+      "value": "3285636000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "lamr:AutomotiveAndOtherEquipmentMember"
+      },
+      "value": "155414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:PropertyPlantAndEquipmentByTypeAxis",
+        "value": "lamr:AutomotiveAndOtherEquipmentMember"
+      },
+      "value": "143672000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "4274831000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "4109146000"
+    }
+  ],
+  "AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "2708361000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "2609447000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2708361000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2609447000"
+    }
+  ],
+  "PropertyPlantAndEquipmentNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1566470000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "1499699000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1566470000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1499699000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1548946000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "17524000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1566470000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1483395000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "16304000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1499699000"
+    }
+  ],
+  "OperatingLeaseRightOfUseAsset": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1315433000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "1271631000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1315433000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1271631000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1281503000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "33930000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1315433000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1252414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "19217000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1271631000"
+    }
+  ],
+  "FinanceLeaseRightOfUseAsset": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "11184000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "14037000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "11184000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "14037000"
+    }
+  ],
+  "Goodwill": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "2035271000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "2035269000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:BusinessAcquisitionAxis",
+        "value": "lamr:A2023AcquisitionsMember"
+      },
+      "value": "-50000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-09"
+      },
+      "segment": {
+        "dimension": "us-gaap:BusinessAcquisitionAxis",
+        "value": "lamr:December92022AcquisitionMember"
+      },
+      "value": "30458000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:BusinessAcquisitionAxis",
+        "value": "lamr:A2022AcquisitionsMember"
+      },
+      "value": "99003000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2025119000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "2025117000"
+    }
+  ],
+  "FiniteLivedIntangibleAssetsNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1171434000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "1206625000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1170967000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1206158000"
+    }
+  ],
+  "OtherAssetsNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "90644000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "83401000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "85021000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "77778000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "4596516000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "349680000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "249662000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-5099653000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "96205000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "4514221000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "325052000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "250056000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-4997514000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "91815000"
+    }
+  ],
+  "Assets": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "6563622000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "6475214000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6546880000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6458472000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "4630391000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "6388141000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "628001000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-5099653000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6546880000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "4554050000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "6311812000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "590124000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-4997514000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6458472000"
+    }
+  ],
+  "AccountsPayableCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "18238000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "19643000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "18238000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "19643000"
+    }
+  ],
+  "LongTermDebtCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "250018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "249785000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "250018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "249785000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "398000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "249620000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "250018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "378000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "249407000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "249785000"
+    }
+  ],
+  "OperatingLeaseLiabilityCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "210568000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "205838000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "210568000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "205838000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "202992000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "7576000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "210568000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "198320000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "7518000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "205838000"
+    }
+  ],
+  "FinanceLeaseLiabilityCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1331000"
+    }
+  ],
+  "AccruedLiabilitiesCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "107195000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "117593000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "97464000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "108724000"
+    }
+  ],
+  "ContractWithCustomerLiabilityCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "126547000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "131847000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "126547000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "131847000"
+    }
+  ],
+  "LiabilitiesCurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "713897000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "726037000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "704166000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "717168000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "45225000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "387408000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "271533000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "704166000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "23360000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "421569000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "272239000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "717168000"
+    }
+  ],
+  "LongTermDebtNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "3091109000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "3063020000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3091109000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3063020000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "3089874000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1235000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3091109000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "3061385000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1635000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3063020000"
+    }
+  ],
+  "OperatingLeaseLiabilityNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1075285000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "1035655000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1075285000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1035655000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1050330000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "24955000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1075285000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1025385000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "10270000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1035655000"
+    }
+  ],
+  "FinanceLeaseLiabilityNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "14614000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "15945000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "14614000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "15945000"
+    }
+  ],
+  "DeferredIncomeTaxLiabilitiesNet": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "12047000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "9651000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "12047000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "9651000"
+    }
+  ],
+  "AssetRetirementObligationsNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "397991000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "390442000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "value": "269367000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "397991000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "390442000"
+    }
+  ],
+  "OtherLiabilitiesNoncurrent": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "41891000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "39090000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "41891000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "39090000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "285929000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "424532000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "343253000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-587171000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "466543000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "281804000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "418163000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "301957000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-546796000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "455128000"
+    }
+  ],
+  "Liabilities": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "5346834000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "5279840000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5337103000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5270971000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "3421028000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1863505000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "639741000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-587171000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5337103000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "3366549000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "1866752000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "584466000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-546796000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "5270971000"
+    }
+  ],
+  "PreferredStockValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "0"
+    }
+  ],
+  "CommonStockValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:CommonClassAMember"
+      },
+      "value": "88000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:CommonClassAMember"
+      },
+      "value": "88000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:CommonClassBMember"
+      },
+      "value": "14000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementClassOfStockAxis",
+        "value": "us-gaap:CommonClassBMember"
+      },
+      "value": "14000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    }
+  ],
+  "AdditionalPaidInCapitalCommonStock": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "2103282000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "2061671000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3173789000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "3132178000"
+    }
+  ],
+  "AccumulatedOtherComprehensiveIncomeLossNetOfTax": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "-428000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "-659000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-428000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-659000"
+    }
+  ],
+  "RetainedEarningsAccumulatedDeficit": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "-819235000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "-804382000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-1963998000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "-1944018000"
+    }
+  ],
+  "TreasuryStockCommonValue": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "67347000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "61358000"
+    }
+  ],
+  "MinorityInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "0"
+    }
+  ],
+  "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "1216788000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "1195374000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "lamr:SeriesAAPreferredStockMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:PreferredStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassAMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "87000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassBMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "14000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:TreasuryStockCommonMember"
+      },
+      "value": "-44786000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:AdditionalPaidInCapitalMember"
+      },
+      "value": "1963850000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ComprehensiveIncomeMember"
+      },
+      "value": "934000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "-717331000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "value": "1202768000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "lamr:SeriesAAPreferredStockMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:PreferredStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassAMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "88000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassBMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "14000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:TreasuryStockCommonMember"
+      },
+      "value": "-50852000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:AdditionalPaidInCapitalMember"
+      },
+      "value": "2001399000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ComprehensiveIncomeMember"
+      },
+      "value": "855000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "-734415000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "value": "1217089000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "lamr:SeriesAAPreferredStockMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:PreferredStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassAMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "88000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassBMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "14000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:TreasuryStockCommonMember"
+      },
+      "value": "-61358000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:AdditionalPaidInCapitalMember"
+      },
+      "value": "2061671000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ComprehensiveIncomeMember"
+      },
+      "value": "-659000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "-804382000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "lamr:SeriesAAPreferredStockMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:PreferredStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassAMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "88000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "us-gaap:StatementClassOfStockAxis",
+          "value": "us-gaap:CommonClassBMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "14000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:TreasuryStockCommonMember"
+      },
+      "value": "-67347000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:AdditionalPaidInCapitalMember"
+      },
+      "value": "2103282000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:ComprehensiveIncomeMember"
+      },
+      "value": "-428000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:RetainedEarningsMember"
+      },
+      "value": "-819235000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "us-gaap:StatementEquityComponentsAxis",
+        "value": "us-gaap:NoncontrollingInterestMember"
+      },
+      "value": "414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1209777000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1187501000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      ],
+      "value": "3034357000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:ComprehensiveIncomeMember"
+        }
+      ],
+      "value": "934000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "-1842447000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2020-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1192844000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      ],
+      "value": "3071905000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:ComprehensiveIncomeMember"
+        }
+      ],
+      "value": "855000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "-1864414000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2021-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "1208346000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      ],
+      "value": "3132178000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:ComprehensiveIncomeMember"
+        }
+      ],
+      "value": "-659000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "-1944018000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:CommonStockMember"
+        }
+      ],
+      "value": "0"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:AdditionalPaidInCapitalMember"
+        }
+      ],
+      "value": "3173789000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:ComprehensiveIncomeMember"
+        }
+      ],
+      "value": "-428000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:RetainedEarningsMember"
+        }
+      ],
+      "value": "-1963998000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        },
+        {
+          "dimension": "us-gaap:StatementEquityComponentsAxis",
+          "value": "us-gaap:NoncontrollingInterestMember"
+        }
+      ],
+      "value": "414000"
+    }
+  ],
+  "LiabilitiesAndStockholdersEquity": [
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "value": "6563622000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "value": "6475214000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6546880000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "srt:ConsolidatedEntitiesAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6458472000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "4630391000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "6388141000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "628001000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-5099653000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2023-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6546880000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:ParentCompanyMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "4554050000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:GuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "6311812000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidatedEntitiesAxis",
+          "value": "srt:NonGuarantorSubsidiariesMember"
+        },
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ReportableLegalEntitiesMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "590124000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": [
+        {
+          "dimension": "srt:ConsolidationItemsAxis",
+          "value": "srt:ConsolidationEliminationsMember"
+        },
+        {
+          "dimension": "dei:LegalEntityAxis",
+          "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+        }
+      ],
+      "value": "-4997514000"
+    },
+    {
+      "decimals": "-3",
+      "unitRef": "usd",
+      "period": {
+        "instant": "2022-12-31"
+      },
+      "segment": {
+        "dimension": "dei:LegalEntityAxis",
+        "value": "lamr:LamarMediaCorporationAndSubsidiariesMember"
+      },
+      "value": "6458472000"
+    }
+  ]
+}
