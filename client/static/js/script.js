@@ -760,24 +760,22 @@ class AQRRTool {
             document.getElementById('pdf-preview').classList.remove('hidden');
 
             try {
-                // Fetch PDF and convert to blob
-                const response = await fetch(this.currentPdfUrl);
-                if (!response.ok) throw new Error('Failed to fetch PDF');
-
-                const blob = await response.blob();
-                const blobUrl = URL.createObjectURL(blob);
-
-                // Clean up previous blob URL if exists
                 const iframe = document.getElementById('pdf-frame');
+                
+                // Clean up previous blob URL if exists
                 if (iframe.src && iframe.src.startsWith('blob:')) {
                     URL.revokeObjectURL(iframe.src);
                 }
 
-                iframe.src = blobUrl;
+                // Directly set the PDF URL - simpler and works better on Railway
+                // Add a cache-busting parameter to ensure fresh load
+                const urlWithCacheBust = `${this.currentPdfUrl}?t=${Date.now()}`;
+                iframe.src = urlWithCacheBust;
+                
+                console.log('Loading PDF preview from:', urlWithCacheBust);
             } catch (error) {
                 console.error('Error loading PDF preview:', error);
                 this.showNotification('Error loading PDF preview', 'error');
-                document.getElementById('pdf-frame').src = this.currentPdfUrl;
             }
         }
     }
